@@ -3452,7 +3452,7 @@
   "2026-03-24": [
     {
       "person": "Trine",
-      "aktivitet": "c"
+      "aktivitet": "A"
     },
     {
       "person": "Stein",
@@ -7851,6 +7851,10 @@
     {
       "person": "Magnus",
       "aktivitet": "Prosjekt"
+    },
+    {
+      "person": "Jon Håvard",
+      "aktivitet": "Ferie"
     },
     {
       "person": "Marjolein",
