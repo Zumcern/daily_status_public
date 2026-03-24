@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="no">
+<head>
+  <meta charset="utf-8"/>
+  <title>Test XLSX</title>
+</head>
+<body>
+  <h1>Test av xlsx.full.min.js</h1>
+  <pre id="out"></pre>
+
+  <script src="libs/xlsx.full.min.js"></script>
+  <script>
+    const out = document.getElementById('out');
+
+    // 1) Sjekk at globalen finnes
+    if (!window.XLSX) {
+      out.textContent = 'FEIL: window.XLSX finnes ikke. Sjekk filnavn/sti.';
+    } else {
+      out.textContent = 'OK: XLSX lastet. Versjon: ' + XLSX.version;
+
+      // 2) Lag en minimal arbeidsbok i minnet og sjekk round-trip
+      const ws = XLSX.utils.aoa_to_sheet([['Navn','Status'],['Magnus','Prosjekt']]);
+      const wb = XLSX.utils.book_new();
+      XLSX.utils.book_append_sheet(wb, ws, 'Test');
+
+      // Skriv til ArrayBuffer og les tilbake for å verifisere parser
+      const ab = XLSX.write(wb, {bookType:'xlsx', type:'array'});
+      const wb2 = XLSX.read(ab, {type:'array'});
+      const ws2 = wb2.Sheets['Test'];
+      const data = XLSX.utils.sheet_to_json(ws2, {header:1});
+      out.textContent += '\nRound-trip OK: ' + JSON.stringify(data);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dagens status – Simulatoroperatører</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- XLSX parser -->
+    <script src="libs/xlsx.full.min.js"></script>
+
+    <!-- Programlogikk -->
+    <script defer src="app.js"></script>
+    <script defer src="drift.js"></script>
+</head>
+
+<body>
+
+<header>
+    <h1>Dagens status – Simulatoroperatører</h1>
+
+    <!-- ØVERSTE LINJE (I dag + Oppdater nå + statusinfo) -->
+    <div class="load-controls" style="display:flex; gap:10px; align-items:center; flex-wrap:wrap;">
+        <button id="iDag">I dag</button>
+        <button id="oppdaterNaa">Oppdater nå</button>
+        <small id="lastInfo" class="muted"></small>
+    </div>
+
+    <!-- DATO + SORTERING FRA HTML (ikke duplikat fra JS) -->
+    <div class="date-controls" style="margin-top:10px; display:flex; gap:10px; align-items:center; flex-wrap:wrap;">
+
+        <label for="dato">Dato:</label>
+        <input type="date" id="dato" />
+
+        <!-- Sortering (JS bruker denne direkte) -->
+        <label for="sortering">Sortering:</label>
+        <select id="sortering">
+            <option value="navn">Navn (fast rekkefølge)</option>
+            <option value="enhet-ansvarlig-navn">Enhet → Ansvarlig → Navn</option>
+            <option value="ansvarlig">Ansvarlig først</option>
+            <option value="aktivitet">Aktivitet A–Å</option>
+        </select>
+
+        <!-- Unit filter chip (vises kun når aktivt) -->
+        <button id="unitChip" style="display:none;"
+                title="Klikk for å fjerne enhetsfilter">
+        </button>
+
+        <!-- Prev/Next-knapper legges inn automatisk av app.js -->
+    </div>
+</header>
+
+
+<main class="main-grid">
+
+    <!-- VENSTRE PANEL -->
+    <div class="left-panel">
+
+        <!-- Søk + filtrering -->
+        <section class="filters">
+            <input type="search" id="sok" placeholder="Søk navn / aktivitet …" />
+            <select id="visning">
+                <option value="alle">Alle</option>
+                <option value="tilstede">Tilstede</option>
+                <option value="fravaer">Fravær</option>
+            </select>
+        </section>
+
+        <!-- STATUS TABELL -->
+        <section class="status">
+            <table id="statusTabell">
+                <thead>
+                <tr>
+                    <th>Navn</th>
+                    <th>Status</th>
+                    <th>Type trening</th>
+                    <th>Skift</th>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <div id="teller"></div>
+        </section>
+
+    </div> <!-- left-panel -->
+
+
+    <!-- HØYRE PANEL -->
+    <div class="right-panel">
+
+        <h2 style="margin-top:0;">Driftsmeldinger</h2>
+
+        <!-- TABS -->
+        <div class="drift-tabs">
+            <button class="drift-tab active" data-tab="aktive">Aktive</button>
+            <button class="drift-tab" data-tab="historikk">Historikk</button>
+            <button class="drift-tab" data-tab="endringer">Endringer</button>
+        </div>
+
+        <!-- SKJEMA (kun i "Aktive") -->
+        <div id="driftAktivContainer">
+            <form id="driftForm">
+                <input type="text" id="driftTittel" placeholder="Tittel" required />
+
+                <textarea id="driftTekst" placeholder="Beskrivelse (kort)" required></textarea>
+
+                <select id="driftEnhet" required>
+                    <option value="">Velg enhet …</option>
+                    <option value="TEKNISK">Teknisk</option>
+                    <option value="BR">Bergen (ENBR)</option>
+                    <option value="ZV">Sola (ENZV)</option>
+                    <option value="VA">Værnes (ENVA)</option>
+                    <option value="GM">Oslo/Gardermoen (ENGM)</option>
+                    <option value="BO">Bodø (ENBO)</option>
+                    <option value="TC">Tromsø (ENTC)</option>
+                    <option value="KR">Kirkenes (ENKR)</option>
+                    <option value="OL">Ørland (ENOL)</option>
+                    <option value="EV">Evenes (ENEV)</option>
+                    <option value="DU">Bardufoss (ENDU)</option>
+                    <option value="AT">Alta (ENAT)</option>
+                    <option value="TO">Sandefjord/Torp (ENTO)</option>
+                    <option value="AN">Andøya (ENAN)</option>
+                    <option value="HF">Hammerfest (ENHF)</option>
+                    <option value="FL">Florø (ENFL)</option>
+                    <option value="BN">Brønnøysund (ENBN)</option>
+                    <option value="SB">Svalbard (ENSB)</option>
+                    <option value="SK">Stokmarknes (ENSK)</option>
+                    <option value="OV">Ørsta–Volda (ENOV)</option>
+                    <option value="HD">Haugesund (ENHD)</option>
+                    <option value="NA">Lakselv (ENNA)</option>
+                    <option value="RY">Rygge (ENRY)</option>
+                    <option value="KB">Kvernberget (ENKB)</option>
+                    <option value="RA">ENRA</option>
+                    <option value="HV">Honningsvåg (ENHV)</option>
+                    <option value="ANNET">Annet</option>
+                </select>
+
+                <select id="driftAlvor">
+                    <option value="info">Info</option>
+                    <option value="varsel">Varsel</option>
+                    <option value="kritisk">Kritisk</option>
+                </select>
+
+                <button type="submit">Publiser</button>
+            </form>
+        </div>
+
+        <!-- Drift-knapper -->
+        <div class="drift-actions">
+            <button id="eksporterDrift">Eksporter</button>
+
+            <label class="file-btn">Importer
+                <input type="file" id="importDrift" accept=".json" hidden />
+            </label>
+
+            <button id="tømDrift">Tøm</button>
+        </div>
+
+        <!-- AKTIVE / HISTORIKK LISTER -->
+        <ul id="driftListe" class="drift-list active"></ul>
+        <ul id="driftHistorikkListe" class="drift-list" style="display:none;"></ul>
+
+        <!-- ENDRINGER-FANE -->
+        <div id="changeLogContainer" style="display:none; margin-top:10px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                <strong>Endringer i dag</strong>
+
+                <div style="display:flex; gap:8px; align-items:center;">
+                    <small id="changeLogMeta" class="muted"></small>
+                    <button id="clearChangeLog">Tøm logg</button>
+                </div>
+            </div>
+
+            <ul id="changeLogList" class="drift-list"></ul>
+        </div>
+
+    </div> <!-- right-panel -->
+
+</main>
+
+
+<footer>
+    <small>Kilde: Arbeidsplan simulatoroperatører 2026.xlsx</small>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,228 @@
+:root {
+  --bg: #0b1726;
+  --panel: #152238;
+  --text: #eef2f6;
+  --muted: #9ab;
+  --accent: #6ac;
+  --ok: #43b581;
+  --warn: #f5a623;
+  --crit: #e74c3c;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0; font: 15px/1.45 system-ui, Segoe UI, Arial, sans-serif;
+  color: var(--text); background: var(--bg);
+}
+header, main, footer { max-width: 1100px; margin: 0 auto; padding: 16px; }
+header h1 { margin: 0 0 8px; }
+.date-controls, .load-controls { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.dropzone {
+  border: 2px dashed var(--accent); border-radius: 8px; padding: 12px 16px;
+  background: #0f2136; min-width: 280px;
+}
+.file-btn { color: #fff; text-decoration: underline; cursor: pointer; }
+.or { opacity: 0.6; }
+.static-source input { width: 380px; }
+
+.filters { display: flex; gap: 12px; align-items: center; margin: 16px 0; }
+.filters input[type="search"] { flex: 1; padding: 8px; border-radius: 6px; border: 1px solid #304564; background: #0f2136; color: var(--text); }
+
+.status table { width: 100%; border-collapse: collapse; background: var(--panel); border-radius: 8px; overflow: hidden; }
+.status th, .status td { padding: 10px 12px; border-bottom: 1px solid #223753; }
+.status th { background: #1a2e4a; text-align: left; }
+.status tr:hover { background: #10243e; }
+#teller { margin-top: 8px; color: var(--muted); }
+
+.badge { padding: 2px 8px; border-radius: 999px; font-size: 12px; }
+.badge.fravaer { background: #334; color: #ccd; }
+.badge.ok { background: #153823; color: #cfeeda; }
+.badge.warn { background: #3a2a0f; color: #ffe0b3; }
+.badge.crit { background: #3a1210; color: #ffd3cf; }
+
+.drift h2 { margin-top: 28px; }
+#driftForm { display: grid; gap: 8px; grid-template-columns: 2fr 4fr 1fr auto; }
+#driftForm input, #driftForm textarea, #driftForm select, button {
+  padding: 8px; border-radius: 6px; border: 1px solid #304564; background: #0f2136; color: var(--text);
+}
+#driftForm textarea { min-height: 40px; }
+.drift-actions { margin: 10px 0; display: flex; gap: 10px; }
+#driftListe { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.drift-item { background: var(--panel); border: 1px solid #223753; border-left: 6px solid var(--accent); padding: 10px; border-radius: 6px; }
+.drift-item.varsel { border-left-color: var(--warn); }
+.drift-item.kritisk { border-left-color: var(--crit); }
+.drift-item header { display: flex; justify-content: space-between; }
+.drift-item time { color: var(--muted); font-size: 12px; }
+
+/* --- Driftsvarsler / enhets-chips --- */
+.drift-varsel {
+  border: 1px solid var(--warn);
+  background: #3a2a0f;
+  color: #ffe0b3;
+  padding: 10px 12px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.drift-unit-chip {
+  display: inline-block;
+  border: 1px solid #304564;
+  border-radius: 999px;
+  padding: 2px 8px;
+  margin: 0 4px 4px 0;
+  background: #0f2136;
+  color: var(--text);
+  font-size: 12px;
+}
+/* --- TO-KOLONNE LAYOUT --- */
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    gap: 20px;
+}
+
+/* Venstre side */
+.left-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Høyre side (driftsmeldinger) */
+.right-panel {
+    background: var(--panel);
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid #223753;
+    height: fit-content;
+}
+
+/* Drift-listen skal scrolles hvis lang */
+#driftListe {
+    max-height: 600px;
+    overflow-y: auto;
+    padding-right: 6px;
+}
+
+/* Sørg for at skjemaet ikke blir for bredt */
+#driftForm {
+    display: grid;
+    gap: 8px;
+    grid-template-columns: 1fr 1fr;
+}
+#driftForm textarea {
+    grid-column: span 2;
+}
+#driftForm button {
+    grid-column: span 2;
+}
+/* --- Interaksjonsfeedback for knapper --- */
+button,
+.file-btn,
+.icon-btn {
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.08s ease, box-shadow 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+  outline: none;
+}
+
+/* Standardstil for vanlige <button> uten egen klasse */
+button {
+  background: #0f2136;
+  color: var(--text);
+  border: 1px solid #304564;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+/* Hover: løft + subtil glød */
+button:hover,
+.file-btn:hover,
+.icon-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.25), 0 0 0 2px rgba(106,172,204,0.25); /* var(--accent) */
+}
+
+/* Active/Pressed: trykk ned */
+button:active,
+.file-btn:active,
+.icon-btn:active,
+button.is-pressed,
+.icon-btn.is-pressed {
+  transform: translateY(0) scale(0.98);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+
+/* Tastatur-fokus (tilgjengelighet) */
+button:focus-visible,
+.file-btn:focus-visible,
+.icon-btn:focus-visible {
+  box-shadow: 0 0 0 3px rgba(106,172,204,0.45);
+  border-color: var(--accent);
+}
+
+/* Disabled */
+button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+/* Loading-state: spinner overlay */
+button.is-loading {
+  color: transparent; /* skjul tekst mens spinner vises */
+  pointer-events: none;
+}
+button.is-loading::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  display: inline-block;
+  margin: auto;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(238,242,246,0.35);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Ikon-knapper i driftslisten – gjør treffsikre og med hover */
+.icon-btn {
+  background: #0f2136;
+  color: var(--text);
+  border: 1px solid #304564;
+  border-radius: 6px;
+  padding: 2px 6px;
+  line-height: 1;
+}
+.icon-btn:hover {
+  background: #122a49;
+}
+
+/* "Chips"-knappen (unitChip) får samme hover/fokus-oppførsel automatisk,
+   fordi den er et <button>. Trenger ingen egen klasse. */
+   
+.badge[data-unit]:hover {
+  box-shadow: 0 0 0 2px rgba(106,172,204,0.35);
+}
+
+/* --- Markering av Endringer-fane hvis det finnes endringer --- */
+.drift-tab.has-changes {
+    color: #ff4d4d !important;
+    font-weight: 700;
+    text-shadow: 0 0 6px rgba(255, 0, 0, 0.5);
+}
+
+/* Hvis du vil ha mer "badge"-preg (valgfritt) */
+/*
+.drift-tab.has-changes::after {
+    content: "●";
+    margin-left: 6px;
+    color: #ff4d4d;
+    font-size: 12px;
+}
+*/
