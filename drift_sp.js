@@ -8,7 +8,7 @@
 
 (() => {
   // ========= KONFIG =========
-  const DRIFT_PROXY_URL = window.DRIFT_PROXY_URL
+  const DRIFT_PROXY_URL = "https://raw.githubusercontent.com/Zumcern/daily_status_public/main/driftsmeldinger_public.json";
       
     if (!DRIFT_PROXY_URL) {
       console.error("DRIFT_PROXY_URL mangler (config.local.js er ikke lastet)");
