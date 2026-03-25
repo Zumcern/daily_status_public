@@ -1,131 +1,197 @@
-<!-- Legg denne filen i repoet ditt ved siden av app.js -->
-<!-- drift_sp.js -->
-<script>
-// ====== KONFIG ======
-const SP_SITE_URL = "https://avinor.sharepoint.com/sites/GRP_Simulatordrift_avd.Vaernes";
-const LIST_TITLE  = "Driftsmeldinger"; // må matche listetittelen
-// Kolonne-internal names i SharePoint (endre ved behov):
-const COL_TITLE   = "Title";
-const COL_MESSAGE = "Melding";      // multiline text
-const COL_DATE    = "Dato";         // DateTime
-const COL_STATUS  = "Status";       // Choice: "Aktiv" | "Lukket" | ...
-const COL_KAT     = "Kategori";     // Choice (valgfri)
+/* drift_sp.js
+   Leser driftsmeldinger fra SharePoint via Power Automate proxy (POST),
+   og renderer til eksisterende UI-elementer:
+   - #driftListe (Aktive)
+   - #driftHistorikkListe (Historikk)
+   - .drift-tab faner (aktive/historikk/endringer) beholdes som de er
+*/
 
-const AUTO_REFRESH_MS = 60 * 1000;  // hent på nytt hvert minutt
+(() => {
+  // ========= KONFIG =========
+  const DRIFT_PROXY_URL = window.DRIFT_PROXY_URL
+      
+    if (!DRIFT_PROXY_URL) {
+      console.error("DRIFT_PROXY_URL mangler (config.local.js er ikke lastet)");
+    }
 
-// ====== HJELPERE ======
-function $(sel){ return document.querySelector(sel); }
-function escapeHtml(s){
-  return String(s ?? "").replaceAll("&","&amp;").replaceAll("<","&lt;")
-    .replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#39;");
-}
-function fmtDateTime(iso){
-  try{
-    const d = new Date(iso);
-    if (isNaN(d.getTime())) return "-";
-    return d.toLocaleString("no-NO");
-  }catch{ return "-"; }
-}
+  const AUTO_REFRESH_MS = 60 * 1000; // 1 min (kan endres)
+  const STATUS_ACTIVE_VALUE = "Aktiv"; // SharePoint "Status" verdi for aktive
 
-// ====== HENT FRA SHAREPOINT ======
-// NB: SPO REST krever at sluttbrukeren er innlogget i O365 i samme nettleserøkt.
-// Endepunkt returnerer JSON (OData verbose).
-async function fetchDriftFromSharePoint() {
-  const url = `${SP_SITE_URL}/_api/web/lists/getbytitle('${encodeURIComponent(LIST_TITLE)}')/items?$orderby=Id desc`;
-  const res = await fetch(url, { headers: { "Accept":"application/json;odata=verbose" }, credentials: "include" });
-  if (!res.ok) {
-    const t = await res.text().catch(()=> "");
-    throw new Error(`SharePoint GET failed: ${res.status} ${res.statusText}. ${t.slice(0,300)}`);
-  }
-  const json = await res.json();
-  return Array.isArray(json?.d?.results) ? json.d.results : [];
-}
+  // Hvis du vil mappe kategori til CSS-stripe:
+  // drift.js/styles.css har allerede .drift-item.varsel og .drift-item.kritisk
+  const CATEGORY_TO_CLASS = (kategori) => {
+    const k = String(kategori || "").toLowerCase();
+    if (k.includes("krit")) return "kritisk";
+    if (k.includes("vars")) return "varsel";
+    return "info";
+  };
 
-// ====== RENDER ======
-function renderDriftLists(items){
-  const ulAktive = $("#driftListe");
-  const ulHist   = $("#driftHistorikkListe");
-  if (!ulAktive || !ulHist) return;
+  // ========= HJELPERE =========
+  const $ = (s) => document.querySelector(s);
 
-  ulAktive.innerHTML = "";
-  ulHist.innerHTML   = "";
-
-  // del i aktive/historikk
-  const aktive = [];
-  const hist   = [];
-  for(const it of items){
-    const st = String(it[COL_STATUS] ?? "").toLowerCase();
-    (st === "aktiv") ? aktive.push(it) : hist.push(it);
+  function escapeHtml(s) {
+    return String(s ?? "")
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#39;");
   }
 
-  // tegn aktiv
-  aktive.forEach(it => ulAktive.appendChild(makeItemLi(it, /*isHist=*/false)));
-  // tegn historikk
-  hist.forEach(it => ulHist.appendChild(makeItemLi(it, /*isHist=*/true)));
-}
-
-function makeItemLi(it, isHist){
-  const li = document.createElement("li");
-  li.className = "drift-item" + (isHist ? " hist" : "");
-
-  // alvor/kategori-til fargestripe (valgfritt)
-  const kat = String(it[COL_KAT] ?? "").toLowerCase();
-  if (kat.includes("kritisk")) li.className += " kritisk";
-  else if (kat.includes("varsel")) li.className += " varsel";
-
-  const title = escapeHtml(it[COL_TITLE] ?? "");
-  const msg   = escapeHtml(it[COL_MESSAGE] ?? "");
-  const dt    = fmtDateTime(it[COL_DATE] ?? it["Created"] ?? it["Modified"]);
-  const by    = escapeHtml(it?.Author?.Title ?? it?.Editor?.Title ?? "");
-
-  li.innerHTML = `
-    <header>
-      <strong>${title || "(uten tittel)"}</strong>
-      <span style="display:inline-flex; gap:8px; align-items:center;">
-        <time class="muted-time">${dt}</time>
-      </span>
-    </header>
-    <div style="margin-top:6px;">${msg || ""}</div>
-    <div class="muted" style="margin-top:6px; font-size:12px;">
-      ${by ? "Opprettet av: " + by : ""}
-      ${it[COL_KAT] ? " • Kategori: " + escapeHtml(it[COL_KAT]) : ""}
-      ${it[COL_STATUS] ? " • Status: " + escapeHtml(it[COL_STATUS]) : ""}
-      ${typeof it["ID"] !== "undefined" ? " • ID: " + it["ID"] : ""}
-    </div>
-  `;
-  return li;
-}
-
-// ====== INIT + AUTO-REFRESH ======
-let driftTimer = null;
-async function refreshDriftNow(){
-  try{
-    const items = await fetchDriftFromSharePoint();
-    renderDriftLists(items);
-  }catch(err){
-    console.warn("[drift_sp] kan ikke hente driftsmeldinger:", err);
-    // Vis en diskret feilmelding i historikk-listen
-    const hist = $("#driftHistorikkListe");
-    if (hist && !hist.childElementCount){
-      const li = document.createElement("li");
-      li.className = "drift-item";
-      li.innerHTML = `<div style="color:#f6c; font-size:13px;">
-        Kunne ikke hente driftsmeldinger fra SharePoint (${escapeHtml(err.message)}).
-        Er du innlogget i O365? Har du tilgang til listen?
-      </div>`;
-      hist.appendChild(li);
+  function fmtDateTime(iso) {
+    try {
+      const d = new Date(iso);
+      if (Number.isNaN(d.getTime())) return "-";
+      return d.toLocaleString("no-NO");
+    } catch {
+      return "-";
     }
   }
-}
 
-function startDriftAutoRefresh(){
-  if (driftTimer) clearInterval(driftTimer);
-  driftTimer = setInterval(refreshDriftNow, AUTO_REFRESH_MS);
-}
+  function setMeta(text) {
+    // Gjenbruker meta-felt i UI hvis det finnes (du har #lastInfo i header).
+    const el = document.getElementById("lastInfo");
+    if (el) el.textContent = text;
+  }
 
-// Kjør når DOM er klar (uten å endre eksisterende app.js):
-document.addEventListener("DOMContentLoaded", () => {
-  refreshDriftNow();
-  startDriftAutoRefresh();
-});
-</script>
+  function ensureStatusBanner(msg, isError = false) {
+    // Legg en liten statuslinje i høyre panel om ønskelig
+    let banner = document.getElementById("driftSpBanner");
+    const right = document.querySelector(".right-panel");
+    if (!right) return;
+
+    if (!banner) {
+      banner = document.createElement("div");
+      banner.id = "driftSpBanner";
+      banner.style.margin = "8px 0 12px 0";
+      banner.style.padding = "8px 10px";
+      banner.style.borderRadius = "6px";
+      banner.style.fontSize = "13px";
+      right.insertBefore(banner, right.firstChild?.nextSibling || right.firstChild);
+    }
+
+    banner.style.border = isError ? "1px solid #e74c3c" : "1px solid #304564";
+    banner.style.background = isError ? "#3a1210" : "#0f2136";
+    banner.style.color = isError ? "#ffd3cf" : "#eef2f6";
+    banner.innerHTML = escapeHtml(msg);
+  }
+
+  // ========= HENT DATA =========
+  async function fetchDriftItems() {
+    const res = await fetch(DRIFT_PROXY_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: "{}",
+    });
+
+    if (!res.ok) {
+      const txt = await res.text().catch(() => "");
+      throw new Error(`Proxy-feil: ${res.status} ${res.statusText} ${txt}`.slice(0, 500));
+    }
+
+    const data = await res.json();
+
+    if (!Array.isArray(data)) {
+      // Power Automate bør returnere array
+      throw new Error("Uventet format fra proxy (forventer JSON-array).");
+    }
+
+    return data;
+  }
+
+  // ========= RENDER =========
+  function makeLi(item, isHist) {
+    const title = item.Title ?? item.title ?? "(uten tittel)";
+    const text = item.Melding ?? item.melding ?? "";
+    const status = item.Status ?? item.status ?? "";
+    const kategori = item.Kategori ?? item.kategori ?? "";
+    const dato = item.Dato ?? item.dato ?? item.Created ?? item.Modified ?? "";
+
+    const cssClass = CATEGORY_TO_CLASS(kategori);
+    const li = document.createElement("li");
+    li.className = `drift-item ${cssClass}` + (isHist ? " hist" : "");
+
+    li.innerHTML = `
+      <header>
+        <strong>${escapeHtml(title)}</strong>
+        <span style="display:inline-flex; gap:8px; align-items:center;">
+          <time class="muted-time">${escapeHtml(fmtDateTime(dato))}</time>
+        </span>
+      </header>
+      <div style="margin-top:6px;">${escapeHtml(text)}</div>
+      <div class="muted" style="margin-top:6px; font-size:12px; color:#9ab;">
+        ${status ? `Status: ${escapeHtml(status)}` : ""}
+        ${kategori ? ` • Kategori: ${escapeHtml(kategori)}` : ""}
+        ${typeof item.ID !== "undefined" ? ` • ID: ${escapeHtml(item.ID)}` : ""}
+      </div>
+    `;
+    return li;
+  }
+
+  function render(items) {
+    const ulAktive = document.getElementById("driftListe");
+    const ulHist = document.getElementById("driftHistorikkListe");
+
+    if (!ulAktive || !ulHist) {
+      console.warn("[drift_sp] Fant ikke #driftListe eller #driftHistorikkListe i DOM.");
+      return;
+    }
+
+    ulAktive.innerHTML = "";
+    ulHist.innerHTML = "";
+
+    // Del i aktive/historikk
+    const aktive = [];
+    const historikk = [];
+
+    for (const it of items) {
+      const st = String(it.Status ?? it.status ?? "").trim();
+      if (st.toLowerCase() === STATUS_ACTIVE_VALUE.toLowerCase()) aktive.push(it);
+      else historikk.push(it);
+    }
+
+    // Sorter nyeste først basert på Id eller Modified/Created
+    aktive.sort((a, b) => (b.ID ?? b.Id ?? 0) - (a.ID ?? a.Id ?? 0));
+    historikk.sort((a, b) => (b.ID ?? b.Id ?? 0) - (a.ID ?? a.Id ?? 0));
+
+    aktive.forEach((it) => ulAktive.appendChild(makeLi(it, false)));
+    historikk.forEach((it) => ulHist.appendChild(makeLi(it, true)));
+
+    // Oppdater en liten teller/info
+    ensureStatusBanner(
+      `SharePoint drift: ${aktive.length} aktive, ${historikk.length} i historikk.`
+    );
+  }
+
+  // ========= LOOP / INIT =========
+  let timer = null;
+
+  async function refreshNow() {
+    try {
+      const items = await fetchDriftItems();
+      render(items);
+
+      const now = new Date();
+      setMeta(`Drift oppdatert: ${now.toLocaleTimeString("no-NO", { hour12: false })}`);
+      ensureStatusBanner("Driftsmeldinger lastet fra SharePoint (via Power Automate).");
+    } catch (err) {
+      console.warn("[drift_sp] Feil ved lasting:", err);
+      ensureStatusBanner(
+        `Kunne ikke hente driftsmeldinger (via proxy). ${err.message || err}`,
+        true
+      );
+    }
+  }
+
+
+  function startAutoRefresh() {
+    if (timer) clearInterval(timer);
+    timer = setInterval(refreshNow, AUTO_REFRESH_MS);
+  }
+
+  // Scriptet lastes med `defer`, så DOM er allerede klar her.
+  // Kjør init direkte (ikke vent på DOMContentLoaded).
+  refreshNow();
+  startAutoRefresh();
+
+})();
