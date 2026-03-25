@@ -1,1 +1,1 @@
-[{"id":1,"title":"Test","melding":"TEST123","dato":"2026-03-24T23:00:00Z","kategori":"Varsel","status":"Aktiv","modified":"2026-03-25T07:18:41Z"}]
+[{"id":2,"title":"Ny test","melding":"Test 2","dato":"2026-03-24T23:00:00Z","kategori":"Varsel","status":"Aktiv","modified":"2026-03-25T12:57:37Z"},{"id":1,"title":"Test","melding":"TEST123","dato":"2026-03-24T23:00:00Z","kategori":"Varsel","status":"Aktiv","modified":"2026-03-25T07:18:41Z"}]
