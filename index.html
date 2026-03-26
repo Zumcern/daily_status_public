@@ -96,70 +96,8 @@
 
         <!-- TABS -->
         <div class="drift-tabs">
-            <button class="drift-tab active" data-tab="aktive">Aktive</button>
-            <button class="drift-tab" data-tab="historikk">Historikk</button>
             <button class="drift-tab" data-tab="endringer">Endringer</button>
         </div>
-
-        <!-- SKJEMA (kun i "Aktive") -->
-        <div id="driftAktivContainer">
-            <form id="driftForm">
-                <input type="text" id="driftTittel" placeholder="Tittel" required />
-
-                <textarea id="driftTekst" placeholder="Beskrivelse (kort)" required></textarea>
-
-                <select id="driftEnhet" required>
-                    <option value="">Velg enhet …</option>
-                    <option value="TEKNISK">Teknisk</option>
-                    <option value="BR">Bergen (ENBR)</option>
-                    <option value="ZV">Sola (ENZV)</option>
-                    <option value="VA">Værnes (ENVA)</option>
-                    <option value="GM">Oslo/Gardermoen (ENGM)</option>
-                    <option value="BO">Bodø (ENBO)</option>
-                    <option value="TC">Tromsø (ENTC)</option>
-                    <option value="KR">Kirkenes (ENKR)</option>
-                    <option value="OL">Ørland (ENOL)</option>
-                    <option value="EV">Evenes (ENEV)</option>
-                    <option value="DU">Bardufoss (ENDU)</option>
-                    <option value="AT">Alta (ENAT)</option>
-                    <option value="TO">Sandefjord/Torp (ENTO)</option>
-                    <option value="AN">Andøya (ENAN)</option>
-                    <option value="HF">Hammerfest (ENHF)</option>
-                    <option value="FL">Florø (ENFL)</option>
-                    <option value="BN">Brønnøysund (ENBN)</option>
-                    <option value="SB">Svalbard (ENSB)</option>
-                    <option value="SK">Stokmarknes (ENSK)</option>
-                    <option value="OV">Ørsta–Volda (ENOV)</option>
-                    <option value="HD">Haugesund (ENHD)</option>
-                    <option value="NA">Lakselv (ENNA)</option>
-                    <option value="RY">Rygge (ENRY)</option>
-                    <option value="KB">Kvernberget (ENKB)</option>
-                    <option value="RA">ENRA</option>
-                    <option value="HV">Honningsvåg (ENHV)</option>
-                    <option value="ANNET">Annet</option>
-                </select>
-
-                <select id="driftAlvor">
-                    <option value="info">Info</option>
-                    <option value="varsel">Varsel</option>
-                    <option value="kritisk">Kritisk</option>
-                </select>
-
-                <button type="submit">Publiser</button>
-            </form>
-        </div>
-
-        <!-- Drift-knapper -->
-        <div class="drift-actions">
-            <button id="eksporterDrift">Eksporter</button>
-
-            <label class="file-btn">Importer
-                <input type="file" id="importDrift" accept=".json" hidden />
-            </label>
-
-            <button id="tømDrift">Tøm</button>
-        </div>
-
         <!-- AKTIVE / HISTORIKK LISTER -->
         <ul id="driftListe" class="drift-list active"></ul>
         <ul id="driftHistorikkListe" class="drift-list" style="display:none;"></ul>

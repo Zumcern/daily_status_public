@@ -245,29 +245,29 @@ button.is-loading::after {
 
 /* INFO – hvit */
 .drift-item.drift-info {
-  background-color: #ffffff;
-  color: #0f172a;
+  background-color: #0f2136;
+  color: #FFFFFF;
   border-left-color: #cbd5e1;
 }
 
 /* VARSEL – gul */
 .drift-item.drift-varsel {
-  background-color: #fef3c7;
-  color: #78350f;
+  background-color: #0f2136;
+  color: #FFFFFF;
   border-left-color: #facc15;
 }
 
 /* FEIL – rød */
 .drift-item.drift-feil {
-  background-color: #fee2e2;
-  color: #7f1d1d;
+  background-color: #0f2136;
+  color: #FFFFFF;
   border-left-color: #ef4444;
 }
 
 /* PLANLAGT ARBEID – lilla */
 .drift-item.drift-planlagt {
-  background-color: #ede9fe;
-  color: #4c1d95;
+  background-color: #0f2136;
+  color: #FFFFFF;
   border-left-color: #8b5cf6;
 }
 
