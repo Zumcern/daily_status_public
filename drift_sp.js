@@ -1,6 +1,11 @@
 // drift_sp.js
 // Public-versjon: henter driftsmeldinger fra GitHub raw JSON (ingen proxy, ingen secrets)
 // Kilde: driftsmeldinger_public.json oppdatert av Power Automate
+// Fargekoding via CSS-klasser basert på kategori:
+//   Info -> drift-info (hvit)
+//   Varsel -> drift-varsel (gul)
+//   Feil -> drift-feil (rød)
+//   Planlagt arbeid -> drift-planlagt (lilla)
 
 (() => {
   "use strict";
@@ -12,8 +17,6 @@
   const AUTO_REFRESH_MS = 60 * 1000; // 1 min
 
   // ================== HJELPERE ==================
-  const $ = (sel) => document.querySelector(sel);
-
   function escapeHtml(s) {
     return String(s ?? "")
       .replaceAll("&", "&amp;")
@@ -59,6 +62,31 @@
     banner.textContent = msg;
   }
 
+  // Normaliser kategori-tekst (robust mot små variasjoner)
+  function normKategori(k) {
+    return String(k ?? "")
+      .trim()
+      .toLowerCase()
+      .replace(/\s+/g, " ");
+  }
+
+  // Map kategori -> CSS-klasse (du lager CSS)
+  function kategoriTilKlasse(kategori) {
+    const k = normKategori(kategori);
+
+    if (k === "info") return "drift-info";
+    if (k === "varsel") return "drift-varsel";
+    if (k === "feil") return "drift-feil";
+    if (k === "planlagt arbeid") return "drift-planlagt";
+
+    // fallback: hvis noen skriver f.eks. "Planlagt" eller "Planlagt vedlikehold"
+    if (k.includes("planlagt")) return "drift-planlagt";
+    if (k.includes("feil")) return "drift-feil";
+    if (k.includes("vars")) return "drift-varsel";
+
+    return "drift-info";
+  }
+
   // ================== DATA ==================
   async function hentDriftsmeldingerPublic() {
     const res = await fetch(DRIFT_PUBLIC_URL + "?_=" + Date.now(), {
@@ -79,21 +107,25 @@
   // ================== RENDER ==================
   function makeLi(item) {
     const li = document.createElement("li");
-    li.className = "drift-item";
 
     const title = escapeHtml(item.title ?? "");
     const msg = escapeHtml(item.melding ?? "");
-    const cat = escapeHtml(item.kategori ?? "");
+    const catRaw = item.kategori ?? "";
+    const cat = escapeHtml(catRaw);
     const status = escapeHtml(item.status ?? "");
     const dato = fmtDate(item.dato);
+
+    // CSS-klasser for fargekoding
+    const catClass = kategoriTilKlasse(catRaw);
+    li.className = `drift-item ${catClass}`;
 
     li.innerHTML = `
       <header style="display:flex;justify-content:space-between;gap:8px;">
         <strong>${title}</strong>
-        <span class="muted-time">${dato}</span>
+        <span class="muted-time">${escapeHtml(dato)}</span>
       </header>
       <div style="margin-top:6px;">${msg}</div>
-      <div style="margin-top:6px;font-size:12px;color:#9ab;">
+      <div style="margin-top:6px;font-size:12px;color:inherit;opacity:0.85;">
         ${status ? `Status: ${status}` : ""}
         ${cat ? ` • Kategori: ${cat}` : ""}
       </div>
@@ -110,6 +142,7 @@
 
     if (!items.length) {
       const li = document.createElement("li");
+      li.className = "drift-item drift-info";
       li.textContent = "Ingen aktive driftsmeldinger.";
       ul.appendChild(li);
       return;
@@ -127,7 +160,9 @@
       render(items);
 
       const now = new Date();
-      setMeta(`Drift oppdatert: ${now.toLocaleTimeString("no-NO", { hour12: false })}`);
+      setMeta(
+        `Drift oppdatert: ${now.toLocaleTimeString("no-NO", { hour12: false })}`
+      );
       showBanner(`Public driftsfeed lastet (${items.length} aktive).`);
     } catch (err) {
       console.warn("[drift_sp]", err);
@@ -143,5 +178,4 @@
   // Scriptet lastes med defer – DOM er klar
   refreshNow();
   startAutoRefresh();
-
 })();
