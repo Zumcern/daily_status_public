@@ -32,7 +32,7 @@ jobs:
 
       - name: Run parser (skip if Excel missing)
         run: |
-          if [ ! -f input/Arbeidsplan\ simulatoroperatører\ 2026.xlsx ]; then
+          if [ ! -f input/Arbeidsplan\ simulatoroperatører.xlsx ]; then
             echo "Excel not present – skipping run"
             exit 0
           fi

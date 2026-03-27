@@ -53,7 +53,7 @@ import os
 
 DEFAULT_EXCEL = os.environ.get(
     "EXCEL_PATH",
-    "input/Arbeidsplan simulatoroperatører 2026.xlsx"
+    "input/Arbeidsplan simulatoroperatører.xlsx"
 )
 
 from collections import defaultdict
