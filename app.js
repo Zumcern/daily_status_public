@@ -1,10 +1,8 @@
 /* Dagens status – app.js (Endringer-fane, uten JS-duplikater av Oppdater/Sortering) */
-
 /* --- Konstanter / oppsett --- */
 const NAMES = ["Trine","Stein","Håkon","Odd Rune","Magnus","Jon Håvard","Patrick","Marjolein","Bjørnar","Rune","Connor","Ole","Beate","Kosti","Gudmund"];
 const FRAVAER_KEYWORDS = ["ferie","fri"];
 const TYPEKODER = { "1":"Refresh","2":"Overf./X-utsj","3":"Prosjekt/nye prosedyrer etc","4":"Elev","5":"Validering","6":"Pre-ojt" };
-
 // ENxx -> kortkode (brukes i parsing)
 const ICAO_TO_UNIT = {
   ENBR:"BR", ENZV:"ZV", ENVA:"VA", ENGM:"GM", ENBO:"BO", ENTC:"TC", ENKR:"KR", ENOL:"OL", ENEV:"EV",
@@ -21,13 +19,12 @@ const UNIT_CODE_LABEL = {
 const UNIT_CODE_COLOR = {
   BR:"#8E24AA", ZV:"#6d5c64", VA:"#707070", GM:"#27e6b6", BO:"#4a8091", TC:"#fbff02", KR:"#3f7ccc", OL:"#11e8f0",
   EV:"#1E88E5", DU:"#00897B", AT:"#6c8308", TO:"#8D6E63", AN:"#5E92F3", HF:"#26A69A", FL:"#7CB342", BN:"#26C6DA",
-  SB:"#c58701", SK:"#c58701", OV:"#FF7043", HD:"#29B6F6", NA:"#66BB6A", RY:"#b33071", KB:"#FFCA28", RA:"#90A4AE", HV:"#AB47BC", MØ:"#797979"
+  SB:"#c58701", SK:"#c58701", OV:"#FF7043", HD:"#29B6F6", NA:"#66BB6A", RY:"#b33071", KB:"#FFCA28", RA:"#90A4AE",
+  HV:"#AB47BC", MØ:"#797979"
 };
-
 const COLOR_WHITE_BG="#ffffff", COLOR_WHITE_TEXT="#0b1726";
 const COLOR_AFIS_BG="#FFD8A8", COLOR_AFIS_TEXT="#5A3A00";
 const COLOR_ORANGE_BG="#FFA94D", COLOR_ORANGE_TEXT="#5A3A00";
-
 const NOW = new Date();
 const DEFAULT_YEAR = NOW.getFullYear();
 const DEFAULT_PLAN_FILE = `data/generated/arbeidsplan_${DEFAULT_YEAR}_per_dato.json`;
@@ -48,7 +45,6 @@ let lastUpdatedAt = null;
 /* ---- Change Log state & helpers ---- */
 const CHANGELOG_PREFIX = "status_changelog_";
 let previousStatusSnapshot = {}; // {Navn: "aktivitet"}
-
 function changeLogKey(iso) { return `${CHANGELOG_PREFIX}${iso || ""}`; }
 function loadChangeLog(iso) {
   try {
@@ -82,19 +78,18 @@ function detectAndRecordChanges() {
   const changes = [];
   for (const name of NAMES) {
     const before = previousStatusSnapshot[name] ?? null;
-    const after  = nowObj[name] ?? null;
+    const after = nowObj[name] ?? null;
     if (before !== null && after !== null && before !== after) {
       changes.push({
         at: new Date().toISOString(),
         person: name,
         before: before || "-",
-        after:  after  || "-"
+        after: after || "-"
       });
     }
   }
 
   previousStatusSnapshot = nowObj;
-
   if (changes.length) {
     const list = loadChangeLog(currentDateISO);
     saveChangeLog(currentDateISO, list.concat(changes)); // append
@@ -126,7 +121,7 @@ function renderChangeLog() {
       </header>
       <div style="margin-top:6px;">
         <span style="color:#ffd3cf;">${escapeHtml(e.before || "-")}</span>
-        &nbsp;→&nbsp;
+        →
         <span style="color:#cfeeda;">${escapeHtml(e.after || "-")}</span>
       </div>
     `;
@@ -139,12 +134,14 @@ function renderChangeLog() {
       ? `${count} endring${count === 1 ? "" : "er"} • Dato: ${currentDateISO}`
       : `${count} endringer`;
   }
+
   // Marker Endringer-fanen rødt hvis det finnes endringer
   const tab = document.querySelector('.drift-tab[data-tab="endringer"]');
   if (tab) {
     if (count > 0) tab.classList.add("has-changes");
     else tab.classList.remove("has-changes");
   }
+
   if (countSpan) {
     countSpan.textContent = count ? `(${count})` : "";
   }
@@ -153,18 +150,18 @@ window.__renderChangeLog = renderChangeLog;
 
 /* --- DOM --- */
 const $ = s => document.querySelector(s);
-const elDate   = $("#dato");
+const elDate = $("#dato");
 const elSearch = $("#sok");
-const elView   = $("#visning");
-const elTable  = $("#statusTabell");
-const elTbody  = $("#statusTabell tbody");
-const elCount  = $("#teller");
+const elView = $("#visning");
+const elTable = $("#statusTabell");
+const elTbody = $("#statusTabell tbody");
+const elCount = $("#teller");
 const headerControls = document.querySelector(".date-controls");
 
 // Viktig: VI BRUKER EKSISTERENDE HTML-ELEMENTER (ingen JS-duplikat)
 const btnOppdaterNaa = document.getElementById("oppdaterNaa");
-const selSort        = document.getElementById("sortering");
-let   unitChip       = document.getElementById("unitChip");
+const selSort = document.getElementById("sortering");
+let unitChip = document.getElementById("unitChip");
 
 /* --- Toppkontroller (kun prev/next lages i JS) --- */
 function ensurePrevNextButtons() {
@@ -211,10 +208,11 @@ function ensurePrevNextButtons() {
 function ensureTableHeader(){
   const thead = elTable.querySelector("thead"); if(!thead) return;
   const ths = thead.querySelectorAll("th");
-  if(ths.length!==4){
+  if(ths.length!==5){
     thead.innerHTML = `<tr>
       <th>Navn</th>
       <th>Status</th>
+      <th>Mappe</th>
       <th>Type trening</th>
       <th>Skift</th>
     </tr>`;
@@ -243,11 +241,9 @@ function setDateISO(iso, { snapToNearest = true, initSnapshot = true } = {}){
   if(!finalISO) return;
   currentDateISO = finalISO;
   if(elDate) elDate.value = finalISO;
-
   if (initSnapshot) {
     initSnapshotForCurrentDate();
   }
-
   render();
   renderChangeLog();
 }
@@ -299,7 +295,7 @@ function colorForUnit(u){
 }
 function hashStr(str){
   let h=2166136261>>>0;
-  for(let i=0;i<str.length;i++){ h^=str.charCodeAt(i); h=Math.imul(h,16777619);}
+  for(let i=0;i<str.length;i++){ h^=str.charCodeAt(i); h=Math.imul(h,16777619); }
   return h>>>0;
 }
 
@@ -310,18 +306,15 @@ async function fetchPlanJsonWithCacheBust(url){
   return res.json();
 }
 function fingerprintOf(obj){ try{return JSON.stringify(obj);}catch{return "";} }
-
 async function tryLoadDefault(initial=false){
   try{
     const json = await fetchPlanJsonWithCacheBust(DEFAULT_PLAN_FILE);
     lastCheckedAt = new Date();
     const fp = fingerprintOf(json);
     const changed = initial || fp !== lastJsonFingerprint;
-
     if(changed){
       lastJsonFingerprint = fp;
       lastUpdatedAt = new Date();
-
       applyPlanJson(json, `fetched:${DEFAULT_PLAN_FILE}`);
 
       // Behold dato uten å nullstille snapshot ved programmatisk refresh
@@ -335,11 +328,10 @@ async function tryLoadDefault(initial=false){
 
       // Oppdater Endringer-fanen ved behov
       const activeTab = document.querySelector('.drift-tab.active')?.dataset.tab;
-      if (activeTab === 'endringer' || newChanges.length > 0) {
+      if (activeTab === 'endringer' && newChanges.length > 0) {
         renderChangeLog();
       }
     }
-
     updateLastInfo();
     return true;
   }catch(err){
@@ -349,7 +341,6 @@ async function tryLoadDefault(initial=false){
     return false;
   }
 }
-
 function applyPlanJson(json, sourceLabel="unknown"){
   if(!json || typeof json!=="object" || Array.isArray(json))
     throw new Error("Ugyldig plan-JSON: Forventer objekt pr dato.");
@@ -357,7 +348,6 @@ function applyPlanJson(json, sourceLabel="unknown"){
   dates = Object.keys(planData).sort();
   lastLoadedSource = sourceLabel;
   setMinMaxForDateInput();
-
   if(!currentDateISO){
     const iso = nearestDateISO(toISODate(new Date())) || dates[0];
     setDateISO(iso, {snapToNearest:false});
@@ -365,7 +355,6 @@ function applyPlanJson(json, sourceLabel="unknown"){
     render();
   }
 }
-
 function buildPersonMapForDate(iso){
   const dayList = planData[iso] || [];
   const map = new Map();
@@ -394,7 +383,6 @@ function parseActivity(raw){
   const s = String(raw||"").trim();
   const tokens = s.split(/\s+/).filter(Boolean);
   let isLeader=false, shift=null, unit2=null, typekode=null;
-
   if(tokens.length && tokens[0]==="9") isLeader=true;
 
   for(const tok of tokens){
@@ -406,17 +394,15 @@ function parseActivity(raw){
 
   const typeText = typekode && TYPEKODER[typekode] ? TYPEKODER[typekode] : "";
   let shiftText="Formiddag"; if(shift==="SE") shiftText="Ettermiddag";
-
   const parts=[];
   if(isLeader) parts.push("Ansvarlig enhet (9)");
   if(shift) parts.push(shift==="SF"?"Simulator formiddag":"Simulator ettermiddag");
   if(unit2) parts.push(`Enhet: ${UNIT_CODE_LABEL[unit2]||unit2}`);
   if(typeText) parts.push(typeText);
   const g = classifyGeneric(s);
-  if(g.isA)    parts.push("A (hvit)");
+  if(g.isA) parts.push("A (hvit)");
   if(g.isAFIS) parts.push("AFIS (lys oransje)");
   const tooltip = parts.length ? `${parts.join(" • ")}\n${s}` : s;
-
   return { isLeader, shift, unit2, typekode, typeText, shiftText, tooltip, raw:s };
 }
 
@@ -424,9 +410,7 @@ function parseActivity(raw){
 function sortRows(rows, mode){
   const idx = new Map(NAMES.map((n,i)=>[n,i]));
   const byName = (a,b)=>(idx.get(a.name)??999)-(idx.get(b.name)??999);
-
   if(mode==="navn") return rows.sort(byName);
-
   if(mode==="enhet-ansvarlig-navn"){
     return rows.sort((a,b)=>{
       const ua=a.meta.unit2||"Øvrig", ub=b.meta.unit2||"Øvrig";
@@ -453,10 +437,9 @@ function sortRows(rows, mode){
 
 /* --- Rendering --- */
 function escapeHtml(s){
-  return String(s).replaceAll("&","&amp;").replaceAll("<","&lt;")
-    .replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#39;");
+  return String(s).replaceAll("&","&").replaceAll("<","<")
+    .replaceAll(">",">").replaceAll('"','"').replaceAll("'","'");
 }
-
 function render(){
   ensureTableHeader();
   if(!currentDateISO){
@@ -464,7 +447,6 @@ function render(){
     elCount.textContent="Ingen data.";
     return;
   }
-
   const q=(elSearch?.value??"").trim().toLowerCase();
   const view=(elView?.value??"alle");
   const pmap = buildPersonMapForDate(currentDateISO);
@@ -477,10 +459,10 @@ function render(){
 
   if(view==="tilstede") rows=rows.filter(r=>isTilstede(r.aktivitet));
   else if(view==="fravaer") rows=rows.filter(r=>isFravaer(r.aktivitet));
-
   if(activeUnitFilter) rows=rows.filter(r=>r.meta.unit2===activeUnitFilter);
   if(q) rows=rows.filter(r=>
-    r.name.toLowerCase().includes(q) || String(r.aktivitet).toLowerCase().includes(q)
+    r.name.toLowerCase().includes(q) ||
+    String(r.aktivitet).toLowerCase().includes(q)
   );
 
   rows = sortRows(rows, currentSortMode);
@@ -514,12 +496,18 @@ function render(){
     const skiftCell = (shiftText==="Ettermiddag")
       ? `<span style="color:#e74c3c">${shiftText}</span>` : `${escapeHtml(shiftText)}`;
 
+    const folderCell =
+      (window.UnitFolders && unit2)
+        ? window.UnitFolders.renderUnitFolderCell(unit2)
+        : "";
+
     return `<tr>
       <td>${r.name}</td>
       <td>
         <span class="badge ${badgeClass}" ${style}${titleAttr}${dataUnit}
-              onclick="window.__onBadgeClick(event)">${escapeHtml(label)}</span>
+          onclick="window.__onBadgeClick(event)">${escapeHtml(label)}</span>
       </td>
+      <td>${folderCell}</td>
       <td>${escapeHtml(typeText||"")}</td>
       <td>${skiftCell}</td>
     </tr>`;
@@ -548,7 +536,7 @@ window.__onBadgeClick = (ev)=>{
   if(unit){
     activeUnitFilter = (activeUnitFilter===unit) ? null : unit;
     render();
-  }else if(activeUnitFilter){
+  } else if(activeUnitFilter){
     activeUnitFilter = null; render();
   }
 };
@@ -556,7 +544,6 @@ window.__onBadgeClick = (ev)=>{
 /* --- Auto-refresh / hendelser / init --- */
 function startAutoRefresh(){ stopAutoRefresh(); refreshTimerId=setInterval(async()=>{ await tryLoadDefault(false); }, AUTO_REFRESH_MS); }
 function stopAutoRefresh(){ if(refreshTimerId){ clearInterval(refreshTimerId); refreshTimerId=null; } }
-
 function wireEvents(){
   // Dato
   elDate?.addEventListener("change", ()=> setDateISO(elDate.value,{snapToNearest:true}) );
@@ -662,7 +649,6 @@ async function init(){
   initSnapshotForCurrentDate();
   renderChangeLog();
 }
-
 document.addEventListener("DOMContentLoaded", init);
 
 // Hard reload rett etter midnatt (lokal tid) for å sikre ny dato blir valgt
@@ -670,14 +656,11 @@ function scheduleMidnightHardReload() {
   const now = new Date();
   const nextMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 5); // 00:00:05
   const ms = nextMidnight.getTime() - now.getTime();
-
   // Sikkerhet: hvis noe rart skulle skje
   const safeMs = Math.max(1000, ms);
-
   setTimeout(() => {
     window.location.reload(); // "F5"
   }, safeMs);
 }
-
 // Kjør én gang ved oppstart (planlegger neste midnatt)
 scheduleMidnightHardReload();
