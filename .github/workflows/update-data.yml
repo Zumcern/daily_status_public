@@ -21,3 +21,11 @@ jobs:
       - name: Run parser
         run: |
           python parser.py
+
+      - name: Commit generated JSON
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .
+          git diff --cached --quiet || git commit -m "Update generated JSON"
+          git push
