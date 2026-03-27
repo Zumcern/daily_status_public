@@ -44,6 +44,11 @@ import argparse
 import json
 import re
 
+from pathlib import Path
+
+OUTPUT_DIR = Path("data/generated")
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
 import os
 
 DEFAULT_EXCEL = os.environ.get(
@@ -420,7 +425,7 @@ def main():
     rows_year.sort(key=lambda r: (r["dato"], name_index.get(r["person"], 999), r["person"]))
 
     # Flat JSON
-    flat_out = Path(f"arbeidsplan_{target_year}_flat.json")
+    flat_out = OUTPUT_DIR / f"arbeidsplan_{target_year}_flat.json"
     flat_out.write_text(json.dumps(rows_year, ensure_ascii=False, indent=2), encoding="utf-8")
 
     # Per dato JSON
@@ -432,7 +437,7 @@ def main():
         d: sorted(lst, key=lambda x: name_index.get(x["person"], 999))
         for d, lst in sorted(per_dato.items(), key=lambda kv: kv[0])
     }
-    per_out = Path(f"arbeidsplan_{target_year}_per_dato.json")
+    per_out = OUTPUT_DIR / f"arbeidsplan_{target_year}_per_dato.json"
     per_out.write_text(json.dumps(per_dato_sorted, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(f"OK: {len(rows_year)} poster over {len(per_dato_sorted)} datoer")
