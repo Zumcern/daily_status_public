@@ -664,3 +664,20 @@ async function init(){
 }
 
 document.addEventListener("DOMContentLoaded", init);
+
+// Hard reload rett etter midnatt (lokal tid) for å sikre ny dato blir valgt
+function scheduleMidnightHardReload() {
+  const now = new Date();
+  const nextMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 5); // 00:00:05
+  const ms = nextMidnight.getTime() - now.getTime();
+
+  // Sikkerhet: hvis noe rart skulle skje
+  const safeMs = Math.max(1000, ms);
+
+  setTimeout(() => {
+    window.location.reload(); // "F5"
+  }, safeMs);
+}
+
+// Kjør én gang ved oppstart (planlegger neste midnatt)
+scheduleMidnightHardReload();
