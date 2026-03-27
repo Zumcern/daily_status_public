@@ -30,8 +30,13 @@ jobs:
         run: |
           python -m pip install pandas openpyxl
 
-      - name: Run parser
+      - name: Run parser (skip if Excel missing)
         run: |
+          if [ ! -f input/Arbeidsplan\ simulatoroperatører\ 2026.xlsx ]; then
+            echo "Excel not present – skipping run"
+            exit 0
+          fi
+
           python parser.py
 
       - name: Commit generated JSON
