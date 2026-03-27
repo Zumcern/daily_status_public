@@ -1,5 +1,5 @@
 
-name: Test GitHub Actions
+name: Run parser and update data
 
 permissions:
   contents: write
