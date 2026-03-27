@@ -30,7 +30,7 @@ const COLOR_ORANGE_BG="#FFA94D", COLOR_ORANGE_TEXT="#5A3A00";
 
 const NOW = new Date();
 const DEFAULT_YEAR = NOW.getFullYear();
-const DEFAULT_PLAN_FILE = `arbeidsplan_${DEFAULT_YEAR}_per_dato.json`;
+const DEFAULT_PLAN_FILE = `data/generated/arbeidsplan_${DEFAULT_YEAR}_per_dato.json`;
 const AUTO_REFRESH_MS = 5 * 60 * 1000;
 
 /* --- Tilstand --- */
@@ -652,7 +652,7 @@ async function init(){
     planData={}; dates=[]; currentDateISO=null;
     if(elTbody) elTbody.innerHTML="";
     const t=document.getElementById("teller");
-    if(t) t.textContent = `Fant ikke ${DEFAULT_PLAN_FILE}. Kontroller at parseren har skrevet ut JSON i samme mappe.`;
+    if(t) t.textContent = `Fant ikke ${DEFAULT_PLAN_FILE}. Kontroller at parseren har skrevet JSON til data/generated/.`;
   }
 
   startAutoRefresh();
