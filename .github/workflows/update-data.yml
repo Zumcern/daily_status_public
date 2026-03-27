@@ -44,7 +44,14 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add data/generated/*.json
+          # Avbryt pent hvis output-mappen ikke finnes
+          if [ ! -d data/generated ]; then
+            echo "No generated data directory – nothing to commit"
+            exit 0
+          fi
+
+          # Legg til JSON-filer hvis de finnes
+          git add data/generated/*.json || true
 
           if git diff --cached --quiet; then
             echo "No data changes"
