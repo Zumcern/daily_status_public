@@ -3700,15 +3700,15 @@
     },
     {
       "person": "Håkon",
-      "aktivitet": "A"
+      "aktivitet": "9 SF MØ 2"
     },
     {
       "person": "Odd Rune",
-      "aktivitet": "A"
+      "aktivitet": "9 SF BO 1"
     },
     {
       "person": "Magnus",
-      "aktivitet": "Prosjekt"
+      "aktivitet": "Ferie"
     },
     {
       "person": "Jon Håvard",
@@ -3716,7 +3716,7 @@
     },
     {
       "person": "Patrick",
-      "aktivitet": "A"
+      "aktivitet": "SF MØ 2 bisitter"
     },
     {
       "person": "Marjolein",
@@ -3732,7 +3732,7 @@
     },
     {
       "person": "Connor",
-      "aktivitet": "A"
+      "aktivitet": "SF BO 1"
     },
     {
       "person": "Ole",
@@ -3740,15 +3740,15 @@
     },
     {
       "person": "Beate",
-      "aktivitet": "A"
+      "aktivitet": "SF MØ 2"
     },
     {
       "person": "Kosti",
-      "aktivitet": "A"
+      "aktivitet": "SF BO 1"
     },
     {
       "person": "Gudmund",
-      "aktivitet": "A"
+      "aktivitet": "SF MØ 2"
     }
   ],
   "2026-03-31": [
@@ -3762,15 +3762,15 @@
     },
     {
       "person": "Håkon",
-      "aktivitet": "A"
+      "aktivitet": "9 SF MØ 2"
     },
     {
       "person": "Odd Rune",
-      "aktivitet": "A"
+      "aktivitet": "9 SF BO 1"
     },
     {
       "person": "Magnus",
-      "aktivitet": "Prosjekt"
+      "aktivitet": "Ferie"
     },
     {
       "person": "Jon Håvard",
@@ -3778,11 +3778,7 @@
     },
     {
       "person": "Patrick",
-      "aktivitet": "A"
-    },
-    {
-      "person": "Marjolein",
-      "aktivitet": "A"
+      "aktivitet": "SF MØ 2"
     },
     {
       "person": "Bjørnar",
@@ -3794,7 +3790,7 @@
     },
     {
       "person": "Connor",
-      "aktivitet": "A"
+      "aktivitet": "SF BO 1"
     },
     {
       "person": "Ole",
@@ -3802,11 +3798,11 @@
     },
     {
       "person": "Beate",
-      "aktivitet": "A"
+      "aktivitet": "SF MØ 2"
     },
     {
       "person": "Kosti",
-      "aktivitet": "A"
+      "aktivitet": "SF BO 1"
     },
     {
       "person": "Gudmund",
@@ -3816,7 +3812,7 @@
   "2026-04-01": [
     {
       "person": "Trine",
-      "aktivitet": "A"
+      "aktivitet": "Ferie"
     },
     {
       "person": "Stein",
@@ -3832,7 +3828,7 @@
     },
     {
       "person": "Magnus",
-      "aktivitet": "Prosjekt"
+      "aktivitet": "Ferie"
     },
     {
       "person": "Jon Håvard",
@@ -6749,6 +6745,10 @@
     {
       "person": "Trine",
       "aktivitet": "A"
+    },
+    {
+      "person": "Rune",
+      "aktivitet": "Ferie"
     }
   ],
   "2026-06-23": [
