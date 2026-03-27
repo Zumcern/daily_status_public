@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""
+r"""
 Portable parser for 'Arbeidsplan simulatoroperatører 2026.xlsx' (blokk-basert)
 
 Viktige endringer:
@@ -13,9 +13,15 @@ Viktige endringer:
 - Filtrerer bort «aktivitet == person» og celler som er datoer.
 - Dedupliserer (dato, person).
 
+
+For å kjøre parser lokalt:
+#python parser.py --excel "C:\Users\vamsu\OneDrive - Avinor\Documents\Daily_status\Arbeidsplan simulatoroperatører 2026.xlsx"
+
+
 Portable:
 - Ingen admin nødvendig. Legg tredjepart i ./vendor (pandas, numpy, openpyxl).
 - Parseren legger KUN vendor-roten på sys.path for å unngå stdlib-skygge.
+
 
 Utdata:
   - arbeidsplan_YYYY_flat.json
@@ -37,6 +43,14 @@ if VENDOR.exists():
 import argparse
 import json
 import re
+
+import os
+
+DEFAULT_EXCEL = os.environ.get(
+    "EXCEL_PATH",
+    "input/Arbeidsplan simulatoroperatører 2026.xlsx"
+)
+
 from collections import defaultdict
 from datetime import datetime
 from typing import Dict, List, Optional, Tuple
@@ -58,24 +72,50 @@ OFFSET_CANDIDATES = [1, 2, 3, 4, 5, 0, -1]
 
 
 # ---------------- CLI ---------------------------------------------------------
-def parse_args() -> argparse.Namespace:
-    ap = argparse.ArgumentParser(description="Parse arbeidsplan-Excel til JSON (blokk-basert).")
-    # Bruk denne for lokal testing med Excel i samme katalog som parser.py
-    """ap.add_argument("--excel", "-e", default="Arbeidsplan simulatoroperatører 2026.xlsx",
-                    help="Filnavn på Excel (standard: %(default)s)")"""
-    # bruk denne for å hente excel fil fra OneDrive, da den kan være i en mappe som ikke er i samme katalog som parser.py
-    ap.add_argument("--excel", "-e",
-        default=r"C:\Users\vamsu\OneDrive - Avinor\Documents\Daily_status\Arbeidsplan simulatoroperatører 2026.xlsx",
-        help="Filnavn på Excel (standard: %(default)s)")
 
-    ap.add_argument("--year", "-y", type=int, default=2026,
-                    help="Filtrer til dette året (standard: %(default)s)")
-    ap.add_argument("--exclude", default="",
-                    help="Kommaseparert liste over aktiviteter som skal filtreres bort (f.eks. 'A,Ferie,Fri')")
-    ap.add_argument("--names", default=",".join(NAMES_DEFAULT),
-                    help="Kommaseparert liste over navn (standard er preutfylt).")
-    ap.add_argument("--debug", action="store_true", help="Skriv ekstra info per ark/blokk/offset.")
+def parse_args() -> argparse.Namespace:
+    ap = argparse.ArgumentParser(
+        description="Parse arbeidsplan-Excel til JSON (blokk-basert)."
+    )
+
+    DEFAULT_EXCEL = os.environ.get(
+        "EXCEL_PATH",
+        "input/Arbeidsplan simulatoroperatører 2026.xlsx"
+    )
+
+    ap.add_argument(
+        "--excel", "-e",
+        default=DEFAULT_EXCEL,
+        help="Sti til Excel-fil (standard: %(default)s)"
+    )
+
+    ap.add_argument(
+        "--year", "-y",
+        type=int,
+        default=2026,
+        help="Filtrer til dette året (standard: %(default)s)"
+    )
+
+    ap.add_argument(
+        "--exclude",
+        default="",
+        help="Kommaseparert liste over aktiviteter som skal filtreres bort"
+    )
+
+    ap.add_argument(
+        "--names",
+        default=",".join(NAMES_DEFAULT),
+        help="Kommaseparert liste over navn"
+    )
+
+    ap.add_argument(
+        "--debug",
+        action="store_true",
+        help="Skriv ekstra info per ark/blokk/offset."
+    )
+
     return ap.parse_args()
+
 
 
 # ---------------- Hjelpere ----------------------------------------------------
