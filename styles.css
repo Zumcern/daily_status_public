@@ -297,3 +297,63 @@ button.is-loading::after {
   text-decoration: underline;
   opacity: 0.85;
 }
+/* --------------------------------------------------
+   Enhetsmapper (Mappe-kolonnen)
+   Samme visuelle stil som driftsmeldinger
+-------------------------------------------------- */
+
+/* Selve lenken */
+#statusTabell td a.unit-folder-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+
+  color: #ffffff;                 /* hvit tekst */
+  text-decoration: none;
+  font-weight: 500;
+
+  padding: 4px 8px;
+  border-radius: 6px;
+
+  background-color: #0f2136;      /* samme mørke bakgrunn */
+  border: 1px solid #304564;
+
+  transition:
+    background-color 0.15s ease,
+    box-shadow 0.15s ease,
+    transform 0.08s ease,
+    opacity 0.15s ease;
+}
+
+/* Ikon (📁 + ↗) */
+#statusTabell td a.unit-folder-link .icon {
+  font-size: 14px;
+  line-height: 1;
+}
+
+/* Hover – samme “løft” som knapper/drift */
+#statusTabell td a.unit-folder-link:hover {
+  background-color: #122a49;
+  box-shadow:
+    0 6px 16px rgba(0,0,0,0.25),
+    0 0 0 2px rgba(106,172,204,0.25); /* accent-glød */
+  transform: translateY(-1px);
+  opacity: 0.95;
+}
+
+/* Active (klikk) */
+#statusTabell td a.unit-folder-link:active {
+  transform: translateY(0) scale(0.98);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+
+/* Tastaturfokus (tilgjengelighet) */
+#statusTabell td a.unit-folder-link:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(106,172,204,0.45);
+}
+
+/* Valgfritt: gjør pilen litt “lettere” */
+#statusTabell td a.unit-folder-link .arrow {
+  opacity: 0.8;
+}
