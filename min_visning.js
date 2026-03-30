@@ -126,7 +126,7 @@
       const btn = document.createElement("button");
       btn.id = "minVisningBtn";
       btn.className = "minvis-btn";
-      btn.textContent = "Min visning";
+      btn.textContent = "👤 Min visning";
       btn.title = "Vis min status";
       controls.appendChild(btn);
       btn.addEventListener("click", open);
