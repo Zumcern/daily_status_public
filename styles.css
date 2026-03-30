@@ -585,3 +585,41 @@ button.resources-toggle.primary:hover {
     0 6px 18px rgba(0,0,0,0.35),
     0 0 0 3px rgba(106,172,204,0.45);
 }
+/* -----------------------------------------
+   Min visning – fremhevet primærknapp
+----------------------------------------- */
+#minVisningBtn {
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: #ffffff;
+  border: 1px solid #1e3a8a;
+  font-weight: 700;
+
+  box-shadow:
+    0 4px 14px rgba(37, 99, 235, 0.35),
+    0 0 0 2px rgba(37, 99, 235, 0.25);
+
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Hover */
+#minVisningBtn:hover {
+  background: linear-gradient(135deg, #3b82f6, #1e40af);
+  box-shadow:
+    0 6px 18px rgba(37, 99, 235, 0.45),
+    0 0 0 3px rgba(37, 99, 235, 0.35);
+}
+
+/* Active */
+#minVisningBtn:active {
+  transform: translateY(0) scale(0.98);
+}
+
+/* Fokus (tastatur / tilgjengelighet) */
+#minVisningBtn:focus-visible {
+  outline: none;
+  box-shadow:
+    0 0 0 3px rgba(59, 130, 246, 0.6),
+    0 6px 18px rgba(37, 99, 235, 0.45);
+}
