@@ -649,6 +649,37 @@ async function init(){
   initSnapshotForCurrentDate();
   renderChangeLog();
 }
+// ------------------------------------------------------------
+// Eksporter "enheter i bruk" for valgt dato (for resources drawer)
+// ------------------------------------------------------------
+function getUnitsInUseForDate(iso) {
+  const dayList = planData?.[iso] || [];
+  const set = new Set();
+
+  for (const row of dayList) {
+    const aktivitet = row?.aktivitet ?? "";
+    const meta = parseActivity(aktivitet);
+    if (meta?.unit2) set.add(meta.unit2);
+  }
+
+  return Array.from(set).sort((a, b) => a.localeCompare(b, "no"));
+}
+
+// Minimal offentlig API (brukes av resources.js)
+window.StatusApp = window.StatusApp || {};
+window.StatusApp.getUnitsInUseForDate = getUnitsInUseForDate;
+window.StatusApp.getCurrentDateISO = () => currentDateISO;
+
+// Send event etter hver render slik at resources kan oppdatere seg
+const _renderOriginal = render;
+render = function (...args) {
+  _renderOriginal.apply(this, args);
+  try {
+    document.dispatchEvent(
+      new CustomEvent("status:rendered", { detail: { date: currentDateISO } })
+    );
+  } catch {}
+};
 document.addEventListener("DOMContentLoaded", init);
 
 // Hard reload rett etter midnatt (lokal tid) for å sikre ny dato blir valgt

@@ -2,6 +2,7 @@
 Dagens status – Simulatoroperatører
 Dette repoet inneholder en helautomatisk løsning for å vise daglig status for simulatoroperatører. Løsningen henter arbeidsplan fra SharePoint, prosesserer den til JSON via GitHub Actions, og presenterer dataene i en statisk web‑app (GitHub Pages) med både soft refresh og hard refresh‑strategi.
 
+Localhost: python -m http.server 8000
 
 🎯 Mål
 
