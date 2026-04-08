@@ -390,8 +390,10 @@
       : `<div class="minvis-item">Ingen andre på samme enhet.</div>`;
 
     const folderLink = folderUrl
-      ? `${folderUrl}-mappen">📁 Mappe ↗</a>`
+      ? `<a class="minvis-a" href="${folderUrl}" target="_blank" rel="noopener"
+          title="Åpne ${escapeHtml(icao || unitShort)}-mappen">📁 Mappe ↗</a>`
       : `<span class="minvis-chip"><strong>Mappe</strong> –</span>`;
+
 
     content.innerHTML = `
       <div class="minvis-section">
