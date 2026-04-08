@@ -9853,6 +9853,12 @@
   },
   {
     "dato": "2026-07-01",
+    "person": "Magnus",
+    "aktivitet": "test",
+    "ark": "Uke 25-30"
+  },
+  {
+    "dato": "2026-07-01",
     "person": "Connor",
     "aktivitet": "ELPAC-kurs",
     "ark": "Uke 25-30"
