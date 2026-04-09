@@ -6,15 +6,20 @@ permissions:
 on:
   workflow_dispatch:
 
+  
   schedule:
-    # 07:30–07:55 norsk tid → 06:30–06:55 UTC
-    - cron: "30-59/5 6 * * *"
+  # 07:30–07:55 norsk sommertid → 05:30–05:55 UTC
+  - cron: "30-59/5 5 * * *"
 
-    # 08:00–08:15 norsk tid → 07:00–07:15 UTC
-    - cron: "0-15/5 7 * * *"
+  # Ekstra robust rundt 07:50 norsk sommertid → 05:45–05:55 UTC
+  - cron: "45-55/5 5 * * *"
 
-    # Én gang i timen 09–17 norsk tid → 08–16 UTC
-    - cron: "0 8-16 * * *"
+  # 08:00–08:15 norsk sommertid → 06:00–06:15 UTC
+  - cron: "0-15/5 6 * * *"
+
+  # Én gang i timen 09–17 norsk sommertid → 07–15 UTC
+  - cron: "0 7-15 * * *"
+
 
 jobs:
   test:
