@@ -8042,7 +8042,7 @@
   {
     "dato": "2026-05-18",
     "person": "Bjørnar",
-    "aktivitet": "A",
+    "aktivitet": "A/tekn",
     "ark": "Uke 19-24"
   },
   {
@@ -8054,7 +8054,7 @@
   {
     "dato": "2026-05-18",
     "person": "Connor",
-    "aktivitet": "SF TC 1",
+    "aktivitet": "A/tekn",
     "ark": "Uke 19-24"
   },
   {
@@ -8072,6 +8072,12 @@
   {
     "dato": "2026-05-18",
     "person": "Kosti",
+    "aktivitet": "SF TC 1",
+    "ark": "Uke 19-24"
+  },
+  {
+    "dato": "2026-05-18",
+    "person": "Gudmund",
     "aktivitet": "SF TC 1",
     "ark": "Uke 19-24"
   },
@@ -8102,7 +8108,7 @@
   {
     "dato": "2026-05-19",
     "person": "Magnus",
-    "aktivitet": "SE KB 1",
+    "aktivitet": "SF VA 1",
     "ark": "Uke 19-24"
   },
   {
@@ -8157,12 +8163,6 @@
     "dato": "2026-05-19",
     "person": "Kosti",
     "aktivitet": "SF TC 1",
-    "ark": "Uke 19-24"
-  },
-  {
-    "dato": "2026-05-19",
-    "person": "Gudmund",
-    "aktivitet": "SF VA 1",
     "ark": "Uke 19-24"
   },
   {
