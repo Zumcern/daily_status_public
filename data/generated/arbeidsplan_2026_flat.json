@@ -6176,7 +6176,7 @@
   {
     "dato": "2026-04-15",
     "person": "Jon Håvard",
-    "aktivitet": "SF KUT SUR",
+    "aktivitet": "SF KUT SUR HF",
     "ark": "Uke 13-18"
   },
   {
@@ -6266,7 +6266,7 @@
   {
     "dato": "2026-04-16",
     "person": "Jon Håvard",
-    "aktivitet": "SF KUT SUR",
+    "aktivitet": "SF KUT SUR HF",
     "ark": "Uke 13-18"
   },
   {
@@ -6338,7 +6338,7 @@
   {
     "dato": "2026-04-17",
     "person": "Håkon",
-    "aktivitet": "SF KUT SUR",
+    "aktivitet": "SF KUT SUR RTC",
     "ark": "Uke 13-18"
   },
   {
@@ -6356,7 +6356,7 @@
   {
     "dato": "2026-04-17",
     "person": "Jon Håvard",
-    "aktivitet": "SF KUT SUR",
+    "aktivitet": "SF KUT SUR HF",
     "ark": "Uke 13-18"
   },
   {
@@ -6476,7 +6476,7 @@
   {
     "dato": "2026-04-20",
     "person": "Ole",
-    "aktivitet": "9 SF KUT SUR",
+    "aktivitet": "SF KUT SUR RTC",
     "ark": "Uke 13-18"
   },
   {
@@ -6488,7 +6488,7 @@
   {
     "dato": "2026-04-20",
     "person": "Kosti",
-    "aktivitet": "SF KUT SUR",
+    "aktivitet": "SF KUT SUR HF",
     "ark": "Uke 13-18"
   },
   {
@@ -6548,7 +6548,7 @@
   {
     "dato": "2026-04-21",
     "person": "Bjørnar",
-    "aktivitet": "SF KUT SUR",
+    "aktivitet": "SF KUT SUR HF",
     "ark": "Uke 13-18"
   },
   {
@@ -6566,7 +6566,7 @@
   {
     "dato": "2026-04-21",
     "person": "Ole",
-    "aktivitet": "9 SF KUT SUR",
+    "aktivitet": "SF KUT SUR RTC",
     "ark": "Uke 13-18"
   },
   {
@@ -6644,7 +6644,7 @@
   {
     "dato": "2026-04-22",
     "person": "Connor",
-    "aktivitet": "SF RTC 1",
+    "aktivitet": "SF KUT SUR RTC",
     "ark": "Uke 13-18"
   },
   {
@@ -6656,7 +6656,7 @@
   {
     "dato": "2026-04-22",
     "person": "Beate",
-    "aktivitet": "SF KUT SUR",
+    "aktivitet": "SF KUT SUR HF",
     "ark": "Uke 13-18"
   },
   {
@@ -6734,7 +6734,7 @@
   {
     "dato": "2026-04-23",
     "person": "Connor",
-    "aktivitet": "SF RTC 1",
+    "aktivitet": "SF KUT SUR HF",
     "ark": "Uke 13-18"
   },
   {
@@ -6824,7 +6824,7 @@
   {
     "dato": "2026-04-24",
     "person": "Connor",
-    "aktivitet": "SF RTC 1",
+    "aktivitet": "SF KUT SUR HF",
     "ark": "Uke 13-18"
   },
   {
@@ -7304,7 +7304,7 @@
   {
     "dato": "2026-05-05",
     "person": "Odd Rune",
-    "aktivitet": "9 SE OL 1",
+    "aktivitet": "SF RTC 1",
     "ark": "Uke 19-24"
   },
   {
@@ -7340,7 +7340,7 @@
   {
     "dato": "2026-05-05",
     "person": "Rune",
-    "aktivitet": "SF RTC 1",
+    "aktivitet": "9 SE OL 1",
     "ark": "Uke 19-24"
   },
   {
@@ -8186,13 +8186,13 @@
   {
     "dato": "2026-05-20",
     "person": "Odd Rune",
-    "aktivitet": "9 SE VA 1",
+    "aktivitet": "SF KB 1",
     "ark": "Uke 19-24"
   },
   {
     "dato": "2026-05-20",
     "person": "Magnus",
-    "aktivitet": "SF KB 1",
+    "aktivitet": "9 SE VA 1",
     "ark": "Uke 19-24"
   },
   {

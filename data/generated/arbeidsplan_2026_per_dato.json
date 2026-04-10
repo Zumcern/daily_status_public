@@ -4258,7 +4258,7 @@
     },
     {
       "person": "Jon Håvard",
-      "aktivitet": "SF KUT SUR"
+      "aktivitet": "SF KUT SUR HF"
     },
     {
       "person": "Patrick",
@@ -4320,7 +4320,7 @@
     },
     {
       "person": "Jon Håvard",
-      "aktivitet": "SF KUT SUR"
+      "aktivitet": "SF KUT SUR HF"
     },
     {
       "person": "Patrick",
@@ -4370,7 +4370,7 @@
     },
     {
       "person": "Håkon",
-      "aktivitet": "SF KUT SUR"
+      "aktivitet": "SF KUT SUR RTC"
     },
     {
       "person": "Odd Rune",
@@ -4382,7 +4382,7 @@
     },
     {
       "person": "Jon Håvard",
-      "aktivitet": "SF KUT SUR"
+      "aktivitet": "SF KUT SUR HF"
     },
     {
       "person": "Patrick",
@@ -4464,7 +4464,7 @@
     },
     {
       "person": "Ole",
-      "aktivitet": "9 SF KUT SUR"
+      "aktivitet": "SF KUT SUR RTC"
     },
     {
       "person": "Beate",
@@ -4472,7 +4472,7 @@
     },
     {
       "person": "Kosti",
-      "aktivitet": "SF KUT SUR"
+      "aktivitet": "SF KUT SUR HF"
     },
     {
       "person": "Gudmund",
@@ -4514,7 +4514,7 @@
     },
     {
       "person": "Bjørnar",
-      "aktivitet": "SF KUT SUR"
+      "aktivitet": "SF KUT SUR HF"
     },
     {
       "person": "Rune",
@@ -4526,7 +4526,7 @@
     },
     {
       "person": "Ole",
-      "aktivitet": "9 SF KUT SUR"
+      "aktivitet": "SF KUT SUR RTC"
     },
     {
       "person": "Beate",
@@ -4580,7 +4580,7 @@
     },
     {
       "person": "Connor",
-      "aktivitet": "SF RTC 1"
+      "aktivitet": "SF KUT SUR RTC"
     },
     {
       "person": "Ole",
@@ -4588,7 +4588,7 @@
     },
     {
       "person": "Beate",
-      "aktivitet": "SF KUT SUR"
+      "aktivitet": "SF KUT SUR HF"
     },
     {
       "person": "Kosti",
@@ -4642,7 +4642,7 @@
     },
     {
       "person": "Connor",
-      "aktivitet": "SF RTC 1"
+      "aktivitet": "SF KUT SUR HF"
     },
     {
       "person": "Ole",
@@ -4704,7 +4704,7 @@
     },
     {
       "person": "Connor",
-      "aktivitet": "SF RTC 1"
+      "aktivitet": "SF KUT SUR HF"
     },
     {
       "person": "Ole",
@@ -5036,7 +5036,7 @@
     },
     {
       "person": "Odd Rune",
-      "aktivitet": "9 SE OL 1"
+      "aktivitet": "SF RTC 1"
     },
     {
       "person": "Magnus",
@@ -5060,7 +5060,7 @@
     },
     {
       "person": "Rune",
-      "aktivitet": "SF RTC 1"
+      "aktivitet": "9 SE OL 1"
     },
     {
       "person": "Connor",
@@ -5644,11 +5644,11 @@
     },
     {
       "person": "Odd Rune",
-      "aktivitet": "9 SE VA 1"
+      "aktivitet": "SF KB 1"
     },
     {
       "person": "Magnus",
-      "aktivitet": "SF KB 1"
+      "aktivitet": "9 SE VA 1"
     },
     {
       "person": "Jon Håvard",
