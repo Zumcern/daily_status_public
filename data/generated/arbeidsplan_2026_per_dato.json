@@ -6823,6 +6823,14 @@
     {
       "person": "Trine",
       "aktivitet": "A"
+    },
+    {
+      "person": "Håkon",
+      "aktivitet": "ELPAC"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "ELPAC"
     }
   ],
   "2026-06-24": [
@@ -6835,6 +6843,14 @@
     {
       "person": "Trine",
       "aktivitet": "A"
+    },
+    {
+      "person": "Håkon",
+      "aktivitet": "ELPAC"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "ELPAC"
     }
   ],
   "2026-06-26": [
@@ -7775,6 +7791,10 @@
   ],
   "2026-08-07": [
     {
+      "person": "Trine",
+      "aktivitet": "ELPAC"
+    },
+    {
       "person": "Håkon",
       "aktivitet": "Ferie"
     },
@@ -7787,8 +7807,16 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Marjolein",
+      "aktivitet": "ELPAC"
+    },
+    {
       "person": "Rune",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "ELPAC"
     },
     {
       "person": "Ole",
@@ -7851,6 +7879,10 @@
   ],
   "2026-08-13": [
     {
+      "person": "Håkon",
+      "aktivitet": "ELPAC"
+    },
+    {
       "person": "Magnus",
       "aktivitet": "Prosjekt"
     },
@@ -7861,6 +7893,14 @@
     {
       "person": "Patrick",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "ELPAC"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "ELPAC"
     },
     {
       "person": "Ole",
