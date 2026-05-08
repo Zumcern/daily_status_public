@@ -8702,7 +8702,7 @@
   {
     "dato": "2026-05-29",
     "person": "Stein",
-    "aktivitet": "A",
+    "aktivitet": "Møte",
     "ark": "Uke 19-24"
   },
   {
@@ -9716,13 +9716,19 @@
   {
     "dato": "2026-06-16",
     "person": "Håkon",
-    "aktivitet": "SF BR 2",
+    "aktivitet": "ELPAC",
     "ark": "Uke 25-30"
   },
   {
     "dato": "2026-06-16",
     "person": "Odd Rune",
     "aktivitet": "SF BR 2",
+    "ark": "Uke 25-30"
+  },
+  {
+    "dato": "2026-06-16",
+    "person": "Magnus",
+    "aktivitet": "ELPAC",
     "ark": "Uke 25-30"
   },
   {
@@ -9741,6 +9747,12 @@
     "dato": "2026-06-16",
     "person": "Marjolein",
     "aktivitet": "Oppl. eCoach",
+    "ark": "Uke 25-30"
+  },
+  {
+    "dato": "2026-06-16",
+    "person": "Bjørnar",
+    "aktivitet": "SF BR 2",
     "ark": "Uke 25-30"
   },
   {
@@ -11475,18 +11487,6 @@
     "dato": "2026-08-18",
     "person": "Magnus",
     "aktivitet": "Prosjekt",
-    "ark": "Uke 31-36"
-  },
-  {
-    "dato": "2026-08-18",
-    "person": "Jon Håvard",
-    "aktivitet": "test",
-    "ark": "Uke 31-36"
-  },
-  {
-    "dato": "2026-08-18",
-    "person": "Patrick",
-    "aktivitet": "test",
     "ark": "Uke 31-36"
   },
   {

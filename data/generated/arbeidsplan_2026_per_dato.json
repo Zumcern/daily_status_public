@@ -6000,7 +6000,7 @@
     },
     {
       "person": "Stein",
-      "aktivitet": "A"
+      "aktivitet": "Møte"
     },
     {
       "person": "Håkon",
@@ -6700,11 +6700,15 @@
     },
     {
       "person": "Håkon",
-      "aktivitet": "SF BR 2"
+      "aktivitet": "ELPAC"
     },
     {
       "person": "Odd Rune",
       "aktivitet": "SF BR 2"
+    },
+    {
+      "person": "Magnus",
+      "aktivitet": "ELPAC"
     },
     {
       "person": "Jon Håvard",
@@ -6717,6 +6721,10 @@
     {
       "person": "Marjolein",
       "aktivitet": "Oppl. eCoach"
+    },
+    {
+      "person": "Bjørnar",
+      "aktivitet": "SF BR 2"
     },
     {
       "person": "Rune",
@@ -7963,14 +7971,6 @@
     {
       "person": "Magnus",
       "aktivitet": "Prosjekt"
-    },
-    {
-      "person": "Jon Håvard",
-      "aktivitet": "test"
-    },
-    {
-      "person": "Patrick",
-      "aktivitet": "test"
     },
     {
       "person": "Marjolein",
