@@ -9878,7 +9878,13 @@
   {
     "dato": "2026-06-22",
     "person": "Trine",
-    "aktivitet": "A",
+    "aktivitet": "BM ELPAC",
+    "ark": "Uke 25-30"
+  },
+  {
+    "dato": "2026-06-22",
+    "person": "Magnus",
+    "aktivitet": "Prosjekt",
     "ark": "Uke 25-30"
   },
   {
@@ -9890,13 +9896,19 @@
   {
     "dato": "2026-06-23",
     "person": "Trine",
-    "aktivitet": "A",
+    "aktivitet": "BM ELPAC",
     "ark": "Uke 25-30"
   },
   {
     "dato": "2026-06-23",
     "person": "Håkon",
     "aktivitet": "ELPAC",
+    "ark": "Uke 25-30"
+  },
+  {
+    "dato": "2026-06-23",
+    "person": "Magnus",
+    "aktivitet": "Prosjekt",
     "ark": "Uke 25-30"
   },
   {
@@ -9908,7 +9920,13 @@
   {
     "dato": "2026-06-24",
     "person": "Trine",
-    "aktivitet": "A",
+    "aktivitet": "BM ELPAC",
+    "ark": "Uke 25-30"
+  },
+  {
+    "dato": "2026-06-24",
+    "person": "Magnus",
+    "aktivitet": "Prosjekt",
     "ark": "Uke 25-30"
   },
   {
@@ -9925,6 +9943,12 @@
   },
   {
     "dato": "2026-06-25",
+    "person": "Magnus",
+    "aktivitet": "Prosjekt",
+    "ark": "Uke 25-30"
+  },
+  {
+    "dato": "2026-06-25",
     "person": "Marjolein",
     "aktivitet": "ELPAC",
     "ark": "Uke 25-30"
@@ -9932,7 +9956,31 @@
   {
     "dato": "2026-06-26",
     "person": "Trine",
-    "aktivitet": "A",
+    "aktivitet": "Møte F&P",
+    "ark": "Uke 25-30"
+  },
+  {
+    "dato": "2026-06-26",
+    "person": "Stein",
+    "aktivitet": "Møte F&P",
+    "ark": "Uke 25-30"
+  },
+  {
+    "dato": "2026-06-26",
+    "person": "Håkon",
+    "aktivitet": "ELPAC",
+    "ark": "Uke 25-30"
+  },
+  {
+    "dato": "2026-06-26",
+    "person": "Magnus",
+    "aktivitet": "Møte F&P",
+    "ark": "Uke 25-30"
+  },
+  {
+    "dato": "2026-06-26",
+    "person": "Marjolein",
+    "aktivitet": "ELPAC",
     "ark": "Uke 25-30"
   },
   {
@@ -11557,6 +11605,12 @@
   },
   {
     "dato": "2026-08-21",
+    "person": "Håkon",
+    "aktivitet": "ELPAC",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-21",
     "person": "Magnus",
     "aktivitet": "Prosjekt",
     "ark": "Uke 31-36"
@@ -11683,8 +11737,74 @@
   },
   {
     "dato": "2026-08-31",
+    "person": "Trine",
+    "aktivitet": "Fagdag",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-31",
+    "person": "Stein",
+    "aktivitet": "Fagdag",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-31",
+    "person": "Håkon",
+    "aktivitet": "Fagdag",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-31",
+    "person": "Odd Rune",
+    "aktivitet": "Fagdag",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-31",
     "person": "Magnus",
     "aktivitet": "Prosjekt",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-31",
+    "person": "Jon Håvard",
+    "aktivitet": "Fagdag",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-31",
+    "person": "Patrick",
+    "aktivitet": "Fagdag",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-31",
+    "person": "Marjolein",
+    "aktivitet": "Fagdag",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-31",
+    "person": "Bjørnar",
+    "aktivitet": "Fagdag",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-31",
+    "person": "Rune",
+    "aktivitet": "Fagdag",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-31",
+    "person": "Connor",
+    "aktivitet": "Fagdag",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-31",
+    "person": "Ole",
+    "aktivitet": "Fagdag",
     "ark": "Uke 31-36"
   },
   {

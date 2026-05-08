@@ -6816,7 +6816,11 @@
   "2026-06-22": [
     {
       "person": "Trine",
-      "aktivitet": "A"
+      "aktivitet": "BM ELPAC"
+    },
+    {
+      "person": "Magnus",
+      "aktivitet": "Prosjekt"
     },
     {
       "person": "Rune",
@@ -6826,11 +6830,15 @@
   "2026-06-23": [
     {
       "person": "Trine",
-      "aktivitet": "A"
+      "aktivitet": "BM ELPAC"
     },
     {
       "person": "Håkon",
       "aktivitet": "ELPAC"
+    },
+    {
+      "person": "Magnus",
+      "aktivitet": "Prosjekt"
     },
     {
       "person": "Marjolein",
@@ -6840,7 +6848,11 @@
   "2026-06-24": [
     {
       "person": "Trine",
-      "aktivitet": "A"
+      "aktivitet": "BM ELPAC"
+    },
+    {
+      "person": "Magnus",
+      "aktivitet": "Prosjekt"
     }
   ],
   "2026-06-25": [
@@ -6853,6 +6865,10 @@
       "aktivitet": "ELPAC"
     },
     {
+      "person": "Magnus",
+      "aktivitet": "Prosjekt"
+    },
+    {
       "person": "Marjolein",
       "aktivitet": "ELPAC"
     }
@@ -6860,7 +6876,23 @@
   "2026-06-26": [
     {
       "person": "Trine",
-      "aktivitet": "A"
+      "aktivitet": "Møte F&P"
+    },
+    {
+      "person": "Stein",
+      "aktivitet": "Møte F&P"
+    },
+    {
+      "person": "Håkon",
+      "aktivitet": "ELPAC"
+    },
+    {
+      "person": "Magnus",
+      "aktivitet": "Møte F&P"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "ELPAC"
     }
   ],
   "2026-06-29": [
@@ -8023,6 +8055,10 @@
   ],
   "2026-08-21": [
     {
+      "person": "Håkon",
+      "aktivitet": "ELPAC"
+    },
+    {
       "person": "Magnus",
       "aktivitet": "Prosjekt"
     },
@@ -8119,8 +8155,52 @@
   ],
   "2026-08-31": [
     {
+      "person": "Trine",
+      "aktivitet": "Fagdag"
+    },
+    {
+      "person": "Stein",
+      "aktivitet": "Fagdag"
+    },
+    {
+      "person": "Håkon",
+      "aktivitet": "Fagdag"
+    },
+    {
+      "person": "Odd Rune",
+      "aktivitet": "Fagdag"
+    },
+    {
       "person": "Magnus",
       "aktivitet": "Prosjekt"
+    },
+    {
+      "person": "Jon Håvard",
+      "aktivitet": "Fagdag"
+    },
+    {
+      "person": "Patrick",
+      "aktivitet": "Fagdag"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "Fagdag"
+    },
+    {
+      "person": "Bjørnar",
+      "aktivitet": "Fagdag"
+    },
+    {
+      "person": "Rune",
+      "aktivitet": "Fagdag"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "Fagdag"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "Fagdag"
     }
   ],
   "2026-09-01": [
