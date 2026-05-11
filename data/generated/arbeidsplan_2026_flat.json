@@ -7670,7 +7670,7 @@
   {
     "dato": "2026-05-11",
     "person": "Patrick",
-    "aktivitet": "SE VA 2",
+    "aktivitet": "SE VA 2/SUR SB",
     "ark": "Uke 19-24"
   },
   {
@@ -10004,13 +10004,31 @@
   {
     "dato": "2026-06-30",
     "person": "Trine",
-    "aktivitet": "A",
+    "aktivitet": "Møte m/Komp",
+    "ark": "Uke 25-30"
+  },
+  {
+    "dato": "2026-06-30",
+    "person": "Stein",
+    "aktivitet": "Møte m/Komp",
     "ark": "Uke 25-30"
   },
   {
     "dato": "2026-06-30",
     "person": "Odd Rune",
     "aktivitet": "Ferie",
+    "ark": "Uke 25-30"
+  },
+  {
+    "dato": "2026-06-30",
+    "person": "Magnus",
+    "aktivitet": "Møte m/Komp",
+    "ark": "Uke 25-30"
+  },
+  {
+    "dato": "2026-06-30",
+    "person": "Jon Håvard",
+    "aktivitet": "Møte m/Komp",
     "ark": "Uke 25-30"
   },
   {
