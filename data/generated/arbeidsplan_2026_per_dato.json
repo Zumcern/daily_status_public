@@ -6310,7 +6310,7 @@
     },
     {
       "person": "Magnus",
-      "aktivitet": "Prosjekt"
+      "aktivitet": "Prosjekt/Oslo"
     },
     {
       "person": "Jon Håvard",
@@ -6820,7 +6820,7 @@
     },
     {
       "person": "Magnus",
-      "aktivitet": "Prosjekt"
+      "aktivitet": "Prosjekt/Oslo"
     },
     {
       "person": "Rune",
@@ -6838,7 +6838,7 @@
     },
     {
       "person": "Magnus",
-      "aktivitet": "Prosjekt"
+      "aktivitet": "Prosjekt/Oslo"
     },
     {
       "person": "Marjolein",
@@ -6852,7 +6852,7 @@
     },
     {
       "person": "Magnus",
-      "aktivitet": "Prosjekt"
+      "aktivitet": "Prosjekt/Oslo"
     }
   ],
   "2026-06-25": [
@@ -6866,7 +6866,7 @@
     },
     {
       "person": "Magnus",
-      "aktivitet": "Prosjekt"
+      "aktivitet": "Prosjekt/Oslo"
     },
     {
       "person": "Marjolein",
@@ -6903,6 +6903,10 @@
     {
       "person": "Odd Rune",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Magnus",
+      "aktivitet": "Prosjekt"
     },
     {
       "person": "Connor",
@@ -6945,6 +6949,10 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Magnus",
+      "aktivitet": "Prosjekt"
+    },
+    {
       "person": "Connor",
       "aktivitet": "ELPAC-kurs"
     }
@@ -6959,6 +6967,10 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Magnus",
+      "aktivitet": "Prosjekt"
+    },
+    {
       "person": "Connor",
       "aktivitet": "ELPAC-kurs"
     }
@@ -6971,6 +6983,10 @@
     {
       "person": "Odd Rune",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Magnus",
+      "aktivitet": "Prosjekt"
     },
     {
       "person": "Connor",
@@ -6989,6 +7005,10 @@
     {
       "person": "Odd Rune",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Magnus",
+      "aktivitet": "Prosjekt"
     },
     {
       "person": "Bjørnar",
@@ -7017,6 +7037,10 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Magnus",
+      "aktivitet": "Prosjekt"
+    },
+    {
       "person": "Bjørnar",
       "aktivitet": "Ferie"
     },
@@ -7041,6 +7065,10 @@
     {
       "person": "Odd Rune",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Magnus",
+      "aktivitet": "Prosjekt"
     },
     {
       "person": "Bjørnar",
@@ -7069,6 +7097,10 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Magnus",
+      "aktivitet": "Prosjekt"
+    },
+    {
       "person": "Bjørnar",
       "aktivitet": "Ferie"
     },
@@ -7093,6 +7125,10 @@
     {
       "person": "Odd Rune",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Magnus",
+      "aktivitet": "Prosjekt"
     },
     {
       "person": "Bjørnar",

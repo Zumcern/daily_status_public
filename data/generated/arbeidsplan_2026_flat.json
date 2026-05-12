@@ -9152,7 +9152,7 @@
   {
     "dato": "2026-06-05",
     "person": "Magnus",
-    "aktivitet": "Prosjekt",
+    "aktivitet": "Prosjekt/Oslo",
     "ark": "Uke 19-24"
   },
   {
@@ -9884,7 +9884,7 @@
   {
     "dato": "2026-06-22",
     "person": "Magnus",
-    "aktivitet": "Prosjekt",
+    "aktivitet": "Prosjekt/Oslo",
     "ark": "Uke 25-30"
   },
   {
@@ -9908,7 +9908,7 @@
   {
     "dato": "2026-06-23",
     "person": "Magnus",
-    "aktivitet": "Prosjekt",
+    "aktivitet": "Prosjekt/Oslo",
     "ark": "Uke 25-30"
   },
   {
@@ -9926,7 +9926,7 @@
   {
     "dato": "2026-06-24",
     "person": "Magnus",
-    "aktivitet": "Prosjekt",
+    "aktivitet": "Prosjekt/Oslo",
     "ark": "Uke 25-30"
   },
   {
@@ -9944,7 +9944,7 @@
   {
     "dato": "2026-06-25",
     "person": "Magnus",
-    "aktivitet": "Prosjekt",
+    "aktivitet": "Prosjekt/Oslo",
     "ark": "Uke 25-30"
   },
   {
@@ -9993,6 +9993,12 @@
     "dato": "2026-06-29",
     "person": "Odd Rune",
     "aktivitet": "Ferie",
+    "ark": "Uke 25-30"
+  },
+  {
+    "dato": "2026-06-29",
+    "person": "Magnus",
+    "aktivitet": "Prosjekt",
     "ark": "Uke 25-30"
   },
   {
@@ -10051,6 +10057,12 @@
   },
   {
     "dato": "2026-07-01",
+    "person": "Magnus",
+    "aktivitet": "Prosjekt",
+    "ark": "Uke 25-30"
+  },
+  {
+    "dato": "2026-07-01",
     "person": "Connor",
     "aktivitet": "ELPAC-kurs",
     "ark": "Uke 25-30"
@@ -10069,6 +10081,12 @@
   },
   {
     "dato": "2026-07-02",
+    "person": "Magnus",
+    "aktivitet": "Prosjekt",
+    "ark": "Uke 25-30"
+  },
+  {
+    "dato": "2026-07-02",
     "person": "Connor",
     "aktivitet": "ELPAC-kurs",
     "ark": "Uke 25-30"
@@ -10087,6 +10105,12 @@
   },
   {
     "dato": "2026-07-03",
+    "person": "Magnus",
+    "aktivitet": "Prosjekt",
+    "ark": "Uke 25-30"
+  },
+  {
+    "dato": "2026-07-03",
     "person": "Connor",
     "aktivitet": "ELPAC-kurs",
     "ark": "Uke 25-30"
@@ -10111,6 +10135,12 @@
   },
   {
     "dato": "2026-07-06",
+    "person": "Magnus",
+    "aktivitet": "Prosjekt",
+    "ark": "Uke 25-30"
+  },
+  {
+    "dato": "2026-07-06",
     "person": "Bjørnar",
     "aktivitet": "Ferie",
     "ark": "Uke 25-30"
@@ -10147,6 +10177,12 @@
   },
   {
     "dato": "2026-07-07",
+    "person": "Magnus",
+    "aktivitet": "Prosjekt",
+    "ark": "Uke 25-30"
+  },
+  {
+    "dato": "2026-07-07",
     "person": "Bjørnar",
     "aktivitet": "Ferie",
     "ark": "Uke 25-30"
@@ -10183,6 +10219,12 @@
   },
   {
     "dato": "2026-07-08",
+    "person": "Magnus",
+    "aktivitet": "Prosjekt",
+    "ark": "Uke 25-30"
+  },
+  {
+    "dato": "2026-07-08",
     "person": "Bjørnar",
     "aktivitet": "Ferie",
     "ark": "Uke 25-30"
@@ -10219,6 +10261,12 @@
   },
   {
     "dato": "2026-07-09",
+    "person": "Magnus",
+    "aktivitet": "Prosjekt",
+    "ark": "Uke 25-30"
+  },
+  {
+    "dato": "2026-07-09",
     "person": "Bjørnar",
     "aktivitet": "Ferie",
     "ark": "Uke 25-30"
@@ -10251,6 +10299,12 @@
     "dato": "2026-07-10",
     "person": "Odd Rune",
     "aktivitet": "Ferie",
+    "ark": "Uke 25-30"
+  },
+  {
+    "dato": "2026-07-10",
+    "person": "Magnus",
+    "aktivitet": "Prosjekt",
     "ark": "Uke 25-30"
   },
   {
