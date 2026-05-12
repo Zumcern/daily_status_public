@@ -7809,6 +7809,10 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Marjolein",
+      "aktivitet": "Elpac"
+    },
+    {
       "person": "Rune",
       "aktivitet": "Ferie"
     },
@@ -7818,6 +7822,10 @@
     }
   ],
   "2026-08-05": [
+    {
+      "person": "Trine",
+      "aktivitet": "Elpac"
+    },
     {
       "person": "Håkon",
       "aktivitet": "Ferie"
@@ -7831,8 +7839,16 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Marjolein",
+      "aktivitet": "Elpac"
+    },
+    {
       "person": "Rune",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "Elpac"
     },
     {
       "person": "Ole",
