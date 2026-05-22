@@ -6662,15 +6662,19 @@
     },
     {
       "person": "Stein",
-      "aktivitet": "SF BR 2"
+      "aktivitet": "A"
     },
     {
       "person": "Håkon",
-      "aktivitet": "SF BR 2"
+      "aktivitet": "A"
     },
     {
       "person": "Odd Rune",
-      "aktivitet": "SF BR 2"
+      "aktivitet": "9 SF BR 2"
+    },
+    {
+      "person": "Magnus",
+      "aktivitet": "Prosjekt"
     },
     {
       "person": "Jon Håvard",
@@ -6685,8 +6689,32 @@
       "aktivitet": "Oppl. eCoach"
     },
     {
+      "person": "Bjørnar",
+      "aktivitet": "A"
+    },
+    {
       "person": "Rune",
       "aktivitet": "Oppl. eCoach"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "9 SE SUR SK"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "SF BR 2"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "SF BR 2"
     }
   ],
   "2026-06-16": [
@@ -6696,7 +6724,7 @@
     },
     {
       "person": "Stein",
-      "aktivitet": "SF BR 2"
+      "aktivitet": "A"
     },
     {
       "person": "Håkon",
@@ -6704,7 +6732,7 @@
     },
     {
       "person": "Odd Rune",
-      "aktivitet": "SF BR 2"
+      "aktivitet": "9 SF BR 2"
     },
     {
       "person": "Magnus",
@@ -6724,11 +6752,31 @@
     },
     {
       "person": "Bjørnar",
-      "aktivitet": "SF BR 2"
+      "aktivitet": "A"
     },
     {
       "person": "Rune",
       "aktivitet": "Oppl. eCoach"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "9 SF SUR SK"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "SF BR 2"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "SF BR 2"
     }
   ],
   "2026-06-17": [
@@ -6738,11 +6786,19 @@
     },
     {
       "person": "Stein",
-      "aktivitet": "SF BR 2"
+      "aktivitet": "A"
     },
     {
       "person": "Håkon",
-      "aktivitet": "SF BR 2"
+      "aktivitet": "A"
+    },
+    {
+      "person": "Odd Rune",
+      "aktivitet": "9 SF BR 2"
+    },
+    {
+      "person": "Magnus",
+      "aktivitet": "Prosjekt"
     },
     {
       "person": "Jon Håvard",
@@ -6757,8 +6813,32 @@
       "aktivitet": "Oppl. eCoach"
     },
     {
+      "person": "Bjørnar",
+      "aktivitet": "A"
+    },
+    {
       "person": "Rune",
       "aktivitet": "Oppl. eCoach"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "9 SF SUR SK"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "SF BR 2"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "SF BR 2"
     }
   ],
   "2026-06-18": [
@@ -6768,11 +6848,19 @@
     },
     {
       "person": "Stein",
-      "aktivitet": "SF BR 2"
+      "aktivitet": "A"
     },
     {
       "person": "Håkon",
-      "aktivitet": "SF BR 2"
+      "aktivitet": "A"
+    },
+    {
+      "person": "Odd Rune",
+      "aktivitet": "9 SF BR 2"
+    },
+    {
+      "person": "Magnus",
+      "aktivitet": "Prosjekt"
     },
     {
       "person": "Jon Håvard",
@@ -6787,8 +6875,28 @@
       "aktivitet": "Oppl. eCoach"
     },
     {
+      "person": "Bjørnar",
+      "aktivitet": "A"
+    },
+    {
       "person": "Rune",
       "aktivitet": "Oppl. eCoach"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "SF BR 2"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "9 SF SUR SK"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "SF BR 2"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
     }
   ],
   "2026-06-19": [
@@ -6797,6 +6905,22 @@
       "aktivitet": "A"
     },
     {
+      "person": "Stein",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Håkon",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Odd Rune",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Magnus",
+      "aktivitet": "Prosjekt"
+    },
+    {
       "person": "Jon Håvard",
       "aktivitet": "Oppl. eCoach"
     },
@@ -6809,8 +6933,28 @@
       "aktivitet": "Oppl. eCoach"
     },
     {
+      "person": "Bjørnar",
+      "aktivitet": "A"
+    },
+    {
       "person": "Rune",
       "aktivitet": "Oppl. eCoach"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "9 SF SUR SK"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
     }
   ],
   "2026-06-22": [
@@ -6819,12 +6963,60 @@
       "aktivitet": "BM ELPAC"
     },
     {
+      "person": "Stein",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Håkon",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Odd Rune",
+      "aktivitet": "A"
+    },
+    {
       "person": "Magnus",
       "aktivitet": "Prosjekt/Oslo"
     },
     {
+      "person": "Jon Håvard",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Patrick",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Bjørnar",
+      "aktivitet": "A"
+    },
+    {
       "person": "Rune",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "A"
     }
   ],
   "2026-06-23": [
@@ -6833,16 +7025,60 @@
       "aktivitet": "BM ELPAC"
     },
     {
+      "person": "Stein",
+      "aktivitet": "A"
+    },
+    {
       "person": "Håkon",
       "aktivitet": "ELPAC"
+    },
+    {
+      "person": "Odd Rune",
+      "aktivitet": "A"
     },
     {
       "person": "Magnus",
       "aktivitet": "Prosjekt/Oslo"
     },
     {
+      "person": "Jon Håvard",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Patrick",
+      "aktivitet": "A"
+    },
+    {
       "person": "Marjolein",
       "aktivitet": "ELPAC"
+    },
+    {
+      "person": "Bjørnar",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Rune",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "A"
     }
   ],
   "2026-06-24": [
@@ -6851,8 +7087,60 @@
       "aktivitet": "BM ELPAC"
     },
     {
+      "person": "Stein",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Håkon",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Odd Rune",
+      "aktivitet": "A"
+    },
+    {
       "person": "Magnus",
       "aktivitet": "Prosjekt/Oslo"
+    },
+    {
+      "person": "Jon Håvard",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Patrick",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Bjørnar",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Rune",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "A"
     }
   ],
   "2026-06-25": [
@@ -6861,16 +7149,60 @@
       "aktivitet": "A"
     },
     {
+      "person": "Stein",
+      "aktivitet": "A"
+    },
+    {
       "person": "Håkon",
       "aktivitet": "ELPAC"
+    },
+    {
+      "person": "Odd Rune",
+      "aktivitet": "A"
     },
     {
       "person": "Magnus",
       "aktivitet": "Prosjekt/Oslo"
     },
     {
+      "person": "Jon Håvard",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Patrick",
+      "aktivitet": "A"
+    },
+    {
       "person": "Marjolein",
       "aktivitet": "ELPAC"
+    },
+    {
+      "person": "Bjørnar",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Rune",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "A"
     }
   ],
   "2026-06-26": [
@@ -6887,17 +7219,65 @@
       "aktivitet": "ELPAC"
     },
     {
+      "person": "Odd Rune",
+      "aktivitet": "A"
+    },
+    {
       "person": "Magnus",
       "aktivitet": "Møte F&P"
     },
     {
+      "person": "Jon Håvard",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Patrick",
+      "aktivitet": "A"
+    },
+    {
       "person": "Marjolein",
       "aktivitet": "ELPAC"
+    },
+    {
+      "person": "Bjørnar",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Rune",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "A"
     }
   ],
   "2026-06-29": [
     {
       "person": "Trine",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Stein",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Håkon",
       "aktivitet": "A"
     },
     {
@@ -6909,8 +7289,44 @@
       "aktivitet": "Prosjekt"
     },
     {
+      "person": "Jon Håvard",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Patrick",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Bjørnar",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Rune",
+      "aktivitet": "A"
+    },
+    {
       "person": "Connor",
       "aktivitet": "ELPAC-kurs"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "A"
     }
   ],
   "2026-06-30": [
@@ -6921,6 +7337,10 @@
     {
       "person": "Stein",
       "aktivitet": "Møte m/Komp"
+    },
+    {
+      "person": "Håkon",
+      "aktivitet": "A"
     },
     {
       "person": "Odd Rune",
@@ -6935,8 +7355,40 @@
       "aktivitet": "Møte m/Komp"
     },
     {
+      "person": "Patrick",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Bjørnar",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Rune",
+      "aktivitet": "A"
+    },
+    {
       "person": "Connor",
       "aktivitet": "ELPAC-kurs"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "A"
     }
   ],
   "2026-07-01": [
@@ -6945,6 +7397,14 @@
       "aktivitet": "A"
     },
     {
+      "person": "Stein",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Håkon",
+      "aktivitet": "A"
+    },
+    {
       "person": "Odd Rune",
       "aktivitet": "Ferie"
     },
@@ -6953,8 +7413,44 @@
       "aktivitet": "Prosjekt"
     },
     {
+      "person": "Jon Håvard",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Patrick",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Bjørnar",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Rune",
+      "aktivitet": "A"
+    },
+    {
       "person": "Connor",
       "aktivitet": "ELPAC-kurs"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "A"
     }
   ],
   "2026-07-02": [
@@ -6963,21 +7459,11 @@
       "aktivitet": "A"
     },
     {
-      "person": "Odd Rune",
-      "aktivitet": "Ferie"
+      "person": "Stein",
+      "aktivitet": "A"
     },
     {
-      "person": "Magnus",
-      "aktivitet": "Prosjekt"
-    },
-    {
-      "person": "Connor",
-      "aktivitet": "ELPAC-kurs"
-    }
-  ],
-  "2026-07-03": [
-    {
-      "person": "Trine",
+      "person": "Håkon",
       "aktivitet": "A"
     },
     {
@@ -6989,8 +7475,106 @@
       "aktivitet": "Prosjekt"
     },
     {
+      "person": "Jon Håvard",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Patrick",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Bjørnar",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Rune",
+      "aktivitet": "A"
+    },
+    {
       "person": "Connor",
       "aktivitet": "ELPAC-kurs"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "A"
+    }
+  ],
+  "2026-07-03": [
+    {
+      "person": "Trine",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Stein",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Håkon",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Odd Rune",
+      "aktivitet": "Ferie"
+    },
+    {
+      "person": "Magnus",
+      "aktivitet": "Prosjekt"
+    },
+    {
+      "person": "Jon Håvard",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Patrick",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Bjørnar",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Rune",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "ELPAC-kurs"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "A"
     }
   ],
   "2026-07-06": [
@@ -7003,6 +7587,10 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Håkon",
+      "aktivitet": "A"
+    },
+    {
       "person": "Odd Rune",
       "aktivitet": "Ferie"
     },
@@ -7011,12 +7599,40 @@
       "aktivitet": "Prosjekt"
     },
     {
+      "person": "Jon Håvard",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Patrick",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
       "person": "Bjørnar",
       "aktivitet": "Ferie"
     },
     {
       "person": "Rune",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
     },
     {
       "person": "Gudmund",
@@ -7033,6 +7649,10 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Håkon",
+      "aktivitet": "A"
+    },
+    {
       "person": "Odd Rune",
       "aktivitet": "Ferie"
     },
@@ -7041,12 +7661,40 @@
       "aktivitet": "Prosjekt"
     },
     {
+      "person": "Jon Håvard",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Patrick",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
       "person": "Bjørnar",
       "aktivitet": "Ferie"
     },
     {
       "person": "Rune",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
     },
     {
       "person": "Gudmund",
@@ -7063,6 +7711,10 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Håkon",
+      "aktivitet": "A"
+    },
+    {
       "person": "Odd Rune",
       "aktivitet": "Ferie"
     },
@@ -7071,12 +7723,40 @@
       "aktivitet": "Prosjekt"
     },
     {
+      "person": "Jon Håvard",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Patrick",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
       "person": "Bjørnar",
       "aktivitet": "Ferie"
     },
     {
       "person": "Rune",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
     },
     {
       "person": "Gudmund",
@@ -7093,6 +7773,10 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Håkon",
+      "aktivitet": "A"
+    },
+    {
       "person": "Odd Rune",
       "aktivitet": "Ferie"
     },
@@ -7101,12 +7785,40 @@
       "aktivitet": "Prosjekt"
     },
     {
+      "person": "Jon Håvard",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Patrick",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
       "person": "Bjørnar",
       "aktivitet": "Ferie"
     },
     {
       "person": "Rune",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
     },
     {
       "person": "Gudmund",
@@ -7123,6 +7835,10 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Håkon",
+      "aktivitet": "A"
+    },
+    {
       "person": "Odd Rune",
       "aktivitet": "Ferie"
     },
@@ -7131,12 +7847,40 @@
       "aktivitet": "Prosjekt"
     },
     {
+      "person": "Jon Håvard",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Patrick",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
       "person": "Bjørnar",
       "aktivitet": "Ferie"
     },
     {
       "person": "Rune",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
     },
     {
       "person": "Gudmund",
@@ -7153,6 +7897,10 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Håkon",
+      "aktivitet": "A"
+    },
+    {
       "person": "Odd Rune",
       "aktivitet": "Ferie"
     },
@@ -7163,6 +7911,14 @@
     {
       "person": "Jon Håvard",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Patrick",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "A"
     },
     {
       "person": "Bjørnar",
@@ -7177,8 +7933,16 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Ole",
+      "aktivitet": "A"
+    },
+    {
       "person": "Beate",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
     },
     {
       "person": "Gudmund",
@@ -7211,6 +7975,14 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Patrick",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
       "person": "Bjørnar",
       "aktivitet": "Ferie"
     },
@@ -7223,8 +7995,16 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Ole",
+      "aktivitet": "A"
+    },
+    {
       "person": "Beate",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
     },
     {
       "person": "Gudmund",
@@ -7257,6 +8037,14 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Patrick",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
       "person": "Bjørnar",
       "aktivitet": "Ferie"
     },
@@ -7269,8 +8057,16 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Ole",
+      "aktivitet": "A"
+    },
+    {
       "person": "Beate",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
     },
     {
       "person": "Gudmund",
@@ -7303,6 +8099,14 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Patrick",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
       "person": "Bjørnar",
       "aktivitet": "Ferie"
     },
@@ -7315,8 +8119,16 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Ole",
+      "aktivitet": "A"
+    },
+    {
       "person": "Beate",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
     },
     {
       "person": "Gudmund",
@@ -7349,6 +8161,14 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Patrick",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
       "person": "Bjørnar",
       "aktivitet": "Ferie"
     },
@@ -7361,8 +8181,16 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Ole",
+      "aktivitet": "A"
+    },
+    {
       "person": "Beate",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
     },
     {
       "person": "Gudmund",
@@ -7395,16 +8223,40 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Patrick",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
       "person": "Bjørnar",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Rune",
+      "aktivitet": "A"
     },
     {
       "person": "Connor",
       "aktivitet": "Ferie"
     },
     {
+      "person": "Ole",
+      "aktivitet": "A"
+    },
+    {
       "person": "Beate",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "A"
     }
   ],
   "2026-07-21": [
@@ -7434,7 +8286,7 @@
     },
     {
       "person": "Patrick",
-      "aktivitet": "SF HF 5"
+      "aktivitet": "9 SF HF 5"
     },
     {
       "person": "Marjolein",
@@ -7445,12 +8297,28 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Rune",
+      "aktivitet": "A"
+    },
+    {
       "person": "Connor",
       "aktivitet": "Ferie"
     },
     {
+      "person": "Ole",
+      "aktivitet": "A"
+    },
+    {
       "person": "Beate",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "A"
     }
   ],
   "2026-07-22": [
@@ -7480,7 +8348,7 @@
     },
     {
       "person": "Patrick",
-      "aktivitet": "SF HF 5"
+      "aktivitet": "9 SF HF 5"
     },
     {
       "person": "Marjolein",
@@ -7491,12 +8359,28 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Rune",
+      "aktivitet": "A"
+    },
+    {
       "person": "Connor",
       "aktivitet": "Ferie"
     },
     {
+      "person": "Ole",
+      "aktivitet": "A"
+    },
+    {
       "person": "Beate",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "A"
     }
   ],
   "2026-07-23": [
@@ -7526,7 +8410,7 @@
     },
     {
       "person": "Patrick",
-      "aktivitet": "SF HF 5"
+      "aktivitet": "9 SF HF 5"
     },
     {
       "person": "Marjolein",
@@ -7537,12 +8421,28 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Rune",
+      "aktivitet": "A"
+    },
+    {
       "person": "Connor",
       "aktivitet": "Ferie"
     },
     {
+      "person": "Ole",
+      "aktivitet": "A"
+    },
+    {
       "person": "Beate",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "A"
     }
   ],
   "2026-07-24": [
@@ -7571,16 +8471,40 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Patrick",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
       "person": "Bjørnar",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Rune",
+      "aktivitet": "A"
     },
     {
       "person": "Connor",
       "aktivitet": "Ferie"
     },
     {
+      "person": "Ole",
+      "aktivitet": "A"
+    },
+    {
       "person": "Beate",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "A"
     }
   ],
   "2026-07-27": [
