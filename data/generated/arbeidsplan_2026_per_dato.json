@@ -8985,6 +8985,10 @@
       "aktivitet": "Møte HR"
     },
     {
+      "person": "Håkon",
+      "aktivitet": "Elpac"
+    },
+    {
       "person": "Magnus",
       "aktivitet": "Møte HR"
     },
@@ -8999,6 +9003,10 @@
     {
       "person": "Bjørnar",
       "aktivitet": "SF SUR HF"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "Elpac"
     },
     {
       "person": "Ole",
@@ -9179,6 +9187,10 @@
       "aktivitet": "A"
     },
     {
+      "person": "Håkon",
+      "aktivitet": "Elpac"
+    },
+    {
       "person": "Magnus",
       "aktivitet": "Prosjekt"
     },
@@ -9200,11 +9212,15 @@
     },
     {
       "person": "Connor",
-      "aktivitet": "SF SUR HF"
+      "aktivitet": "Elpac"
     },
     {
       "person": "Ole",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "SF SUR HF"
     },
     {
       "person": "Kosti",
@@ -9356,7 +9372,7 @@
     },
     {
       "person": "Håkon",
-      "aktivitet": "SF ZV 2"
+      "aktivitet": "Elpac"
     },
     {
       "person": "Odd Rune",
@@ -9387,6 +9403,14 @@
       "aktivitet": "SF ADC"
     },
     {
+      "person": "Connor",
+      "aktivitet": "Elpac"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "SF ZV 2"
+    },
+    {
       "person": "Kosti",
       "aktivitet": "Ferie"
     }
@@ -9402,7 +9426,7 @@
     },
     {
       "person": "Håkon",
-      "aktivitet": "SF AN 1"
+      "aktivitet": "Elpac"
     },
     {
       "person": "Odd Rune",
@@ -9427,6 +9451,14 @@
     {
       "person": "Rune",
       "aktivitet": "SF ADC"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "Elpac"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "SF AN 1"
     },
     {
       "person": "Kosti",
@@ -9618,7 +9650,7 @@
     },
     {
       "person": "Håkon",
-      "aktivitet": "SF ZV 2"
+      "aktivitet": "Elpac"
     },
     {
       "person": "Odd Rune",
@@ -9647,6 +9679,14 @@
     {
       "person": "Rune",
       "aktivitet": "SF AN 1"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "Elpac"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "SF ZV 2"
     }
   ],
   "2026-09-02": [
@@ -9702,7 +9742,7 @@
     },
     {
       "person": "Håkon",
-      "aktivitet": "SF ZV 2"
+      "aktivitet": "Elpac"
     },
     {
       "person": "Odd Rune",
@@ -9722,7 +9762,7 @@
     },
     {
       "person": "Marjolein",
-      "aktivitet": "SF EV 1"
+      "aktivitet": "Elpac"
     },
     {
       "person": "Bjørnar",
@@ -9731,6 +9771,14 @@
     {
       "person": "Rune",
       "aktivitet": "SF AN 1"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "SF ZV 2"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "SF EV 1"
     }
   ],
   "2026-09-04": [
@@ -9914,7 +9962,7 @@
     },
     {
       "person": "Håkon",
-      "aktivitet": "SF ZV 2"
+      "aktivitet": "Elpac"
     },
     {
       "person": "Odd Rune",
@@ -9931,6 +9979,14 @@
     {
       "person": "Patrick",
       "aktivitet": "SF TC 3"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "Elpac"
+    },
+    {
+      "person": "Bjørnar",
+      "aktivitet": "SF ZV 2"
     }
   ],
   "2026-09-14": [
@@ -9944,7 +10000,7 @@
     },
     {
       "person": "Håkon",
-      "aktivitet": "SF VA 2"
+      "aktivitet": "Elpac"
     },
     {
       "person": "Odd Rune",
@@ -9965,6 +10021,14 @@
     {
       "person": "Marjolein",
       "aktivitet": "SF TC 3"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "Elpac"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "SF VA 2"
     },
     {
       "person": "Gudmund",

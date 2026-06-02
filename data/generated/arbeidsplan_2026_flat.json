@@ -13021,6 +13021,12 @@
   },
   {
     "dato": "2026-08-12",
+    "person": "Håkon",
+    "aktivitet": "Elpac",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-12",
     "person": "Magnus",
     "aktivitet": "Møte HR",
     "ark": "Uke 31-36"
@@ -13041,6 +13047,12 @@
     "dato": "2026-08-12",
     "person": "Bjørnar",
     "aktivitet": "SF SUR HF",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-12",
+    "person": "Connor",
+    "aktivitet": "Elpac",
     "ark": "Uke 31-36"
   },
   {
@@ -13297,6 +13309,12 @@
   },
   {
     "dato": "2026-08-19",
+    "person": "Håkon",
+    "aktivitet": "Elpac",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-19",
     "person": "Magnus",
     "aktivitet": "Prosjekt",
     "ark": "Uke 31-36"
@@ -13328,13 +13346,19 @@
   {
     "dato": "2026-08-19",
     "person": "Connor",
-    "aktivitet": "SF SUR HF",
+    "aktivitet": "Elpac",
     "ark": "Uke 31-36"
   },
   {
     "dato": "2026-08-19",
     "person": "Ole",
     "aktivitet": "Ferie",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-19",
+    "person": "Beate",
+    "aktivitet": "SF SUR HF",
     "ark": "Uke 31-36"
   },
   {
@@ -13550,7 +13574,7 @@
   {
     "dato": "2026-08-25",
     "person": "Håkon",
-    "aktivitet": "SF ZV 2",
+    "aktivitet": "Elpac",
     "ark": "Uke 31-36"
   },
   {
@@ -13597,6 +13621,18 @@
   },
   {
     "dato": "2026-08-25",
+    "person": "Connor",
+    "aktivitet": "Elpac",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-25",
+    "person": "Ole",
+    "aktivitet": "SF ZV 2",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-25",
     "person": "Kosti",
     "aktivitet": "Ferie",
     "ark": "Uke 31-36"
@@ -13616,7 +13652,7 @@
   {
     "dato": "2026-08-26",
     "person": "Håkon",
-    "aktivitet": "SF AN 1",
+    "aktivitet": "Elpac",
     "ark": "Uke 31-36"
   },
   {
@@ -13653,6 +13689,18 @@
     "dato": "2026-08-26",
     "person": "Rune",
     "aktivitet": "SF ADC",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-26",
+    "person": "Connor",
+    "aktivitet": "Elpac",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-26",
+    "person": "Ole",
+    "aktivitet": "SF AN 1",
     "ark": "Uke 31-36"
   },
   {
@@ -13928,7 +13976,7 @@
   {
     "dato": "2026-09-01",
     "person": "Håkon",
-    "aktivitet": "SF ZV 2",
+    "aktivitet": "Elpac",
     "ark": "Uke 31-36"
   },
   {
@@ -13971,6 +14019,18 @@
     "dato": "2026-09-01",
     "person": "Rune",
     "aktivitet": "SF AN 1",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-09-01",
+    "person": "Connor",
+    "aktivitet": "Elpac",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-09-01",
+    "person": "Ole",
+    "aktivitet": "SF ZV 2",
     "ark": "Uke 31-36"
   },
   {
@@ -14048,7 +14108,7 @@
   {
     "dato": "2026-09-03",
     "person": "Håkon",
-    "aktivitet": "SF ZV 2",
+    "aktivitet": "Elpac",
     "ark": "Uke 31-36"
   },
   {
@@ -14078,7 +14138,7 @@
   {
     "dato": "2026-09-03",
     "person": "Marjolein",
-    "aktivitet": "SF EV 1",
+    "aktivitet": "Elpac",
     "ark": "Uke 31-36"
   },
   {
@@ -14091,6 +14151,18 @@
     "dato": "2026-09-03",
     "person": "Rune",
     "aktivitet": "SF AN 1",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-09-03",
+    "person": "Kosti",
+    "aktivitet": "SF ZV 2",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-09-03",
+    "person": "Gudmund",
+    "aktivitet": "SF EV 1",
     "ark": "Uke 31-36"
   },
   {
@@ -14348,7 +14420,7 @@
   {
     "dato": "2026-09-11",
     "person": "Håkon",
-    "aktivitet": "SF ZV 2",
+    "aktivitet": "Elpac",
     "ark": "Uke 37-42"
   },
   {
@@ -14376,6 +14448,18 @@
     "ark": "Uke 37-42"
   },
   {
+    "dato": "2026-09-11",
+    "person": "Marjolein",
+    "aktivitet": "Elpac",
+    "ark": "Uke 37-42"
+  },
+  {
+    "dato": "2026-09-11",
+    "person": "Bjørnar",
+    "aktivitet": "SF ZV 2",
+    "ark": "Uke 37-42"
+  },
+  {
     "dato": "2026-09-14",
     "person": "Trine",
     "aktivitet": "A",
@@ -14390,7 +14474,7 @@
   {
     "dato": "2026-09-14",
     "person": "Håkon",
-    "aktivitet": "SF VA 2",
+    "aktivitet": "Elpac",
     "ark": "Uke 37-42"
   },
   {
@@ -14421,6 +14505,18 @@
     "dato": "2026-09-14",
     "person": "Marjolein",
     "aktivitet": "SF TC 3",
+    "ark": "Uke 37-42"
+  },
+  {
+    "dato": "2026-09-14",
+    "person": "Connor",
+    "aktivitet": "Elpac",
+    "ark": "Uke 37-42"
+  },
+  {
+    "dato": "2026-09-14",
+    "person": "Kosti",
+    "aktivitet": "SF VA 2",
     "ark": "Uke 37-42"
   },
   {
