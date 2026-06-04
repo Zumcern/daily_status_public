@@ -12931,6 +12931,12 @@
   },
   {
     "dato": "2026-08-07",
+    "person": "Jon Håvard",
+    "aktivitet": "9 SF HF 5",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-07",
     "person": "Patrick",
     "aktivitet": "Ferie",
     "ark": "Uke 31-36"
@@ -12939,6 +12945,12 @@
     "dato": "2026-08-07",
     "person": "Marjolein",
     "aktivitet": "ELPAC",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-07",
+    "person": "Bjørnar",
+    "aktivitet": "SF HF 5",
     "ark": "Uke 31-36"
   },
   {
@@ -12997,6 +13009,18 @@
   },
   {
     "dato": "2026-08-10",
+    "person": "Marjolein",
+    "aktivitet": "9 SF HF 5",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-10",
+    "person": "Bjørnar",
+    "aktivitet": "SF HF 5",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-10",
     "person": "Ole",
     "aktivitet": "Ferie",
     "ark": "Uke 31-36"
@@ -13035,6 +13059,18 @@
     "dato": "2026-08-11",
     "person": "Patrick",
     "aktivitet": "Ferie",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-11",
+    "person": "Marjolein",
+    "aktivitet": "9 SF HF 5",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-11",
+    "person": "Bjørnar",
+    "aktivitet": "SF HF 5",
     "ark": "Uke 31-36"
   },
   {
@@ -13093,7 +13129,7 @@
   },
   {
     "dato": "2026-08-12",
-    "person": "Bjørnar",
+    "person": "Rune",
     "aktivitet": "SF SUR HF",
     "ark": "Uke 31-36"
   },
