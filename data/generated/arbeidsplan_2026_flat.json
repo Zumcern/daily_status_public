@@ -9314,7 +9314,7 @@
   {
     "dato": "2026-06-09",
     "person": "Stein",
-    "aktivitet": "SF VA 1",
+    "aktivitet": "A",
     "ark": "Uke 19-24"
   },
   {
@@ -9356,7 +9356,7 @@
   {
     "dato": "2026-06-09",
     "person": "Bjørnar",
-    "aktivitet": "SF TC 1",
+    "aktivitet": "System",
     "ark": "Uke 19-24"
   },
   {
@@ -9368,13 +9368,13 @@
   {
     "dato": "2026-06-09",
     "person": "Connor",
-    "aktivitet": "9 SF VA 1",
+    "aktivitet": "System",
     "ark": "Uke 19-24"
   },
   {
     "dato": "2026-06-09",
     "person": "Ole",
-    "aktivitet": "SF SUR SK",
+    "aktivitet": "TV/ID-møte",
     "ark": "Uke 19-24"
   },
   {
@@ -9392,7 +9392,7 @@
   {
     "dato": "2026-06-09",
     "person": "Gudmund",
-    "aktivitet": "SF VA 1",
+    "aktivitet": "SF TC 1",
     "ark": "Uke 19-24"
   },
   {
@@ -9410,7 +9410,7 @@
   {
     "dato": "2026-06-10",
     "person": "Håkon",
-    "aktivitet": "9 SF GM 1",
+    "aktivitet": "Elpac",
     "ark": "Uke 19-24"
   },
   {
@@ -9446,7 +9446,7 @@
   {
     "dato": "2026-06-10",
     "person": "Bjørnar",
-    "aktivitet": "SF TC 1",
+    "aktivitet": "9 SF GM 1",
     "ark": "Uke 19-24"
   },
   {
@@ -9464,7 +9464,7 @@
   {
     "dato": "2026-06-10",
     "person": "Ole",
-    "aktivitet": "SF SUR SK",
+    "aktivitet": "TV/ID-møte",
     "ark": "Uke 19-24"
   },
   {
@@ -9506,7 +9506,7 @@
   {
     "dato": "2026-06-11",
     "person": "Odd Rune",
-    "aktivitet": "9 SF TC 1",
+    "aktivitet": "9 SF BO 1",
     "ark": "Uke 19-24"
   },
   {
@@ -9518,7 +9518,7 @@
   {
     "dato": "2026-06-11",
     "person": "Jon Håvard",
-    "aktivitet": "9 SF BO 1",
+    "aktivitet": "SF BO 1",
     "ark": "Uke 19-24"
   },
   {
@@ -9536,19 +9536,19 @@
   {
     "dato": "2026-06-11",
     "person": "Bjørnar",
-    "aktivitet": "SF TC 1",
+    "aktivitet": "System",
     "ark": "Uke 19-24"
   },
   {
     "dato": "2026-06-11",
     "person": "Rune",
-    "aktivitet": "SF BO 1",
+    "aktivitet": "System",
     "ark": "Uke 19-24"
   },
   {
     "dato": "2026-06-11",
     "person": "Connor",
-    "aktivitet": "9 SF VA 1",
+    "aktivitet": "System",
     "ark": "Uke 19-24"
   },
   {
@@ -9560,7 +9560,7 @@
   {
     "dato": "2026-06-11",
     "person": "Beate",
-    "aktivitet": "SF TC 1",
+    "aktivitet": "9 SF VA 1",
     "ark": "Uke 19-24"
   },
   {
@@ -9578,19 +9578,19 @@
   {
     "dato": "2026-06-12",
     "person": "Stein",
-    "aktivitet": "SF VA 1",
+    "aktivitet": "A",
     "ark": "Uke 19-24"
   },
   {
     "dato": "2026-06-12",
     "person": "Håkon",
-    "aktivitet": "SF BO 1",
+    "aktivitet": "A",
     "ark": "Uke 19-24"
   },
   {
     "dato": "2026-06-12",
     "person": "Odd Rune",
-    "aktivitet": "9 SF TC 1",
+    "aktivitet": "9 SF BO 1",
     "ark": "Uke 19-24"
   },
   {
@@ -9602,7 +9602,7 @@
   {
     "dato": "2026-06-12",
     "person": "Jon Håvard",
-    "aktivitet": "9 SF BO 1",
+    "aktivitet": "Prosjekt",
     "ark": "Uke 19-24"
   },
   {
@@ -9620,31 +9620,31 @@
   {
     "dato": "2026-06-12",
     "person": "Bjørnar",
-    "aktivitet": "SF TC 1",
+    "aktivitet": "System",
     "ark": "Uke 19-24"
   },
   {
     "dato": "2026-06-12",
     "person": "Rune",
-    "aktivitet": "SF BO 1",
+    "aktivitet": "System",
     "ark": "Uke 19-24"
   },
   {
     "dato": "2026-06-12",
     "person": "Connor",
-    "aktivitet": "9 SF VA 1",
+    "aktivitet": "System",
     "ark": "Uke 19-24"
   },
   {
     "dato": "2026-06-12",
     "person": "Ole",
-    "aktivitet": "SF VA 1",
+    "aktivitet": "SF BO 1",
     "ark": "Uke 19-24"
   },
   {
     "dato": "2026-06-12",
     "person": "Beate",
-    "aktivitet": "SF TC 1",
+    "aktivitet": "SF BO 1",
     "ark": "Uke 19-24"
   },
   {

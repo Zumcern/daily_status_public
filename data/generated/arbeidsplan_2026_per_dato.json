@@ -6422,7 +6422,7 @@
     },
     {
       "person": "Stein",
-      "aktivitet": "SF VA 1"
+      "aktivitet": "A"
     },
     {
       "person": "Håkon",
@@ -6450,7 +6450,7 @@
     },
     {
       "person": "Bjørnar",
-      "aktivitet": "SF TC 1"
+      "aktivitet": "System"
     },
     {
       "person": "Rune",
@@ -6458,11 +6458,11 @@
     },
     {
       "person": "Connor",
-      "aktivitet": "9 SF VA 1"
+      "aktivitet": "System"
     },
     {
       "person": "Ole",
-      "aktivitet": "SF SUR SK"
+      "aktivitet": "TV/ID-møte"
     },
     {
       "person": "Beate",
@@ -6474,7 +6474,7 @@
     },
     {
       "person": "Gudmund",
-      "aktivitet": "SF VA 1"
+      "aktivitet": "SF TC 1"
     }
   ],
   "2026-06-10": [
@@ -6488,7 +6488,7 @@
     },
     {
       "person": "Håkon",
-      "aktivitet": "9 SF GM 1"
+      "aktivitet": "Elpac"
     },
     {
       "person": "Odd Rune",
@@ -6512,7 +6512,7 @@
     },
     {
       "person": "Bjørnar",
-      "aktivitet": "SF TC 1"
+      "aktivitet": "9 SF GM 1"
     },
     {
       "person": "Rune",
@@ -6524,7 +6524,7 @@
     },
     {
       "person": "Ole",
-      "aktivitet": "SF SUR SK"
+      "aktivitet": "TV/ID-møte"
     },
     {
       "person": "Beate",
@@ -6554,7 +6554,7 @@
     },
     {
       "person": "Odd Rune",
-      "aktivitet": "9 SF TC 1"
+      "aktivitet": "9 SF BO 1"
     },
     {
       "person": "Magnus",
@@ -6562,7 +6562,7 @@
     },
     {
       "person": "Jon Håvard",
-      "aktivitet": "9 SF BO 1"
+      "aktivitet": "SF BO 1"
     },
     {
       "person": "Patrick",
@@ -6574,15 +6574,15 @@
     },
     {
       "person": "Bjørnar",
-      "aktivitet": "SF TC 1"
+      "aktivitet": "System"
     },
     {
       "person": "Rune",
-      "aktivitet": "SF BO 1"
+      "aktivitet": "System"
     },
     {
       "person": "Connor",
-      "aktivitet": "9 SF VA 1"
+      "aktivitet": "System"
     },
     {
       "person": "Ole",
@@ -6590,7 +6590,7 @@
     },
     {
       "person": "Beate",
-      "aktivitet": "SF TC 1"
+      "aktivitet": "9 SF VA 1"
     },
     {
       "person": "Kosti",
@@ -6604,15 +6604,15 @@
     },
     {
       "person": "Stein",
-      "aktivitet": "SF VA 1"
+      "aktivitet": "A"
     },
     {
       "person": "Håkon",
-      "aktivitet": "SF BO 1"
+      "aktivitet": "A"
     },
     {
       "person": "Odd Rune",
-      "aktivitet": "9 SF TC 1"
+      "aktivitet": "9 SF BO 1"
     },
     {
       "person": "Magnus",
@@ -6620,7 +6620,7 @@
     },
     {
       "person": "Jon Håvard",
-      "aktivitet": "9 SF BO 1"
+      "aktivitet": "Prosjekt"
     },
     {
       "person": "Patrick",
@@ -6632,23 +6632,23 @@
     },
     {
       "person": "Bjørnar",
-      "aktivitet": "SF TC 1"
+      "aktivitet": "System"
     },
     {
       "person": "Rune",
-      "aktivitet": "SF BO 1"
+      "aktivitet": "System"
     },
     {
       "person": "Connor",
-      "aktivitet": "9 SF VA 1"
+      "aktivitet": "System"
     },
     {
       "person": "Ole",
-      "aktivitet": "SF VA 1"
+      "aktivitet": "SF BO 1"
     },
     {
       "person": "Beate",
-      "aktivitet": "SF TC 1"
+      "aktivitet": "SF BO 1"
     },
     {
       "person": "Kosti",
