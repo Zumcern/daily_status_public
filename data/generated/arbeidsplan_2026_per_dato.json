@@ -6794,7 +6794,7 @@
     },
     {
       "person": "Odd Rune",
-      "aktivitet": "9 SF BR 2"
+      "aktivitet": "A"
     },
     {
       "person": "Magnus",
@@ -6834,7 +6834,7 @@
     },
     {
       "person": "Kosti",
-      "aktivitet": "A"
+      "aktivitet": "9 SF BR 2"
     },
     {
       "person": "Gudmund",
@@ -8776,11 +8776,11 @@
     },
     {
       "person": "Beate",
-      "aktivitet": "SE APS"
+      "aktivitet": "SF APS"
     },
     {
       "person": "Kosti",
-      "aktivitet": "SE APS"
+      "aktivitet": "SF APS"
     }
   ],
   "2026-08-04": [
@@ -8986,11 +8986,11 @@
     },
     {
       "person": "Beate",
-      "aktivitet": "SE APS"
+      "aktivitet": "SF APS"
     },
     {
       "person": "Kosti",
-      "aktivitet": "SE APS"
+      "aktivitet": "SF APS"
     }
   ],
   "2026-08-11": [
@@ -9067,14 +9067,6 @@
     {
       "person": "Ole",
       "aktivitet": "Ferie"
-    },
-    {
-      "person": "Beate",
-      "aktivitet": "SF APS"
-    },
-    {
-      "person": "Kosti",
-      "aktivitet": "SF APS"
     }
   ],
   "2026-08-13": [
@@ -9109,14 +9101,6 @@
     {
       "person": "Ole",
       "aktivitet": "Ferie"
-    },
-    {
-      "person": "Beate",
-      "aktivitet": "SF APS"
-    },
-    {
-      "person": "Kosti",
-      "aktivitet": "SF APS"
     }
   ],
   "2026-08-14": [

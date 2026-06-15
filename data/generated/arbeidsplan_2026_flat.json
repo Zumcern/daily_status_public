@@ -9854,7 +9854,7 @@
   {
     "dato": "2026-06-17",
     "person": "Odd Rune",
-    "aktivitet": "9 SF BR 2",
+    "aktivitet": "A",
     "ark": "Uke 25-30"
   },
   {
@@ -9914,7 +9914,7 @@
   {
     "dato": "2026-06-17",
     "person": "Kosti",
-    "aktivitet": "A",
+    "aktivitet": "9 SF BR 2",
     "ark": "Uke 25-30"
   },
   {
@@ -12728,13 +12728,13 @@
   {
     "dato": "2026-08-03",
     "person": "Beate",
-    "aktivitet": "SE APS",
+    "aktivitet": "SF APS",
     "ark": "Uke 31-36"
   },
   {
     "dato": "2026-08-03",
     "person": "Kosti",
-    "aktivitet": "SE APS",
+    "aktivitet": "SF APS",
     "ark": "Uke 31-36"
   },
   {
@@ -13028,13 +13028,13 @@
   {
     "dato": "2026-08-10",
     "person": "Beate",
-    "aktivitet": "SE APS",
+    "aktivitet": "SF APS",
     "ark": "Uke 31-36"
   },
   {
     "dato": "2026-08-10",
     "person": "Kosti",
-    "aktivitet": "SE APS",
+    "aktivitet": "SF APS",
     "ark": "Uke 31-36"
   },
   {
@@ -13146,18 +13146,6 @@
     "ark": "Uke 31-36"
   },
   {
-    "dato": "2026-08-12",
-    "person": "Beate",
-    "aktivitet": "SF APS",
-    "ark": "Uke 31-36"
-  },
-  {
-    "dato": "2026-08-12",
-    "person": "Kosti",
-    "aktivitet": "SF APS",
-    "ark": "Uke 31-36"
-  },
-  {
     "dato": "2026-08-13",
     "person": "Trine",
     "aktivitet": "A",
@@ -13203,18 +13191,6 @@
     "dato": "2026-08-13",
     "person": "Ole",
     "aktivitet": "Ferie",
-    "ark": "Uke 31-36"
-  },
-  {
-    "dato": "2026-08-13",
-    "person": "Beate",
-    "aktivitet": "SF APS",
-    "ark": "Uke 31-36"
-  },
-  {
-    "dato": "2026-08-13",
-    "person": "Kosti",
-    "aktivitet": "SF APS",
     "ark": "Uke 31-36"
   },
   {
