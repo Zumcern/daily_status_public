@@ -10219,6 +10219,14 @@
       "aktivitet": "Prosjekt"
     },
     {
+      "person": "Ole",
+      "aktivitet": "SF GM 2"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "SF GM 2"
+    },
+    {
       "person": "Kosti",
       "aktivitet": "SF BR 2"
     },
@@ -10483,14 +10491,6 @@
     {
       "person": "Magnus",
       "aktivitet": "Prosjekt"
-    },
-    {
-      "person": "Jon Håvard",
-      "aktivitet": "SF GM 2"
-    },
-    {
-      "person": "Patrick",
-      "aktivitet": "SF GM 2"
     },
     {
       "person": "Marjolein",
