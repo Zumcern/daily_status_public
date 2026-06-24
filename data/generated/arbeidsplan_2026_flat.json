@@ -10238,7 +10238,7 @@
   {
     "dato": "2026-06-23",
     "person": "Rune",
-    "aktivitet": "Verdensrekordforsøk",
+    "aktivitet": "A",
     "ark": "Uke 25-30"
   },
   {
@@ -12703,14 +12703,32 @@
   },
   {
     "dato": "2026-08-03",
+    "person": "Odd Rune",
+    "aktivitet": "SF TC 5",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-03",
     "person": "Magnus",
     "aktivitet": "Ferie",
     "ark": "Uke 31-36"
   },
   {
     "dato": "2026-08-03",
+    "person": "Jon Håvard",
+    "aktivitet": "9 SF TC 5",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-03",
     "person": "Patrick",
     "aktivitet": "Ferie",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-03",
+    "person": "Bjørnar",
+    "aktivitet": "SF TC 5",
     "ark": "Uke 31-36"
   },
   {
@@ -12751,8 +12769,20 @@
   },
   {
     "dato": "2026-08-04",
+    "person": "Odd Rune",
+    "aktivitet": "SF TC 5",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-04",
     "person": "Magnus",
     "aktivitet": "Ferie",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-04",
+    "person": "Jon Håvard",
+    "aktivitet": "9 SF TC 5",
     "ark": "Uke 31-36"
   },
   {
@@ -12765,6 +12795,12 @@
     "dato": "2026-08-04",
     "person": "Marjolein",
     "aktivitet": "Elpac",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-04",
+    "person": "Bjørnar",
+    "aktivitet": "SF TC 5",
     "ark": "Uke 31-36"
   },
   {
@@ -12805,8 +12841,20 @@
   },
   {
     "dato": "2026-08-05",
+    "person": "Odd Rune",
+    "aktivitet": "SF TC 5",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-05",
     "person": "Magnus",
     "aktivitet": "Ferie",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-05",
+    "person": "Jon Håvard",
+    "aktivitet": "9 SF TC 5",
     "ark": "Uke 31-36"
   },
   {
@@ -12819,6 +12867,12 @@
     "dato": "2026-08-05",
     "person": "Marjolein",
     "aktivitet": "Elpac",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-08-05",
+    "person": "Bjørnar",
+    "aktivitet": "SF TC 5",
     "ark": "Uke 31-36"
   },
   {
