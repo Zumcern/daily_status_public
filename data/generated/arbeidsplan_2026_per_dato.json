@@ -8521,6 +8521,10 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Odd Rune",
+      "aktivitet": "A"
+    },
+    {
       "person": "Magnus",
       "aktivitet": "Ferie"
     },
@@ -8533,6 +8537,18 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Bjørnar",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Rune",
+      "aktivitet": "A"
+    },
+    {
       "person": "Connor",
       "aktivitet": "Ferie"
     },
@@ -8543,6 +8559,10 @@
     {
       "person": "Beate",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
     },
     {
       "person": "Gudmund",
@@ -8563,6 +8583,10 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Odd Rune",
+      "aktivitet": "A"
+    },
+    {
       "person": "Magnus",
       "aktivitet": "Ferie"
     },
@@ -8575,12 +8599,16 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
       "person": "Bjørnar",
       "aktivitet": "SF RTC multi"
     },
     {
       "person": "Rune",
-      "aktivitet": "SF RTC multi"
+      "aktivitet": "9 SF RTC multi"
     },
     {
       "person": "Connor",
@@ -8593,6 +8621,10 @@
     {
       "person": "Beate",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
     },
     {
       "person": "Gudmund",
@@ -8613,6 +8645,10 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Odd Rune",
+      "aktivitet": "A"
+    },
+    {
       "person": "Magnus",
       "aktivitet": "Ferie"
     },
@@ -8625,12 +8661,16 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
       "person": "Bjørnar",
       "aktivitet": "SF RTC multi"
     },
     {
       "person": "Rune",
-      "aktivitet": "SF RTC multi"
+      "aktivitet": "9 SF RTC multi"
     },
     {
       "person": "Connor",
@@ -8643,6 +8683,10 @@
     {
       "person": "Beate",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
     },
     {
       "person": "Gudmund",
@@ -8663,6 +8707,10 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Odd Rune",
+      "aktivitet": "A"
+    },
+    {
       "person": "Magnus",
       "aktivitet": "Ferie"
     },
@@ -8675,12 +8723,16 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
       "person": "Bjørnar",
       "aktivitet": "SF RTC multi"
     },
     {
       "person": "Rune",
-      "aktivitet": "SF RTC multi"
+      "aktivitet": "9 SF RTC multi"
     },
     {
       "person": "Connor",
@@ -8693,6 +8745,10 @@
     {
       "person": "Beate",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
     },
     {
       "person": "Gudmund",
@@ -8713,6 +8769,10 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Odd Rune",
+      "aktivitet": "A"
+    },
+    {
       "person": "Magnus",
       "aktivitet": "Ferie"
     },
@@ -8725,12 +8785,16 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
       "person": "Bjørnar",
       "aktivitet": "SF RTC multi"
     },
     {
       "person": "Rune",
-      "aktivitet": "SF RTC multi"
+      "aktivitet": "9 SF RTC multi"
     },
     {
       "person": "Connor",
@@ -8743,6 +8807,10 @@
     {
       "person": "Beate",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
     },
     {
       "person": "Gudmund",
@@ -8755,12 +8823,16 @@
       "aktivitet": "A"
     },
     {
+      "person": "Stein",
+      "aktivitet": "Booking Q4"
+    },
+    {
       "person": "Håkon",
       "aktivitet": "Ferie"
     },
     {
       "person": "Odd Rune",
-      "aktivitet": "SF TC 5"
+      "aktivitet": "9 SF APS"
     },
     {
       "person": "Magnus",
@@ -8775,6 +8847,10 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
       "person": "Bjørnar",
       "aktivitet": "SF TC 5"
     },
@@ -8783,16 +8859,24 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Connor",
+      "aktivitet": "A"
+    },
+    {
       "person": "Ole",
       "aktivitet": "Ferie"
     },
     {
       "person": "Beate",
-      "aktivitet": "SF APS"
+      "aktivitet": "SF TC 5"
     },
     {
       "person": "Kosti",
       "aktivitet": "SF APS"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "Fri"
     }
   ],
   "2026-08-04": [
@@ -8801,12 +8885,16 @@
       "aktivitet": "A"
     },
     {
+      "person": "Stein",
+      "aktivitet": "Booking Q4"
+    },
+    {
       "person": "Håkon",
       "aktivitet": "Ferie"
     },
     {
       "person": "Odd Rune",
-      "aktivitet": "SF TC 5"
+      "aktivitet": "9 SF APS"
     },
     {
       "person": "Magnus",
@@ -8833,16 +8921,24 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Connor",
+      "aktivitet": "A"
+    },
+    {
       "person": "Ole",
       "aktivitet": "Ferie"
     },
     {
       "person": "Beate",
-      "aktivitet": "SF APS"
+      "aktivitet": "SF TC 5"
     },
     {
       "person": "Kosti",
       "aktivitet": "SF APS"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "Fri"
     }
   ],
   "2026-08-05": [
@@ -8851,12 +8947,16 @@
       "aktivitet": "Elpac"
     },
     {
+      "person": "Stein",
+      "aktivitet": "Booking Q4"
+    },
+    {
       "person": "Håkon",
       "aktivitet": "Ferie"
     },
     {
       "person": "Odd Rune",
-      "aktivitet": "SF TC 5"
+      "aktivitet": "9 SF APS"
     },
     {
       "person": "Magnus",
@@ -8892,11 +8992,15 @@
     },
     {
       "person": "Beate",
-      "aktivitet": "SF APS"
+      "aktivitet": "SF TC 5"
     },
     {
       "person": "Kosti",
       "aktivitet": "SF APS"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "Fri"
     }
   ],
   "2026-08-06": [
@@ -8905,12 +9009,24 @@
       "aktivitet": "Elpac"
     },
     {
+      "person": "Stein",
+      "aktivitet": "Booking Q4"
+    },
+    {
       "person": "Håkon",
       "aktivitet": "Ferie"
     },
     {
+      "person": "Odd Rune",
+      "aktivitet": "9 SF APS"
+    },
+    {
       "person": "Magnus",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Jon Håvard",
+      "aktivitet": "A"
     },
     {
       "person": "Patrick",
@@ -8919,6 +9035,10 @@
     {
       "person": "Marjolein",
       "aktivitet": "Elpac"
+    },
+    {
+      "person": "Bjørnar",
+      "aktivitet": "A"
     },
     {
       "person": "Rune",
@@ -8934,11 +9054,15 @@
     },
     {
       "person": "Beate",
-      "aktivitet": "SF APS"
+      "aktivitet": "A"
     },
     {
       "person": "Kosti",
       "aktivitet": "SF APS"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "Fri"
     }
   ],
   "2026-08-07": [
@@ -8947,8 +9071,16 @@
       "aktivitet": "ELPAC"
     },
     {
+      "person": "Stein",
+      "aktivitet": "Booking Q4"
+    },
+    {
       "person": "Håkon",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Odd Rune",
+      "aktivitet": "9 SF APS"
     },
     {
       "person": "Magnus",
@@ -8984,17 +9116,33 @@
     },
     {
       "person": "Beate",
-      "aktivitet": "SF APS"
+      "aktivitet": "A"
     },
     {
       "person": "Kosti",
       "aktivitet": "SF APS"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "Fri"
     }
   ],
   "2026-08-10": [
     {
       "person": "Trine",
       "aktivitet": "A"
+    },
+    {
+      "person": "Stein",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Håkon",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Odd Rune",
+      "aktivitet": "9 SF APS"
     },
     {
       "person": "Magnus",
@@ -9017,12 +9165,20 @@
       "aktivitet": "SF HF 5"
     },
     {
+      "person": "Rune",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "A"
+    },
+    {
       "person": "Ole",
       "aktivitet": "Ferie"
     },
     {
       "person": "Beate",
-      "aktivitet": "SF APS"
+      "aktivitet": "A"
     },
     {
       "person": "Kosti",
@@ -9035,6 +9191,18 @@
       "aktivitet": "A"
     },
     {
+      "person": "Stein",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Håkon",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Odd Rune",
+      "aktivitet": "9 SF APS"
+    },
+    {
       "person": "Magnus",
       "aktivitet": "Prosjekt"
     },
@@ -9055,16 +9223,28 @@
       "aktivitet": "SF HF 5"
     },
     {
+      "person": "Rune",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "A"
+    },
+    {
       "person": "Ole",
       "aktivitet": "Ferie"
     },
     {
       "person": "Beate",
-      "aktivitet": "SF APS"
+      "aktivitet": "A"
     },
     {
       "person": "Kosti",
       "aktivitet": "SF APS"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "A"
     }
   ],
   "2026-08-12": [
@@ -9081,6 +9261,10 @@
       "aktivitet": "Elpac"
     },
     {
+      "person": "Odd Rune",
+      "aktivitet": "A"
+    },
+    {
       "person": "Magnus",
       "aktivitet": "Møte HR"
     },
@@ -9093,6 +9277,14 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Bjørnar",
+      "aktivitet": "A"
+    },
+    {
       "person": "Rune",
       "aktivitet": "SF HF 1"
     },
@@ -9103,6 +9295,18 @@
     {
       "person": "Ole",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "A"
     }
   ],
   "2026-08-13": [
@@ -9111,8 +9315,16 @@
       "aktivitet": "A"
     },
     {
+      "person": "Stein",
+      "aktivitet": "A"
+    },
+    {
       "person": "Håkon",
       "aktivitet": "ELPAC"
+    },
+    {
+      "person": "Odd Rune",
+      "aktivitet": "A"
     },
     {
       "person": "Magnus",
@@ -9131,12 +9343,32 @@
       "aktivitet": "ELPAC"
     },
     {
+      "person": "Bjørnar",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Rune",
+      "aktivitet": "A"
+    },
+    {
       "person": "Connor",
       "aktivitet": "ELPAC"
     },
     {
       "person": "Ole",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "A"
     }
   ],
   "2026-08-14": [
@@ -9147,6 +9379,14 @@
     {
       "person": "Stein",
       "aktivitet": "Møte F&P"
+    },
+    {
+      "person": "Håkon",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Odd Rune",
+      "aktivitet": "A"
     },
     {
       "person": "Magnus",
@@ -9161,12 +9401,36 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Marjolein",
+      "aktivitet": "A"
+    },
+    {
       "person": "Bjørnar",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Rune",
       "aktivitet": "SF HF 1"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "A"
     },
     {
       "person": "Ole",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "A"
     }
   ],
   "2026-08-17": [
@@ -9176,7 +9440,7 @@
     },
     {
       "person": "Stein",
-      "aktivitet": "SF BR 2"
+      "aktivitet": "A"
     },
     {
       "person": "Håkon",
@@ -9192,7 +9456,11 @@
     },
     {
       "person": "Jon Håvard",
-      "aktivitet": "SF BR 2"
+      "aktivitet": "A"
+    },
+    {
+      "person": "Patrick",
+      "aktivitet": "9 SF BR 2"
     },
     {
       "person": "Marjolein",
@@ -9200,19 +9468,31 @@
     },
     {
       "person": "Bjørnar",
-      "aktivitet": "SF ADC"
+      "aktivitet": "A"
     },
     {
       "person": "Rune",
-      "aktivitet": "SF ADC"
+      "aktivitet": "9 SF ADC"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "A"
     },
     {
       "person": "Ole",
       "aktivitet": "Ferie"
     },
     {
+      "person": "Beate",
+      "aktivitet": "SF ADC"
+    },
+    {
       "person": "Kosti",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "SF BR 2"
     }
   ],
   "2026-08-18": [
@@ -9222,11 +9502,11 @@
     },
     {
       "person": "Stein",
-      "aktivitet": "SF BR 2"
+      "aktivitet": "A"
     },
     {
       "person": "Håkon",
-      "aktivitet": "SF BR 2"
+      "aktivitet": "A"
     },
     {
       "person": "Odd Rune",
@@ -9237,24 +9517,44 @@
       "aktivitet": "Prosjekt"
     },
     {
+      "person": "Jon Håvard",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Patrick",
+      "aktivitet": "9 SF BR 2"
+    },
+    {
       "person": "Marjolein",
       "aktivitet": "Ferie"
     },
     {
       "person": "Bjørnar",
-      "aktivitet": "SF ADC"
+      "aktivitet": "A"
     },
     {
       "person": "Rune",
-      "aktivitet": "SF ADC"
+      "aktivitet": "9 SF ADC"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "A"
     },
     {
       "person": "Ole",
       "aktivitet": "Ferie"
     },
     {
+      "person": "Beate",
+      "aktivitet": "SF ADC"
+    },
+    {
       "person": "Kosti",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "SF BR 2"
     }
   ],
   "2026-08-19": [
@@ -9263,8 +9563,16 @@
       "aktivitet": "A"
     },
     {
+      "person": "Stein",
+      "aktivitet": "A"
+    },
+    {
       "person": "Håkon",
       "aktivitet": "Elpac"
+    },
+    {
+      "person": "Odd Rune",
+      "aktivitet": "A"
     },
     {
       "person": "Magnus",
@@ -9272,7 +9580,11 @@
     },
     {
       "person": "Jon Håvard",
-      "aktivitet": "SF FL 5"
+      "aktivitet": "9 SF FL 5"
+    },
+    {
+      "person": "Patrick",
+      "aktivitet": "9 SF HF 1"
     },
     {
       "person": "Marjolein",
@@ -9280,11 +9592,11 @@
     },
     {
       "person": "Bjørnar",
-      "aktivitet": "SF ADC"
+      "aktivitet": "A"
     },
     {
       "person": "Rune",
-      "aktivitet": "SF ADC"
+      "aktivitet": "9 SF ADC"
     },
     {
       "person": "Connor",
@@ -9296,7 +9608,7 @@
     },
     {
       "person": "Beate",
-      "aktivitet": "SF HF 1"
+      "aktivitet": "SF ADC"
     },
     {
       "person": "Kosti",
@@ -9310,11 +9622,15 @@
     },
     {
       "person": "Stein",
-      "aktivitet": "SF ZV 2"
+      "aktivitet": "A"
+    },
+    {
+      "person": "Håkon",
+      "aktivitet": "A"
     },
     {
       "person": "Odd Rune",
-      "aktivitet": "SF ZV 2"
+      "aktivitet": "9 SF ZV 2"
     },
     {
       "person": "Magnus",
@@ -9322,7 +9638,11 @@
     },
     {
       "person": "Jon Håvard",
-      "aktivitet": "SF FL 5"
+      "aktivitet": "9 SF FL 5"
+    },
+    {
+      "person": "Patrick",
+      "aktivitet": "A"
     },
     {
       "person": "Marjolein",
@@ -9330,19 +9650,31 @@
     },
     {
       "person": "Bjørnar",
-      "aktivitet": "SF ADC"
+      "aktivitet": "A"
     },
     {
       "person": "Rune",
-      "aktivitet": "SF ADC"
+      "aktivitet": "9 SF ADC"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "A"
     },
     {
       "person": "Ole",
       "aktivitet": "Ferie"
     },
     {
+      "person": "Beate",
+      "aktivitet": "SF ADC"
+    },
+    {
       "person": "Kosti",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "SF ZV 2"
     }
   ],
   "2026-08-21": [
@@ -9352,7 +9684,7 @@
     },
     {
       "person": "Stein",
-      "aktivitet": "SF ZV 2"
+      "aktivitet": "A"
     },
     {
       "person": "Håkon",
@@ -9360,11 +9692,19 @@
     },
     {
       "person": "Odd Rune",
-      "aktivitet": "SF ZV 2"
+      "aktivitet": "9 SF ZV 2"
     },
     {
       "person": "Magnus",
       "aktivitet": "Prosjekt"
+    },
+    {
+      "person": "Jon Håvard",
+      "aktivitet": "A"
+    },
+    {
+      "person": "Patrick",
+      "aktivitet": "A"
     },
     {
       "person": "Marjolein",
@@ -9372,11 +9712,11 @@
     },
     {
       "person": "Bjørnar",
-      "aktivitet": "SF ADC"
+      "aktivitet": "A"
     },
     {
       "person": "Rune",
-      "aktivitet": "SF ADC"
+      "aktivitet": "9 SF ADC"
     },
     {
       "person": "Connor",
@@ -9387,8 +9727,16 @@
       "aktivitet": "Ferie"
     },
     {
+      "person": "Beate",
+      "aktivitet": "SF ADC"
+    },
+    {
       "person": "Kosti",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "SF ZV 2"
     }
   ],
   "2026-08-24": [
@@ -9398,15 +9746,15 @@
     },
     {
       "person": "Stein",
-      "aktivitet": "SF ZV 2"
+      "aktivitet": "A"
     },
     {
       "person": "Håkon",
-      "aktivitet": "SF ZV 2"
+      "aktivitet": "A"
     },
     {
       "person": "Odd Rune",
-      "aktivitet": "SF TC 3"
+      "aktivitet": "9 SF TC 3"
     },
     {
       "person": "Magnus",
@@ -9414,7 +9762,11 @@
     },
     {
       "person": "Jon Håvard",
-      "aktivitet": "SF TC 3"
+      "aktivitet": "9 SF MS 5 ?"
+    },
+    {
+      "person": "Patrick",
+      "aktivitet": "SF ADC"
     },
     {
       "person": "Marjolein",
@@ -9422,19 +9774,31 @@
     },
     {
       "person": "Bjørnar",
-      "aktivitet": "SF ADC"
+      "aktivitet": "A"
     },
     {
       "person": "Rune",
-      "aktivitet": "SF ADC"
+      "aktivitet": "9 SF ADC"
     },
     {
       "person": "Connor",
       "aktivitet": "Ferie"
     },
     {
+      "person": "Ole",
+      "aktivitet": "SF ZV 2"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "SF ZV 2"
+    },
+    {
       "person": "Kosti",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "SF TC 3"
     }
   ],
   "2026-08-25": [
@@ -9444,7 +9808,7 @@
     },
     {
       "person": "Stein",
-      "aktivitet": "SF ZV 2"
+      "aktivitet": "A"
     },
     {
       "person": "Håkon",
@@ -9452,7 +9816,7 @@
     },
     {
       "person": "Odd Rune",
-      "aktivitet": "SF TC 3"
+      "aktivitet": "9 SF TC 3"
     },
     {
       "person": "Magnus",
@@ -9460,11 +9824,11 @@
     },
     {
       "person": "Jon Håvard",
-      "aktivitet": "SF TC 3"
+      "aktivitet": "9 SF MS 5 ?"
     },
     {
       "person": "Patrick",
-      "aktivitet": "SF TC 3"
+      "aktivitet": "SF ADC"
     },
     {
       "person": "Marjolein",
@@ -9472,11 +9836,11 @@
     },
     {
       "person": "Bjørnar",
-      "aktivitet": "SF ADC"
+      "aktivitet": "SF TC 3"
     },
     {
       "person": "Rune",
-      "aktivitet": "SF ADC"
+      "aktivitet": "9 SF ADC"
     },
     {
       "person": "Connor",
@@ -9487,8 +9851,16 @@
       "aktivitet": "SF ZV 2"
     },
     {
+      "person": "Beate",
+      "aktivitet": "SF ZV 2"
+    },
+    {
       "person": "Kosti",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "SF TC 3"
     }
   ],
   "2026-08-26": [
@@ -9498,7 +9870,7 @@
     },
     {
       "person": "Stein",
-      "aktivitet": "SF AN 1"
+      "aktivitet": "A"
     },
     {
       "person": "Håkon",
@@ -9506,7 +9878,7 @@
     },
     {
       "person": "Odd Rune",
-      "aktivitet": "SF TC 3"
+      "aktivitet": "9 SF TC 3"
     },
     {
       "person": "Magnus",
@@ -9514,7 +9886,11 @@
     },
     {
       "person": "Jon Håvard",
-      "aktivitet": "SF TC 3"
+      "aktivitet": "9 SF MS 5 ?"
+    },
+    {
+      "person": "Patrick",
+      "aktivitet": "SF ADC"
     },
     {
       "person": "Marjolein",
@@ -9522,11 +9898,11 @@
     },
     {
       "person": "Bjørnar",
-      "aktivitet": "SF ADC"
+      "aktivitet": "A"
     },
     {
       "person": "Rune",
-      "aktivitet": "SF ADC"
+      "aktivitet": "9 SF ADC"
     },
     {
       "person": "Connor",
@@ -9534,11 +9910,19 @@
     },
     {
       "person": "Ole",
+      "aktivitet": "9 SF AN 1"
+    },
+    {
+      "person": "Beate",
       "aktivitet": "SF AN 1"
     },
     {
       "person": "Kosti",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "SF TC 3"
     }
   ],
   "2026-08-27": [
@@ -9548,15 +9932,15 @@
     },
     {
       "person": "Stein",
-      "aktivitet": "SF AN 1"
+      "aktivitet": "A"
     },
     {
       "person": "Håkon",
-      "aktivitet": "SF AN 1"
+      "aktivitet": "SF TC 3"
     },
     {
       "person": "Odd Rune",
-      "aktivitet": "SF TC 3"
+      "aktivitet": "9 SF TC 3"
     },
     {
       "person": "Magnus",
@@ -9564,11 +9948,11 @@
     },
     {
       "person": "Jon Håvard",
-      "aktivitet": "SF TC 3"
+      "aktivitet": "SF AN 1"
     },
     {
       "person": "Patrick",
-      "aktivitet": "SF TC 3"
+      "aktivitet": "SF ADC"
     },
     {
       "person": "Marjolein",
@@ -9576,15 +9960,15 @@
     },
     {
       "person": "Bjørnar",
-      "aktivitet": "SF ADC"
+      "aktivitet": "9 SF AN 1"
     },
     {
       "person": "Rune",
-      "aktivitet": "SF ADC"
+      "aktivitet": "9 SF ADC"
     },
     {
       "person": "Connor",
-      "aktivitet": "SF BR 2"
+      "aktivitet": "9 SF BR 2"
     },
     {
       "person": "Ole",
@@ -9597,6 +9981,10 @@
     {
       "person": "Kosti",
       "aktivitet": "Ferie"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "SF TC 3"
     }
   ],
   "2026-08-28": [
@@ -9606,10 +9994,14 @@
     },
     {
       "person": "Stein",
-      "aktivitet": "SF ZV 2"
+      "aktivitet": "A"
     },
     {
       "person": "Håkon",
+      "aktivitet": "9 SF ZV 2"
+    },
+    {
+      "person": "Odd Rune",
       "aktivitet": "SF ZV 2"
     },
     {
@@ -9622,7 +10014,7 @@
     },
     {
       "person": "Patrick",
-      "aktivitet": "SF AN 1"
+      "aktivitet": "SF ADC"
     },
     {
       "person": "Marjolein",
@@ -9630,15 +10022,15 @@
     },
     {
       "person": "Bjørnar",
-      "aktivitet": "SF ADC"
+      "aktivitet": "9 SF AN 1"
     },
     {
       "person": "Rune",
-      "aktivitet": "SF ADC"
+      "aktivitet": "9 SF ADC"
     },
     {
       "person": "Connor",
-      "aktivitet": "SF BR 2"
+      "aktivitet": "9 SF BR 2"
     },
     {
       "person": "Ole",
@@ -9721,16 +10113,12 @@
       "aktivitet": "A"
     },
     {
-      "person": "Stein",
-      "aktivitet": "SF ZV 2"
-    },
-    {
       "person": "Håkon",
       "aktivitet": "Elpac"
     },
     {
       "person": "Odd Rune",
-      "aktivitet": "SF TC 3"
+      "aktivitet": "9 SF AN 1"
     },
     {
       "person": "Magnus",
@@ -9738,23 +10126,23 @@
     },
     {
       "person": "Jon Håvard",
-      "aktivitet": "SF TC 3"
+      "aktivitet": "A"
     },
     {
       "person": "Patrick",
-      "aktivitet": "SF TC 3"
+      "aktivitet": "9 SF ZV 2"
     },
     {
       "person": "Marjolein",
-      "aktivitet": "SF EV 1"
+      "aktivitet": "SF ZV 2"
     },
     {
       "person": "Bjørnar",
-      "aktivitet": "SF AN 1"
+      "aktivitet": "A"
     },
     {
       "person": "Rune",
-      "aktivitet": "SF AN 1"
+      "aktivitet": "SF TC 3"
     },
     {
       "person": "Connor",
@@ -9762,7 +10150,19 @@
     },
     {
       "person": "Ole",
-      "aktivitet": "SF ZV 2"
+      "aktivitet": "9 SF EV 2"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "SF AN 1"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "9 SF TC 3"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "SF TC 3"
     }
   ],
   "2026-09-02": [
@@ -9772,15 +10172,15 @@
     },
     {
       "person": "Stein",
-      "aktivitet": "SF TC 3"
+      "aktivitet": "A"
     },
     {
       "person": "Håkon",
-      "aktivitet": "SF TC 3"
+      "aktivitet": "SF BR 2"
     },
     {
       "person": "Odd Rune",
-      "aktivitet": "SF BR 2"
+      "aktivitet": "9 SF AN 1"
     },
     {
       "person": "Magnus",
@@ -9788,27 +10188,39 @@
     },
     {
       "person": "Jon Håvard",
-      "aktivitet": "SF BR 2"
+      "aktivitet": "9 SF BR 2"
     },
     {
       "person": "Patrick",
-      "aktivitet": "SF BR 2"
+      "aktivitet": "A"
     },
     {
       "person": "Marjolein",
-      "aktivitet": "SF EV 1"
+      "aktivitet": "SF BR 2"
     },
     {
       "person": "Bjørnar",
-      "aktivitet": "SF AN 1"
+      "aktivitet": "A"
     },
     {
       "person": "Rune",
-      "aktivitet": "SF AN 1"
+      "aktivitet": "SF TC 3"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "9 SF RTC AW"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "9 SF EV 2"
     },
     {
       "person": "Beate",
-      "aktivitet": "SF RTC AW"
+      "aktivitet": "SF AN 1"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "9 SF TC 3"
     }
   ],
   "2026-09-03": [
@@ -9826,7 +10238,7 @@
     },
     {
       "person": "Odd Rune",
-      "aktivitet": "SF TC 3"
+      "aktivitet": "9 SF AN 1"
     },
     {
       "person": "Magnus",
@@ -9834,11 +10246,11 @@
     },
     {
       "person": "Jon Håvard",
-      "aktivitet": "SF TC 3"
+      "aktivitet": "A"
     },
     {
       "person": "Patrick",
-      "aktivitet": "SF TC 3"
+      "aktivitet": "9 SF ZV 2"
     },
     {
       "person": "Marjolein",
@@ -9846,23 +10258,31 @@
     },
     {
       "person": "Bjørnar",
-      "aktivitet": "SF AN 1"
+      "aktivitet": "A"
     },
     {
       "person": "Rune",
-      "aktivitet": "SF AN 1"
+      "aktivitet": "SF TC 3"
+    },
+    {
+      "person": "Connor",
+      "aktivitet": "9 SF RTC AW"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "9 SF EV 2"
     },
     {
       "person": "Beate",
-      "aktivitet": "SF RTC AW"
+      "aktivitet": "SF AN 1"
     },
     {
       "person": "Kosti",
-      "aktivitet": "SF ZV 2"
+      "aktivitet": "9 SF TC 3"
     },
     {
       "person": "Gudmund",
-      "aktivitet": "SF EV 1"
+      "aktivitet": "SF TC 3"
     }
   ],
   "2026-09-04": [
@@ -9872,15 +10292,15 @@
     },
     {
       "person": "Stein",
-      "aktivitet": "SF ZV 2"
+      "aktivitet": "A"
     },
     {
       "person": "Håkon",
-      "aktivitet": "SF ZV 2"
+      "aktivitet": "SF BR 2"
     },
     {
       "person": "Odd Rune",
-      "aktivitet": "SF TC 3"
+      "aktivitet": "9 SF AN 1"
     },
     {
       "person": "Magnus",
@@ -9888,35 +10308,39 @@
     },
     {
       "person": "Jon Håvard",
-      "aktivitet": "SF TC 3"
+      "aktivitet": "9 SF BR 2"
     },
     {
       "person": "Patrick",
-      "aktivitet": "SF BR 2"
+      "aktivitet": "9 SF ZV 2"
     },
     {
       "person": "Marjolein",
-      "aktivitet": "SF EV 1"
+      "aktivitet": "SF BR 2"
     },
     {
       "person": "Bjørnar",
-      "aktivitet": "SF BR 2"
+      "aktivitet": "SF ZV 2"
     },
     {
       "person": "Rune",
-      "aktivitet": "SF BR 2"
+      "aktivitet": "SF TC 3"
     },
     {
       "person": "Connor",
-      "aktivitet": "SF AN 1"
+      "aktivitet": "9 SF RTC AW"
     },
     {
       "person": "Ole",
-      "aktivitet": "SF AN 1"
+      "aktivitet": "9 SF EV 2"
     },
     {
       "person": "Beate",
-      "aktivitet": "SF RTC AW"
+      "aktivitet": "SF AN 1"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "9 SF TC 3"
     }
   ],
   "2026-09-07": [
@@ -10101,12 +10525,12 @@
       "aktivitet": "Prosjekt"
     },
     {
-      "person": "Connor",
-      "aktivitet": "Prosjekt"
+      "person": "Rune",
+      "aktivitet": "SF ZV 2"
     },
     {
-      "person": "Gudmund",
-      "aktivitet": "SF ZV 2"
+      "person": "Connor",
+      "aktivitet": "Prosjekt"
     }
   ],
   "2026-09-14": [
@@ -10947,6 +11371,10 @@
     {
       "person": "Magnus",
       "aktivitet": "Prosjekt"
+    },
+    {
+      "person": "Jon Håvard",
+      "aktivitet": "TVS"
     }
   ],
   "2026-10-28": [
@@ -10957,6 +11385,10 @@
     {
       "person": "Magnus",
       "aktivitet": "Prosjekt"
+    },
+    {
+      "person": "Jon Håvard",
+      "aktivitet": "TVS"
     }
   ],
   "2026-10-29": [
