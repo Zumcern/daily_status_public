@@ -14671,6 +14671,12 @@
   },
   {
     "dato": "2026-09-01",
+    "person": "Stein",
+    "aktivitet": "A",
+    "ark": "Uke 31-36"
+  },
+  {
+    "dato": "2026-09-01",
     "person": "Håkon",
     "aktivitet": "Elpac",
     "ark": "Uke 31-36"
@@ -14696,7 +14702,7 @@
   {
     "dato": "2026-09-01",
     "person": "Patrick",
-    "aktivitet": "9 SF ZV 2",
+    "aktivitet": "A",
     "ark": "Uke 31-36"
   },
   {
@@ -14714,7 +14720,7 @@
   {
     "dato": "2026-09-01",
     "person": "Rune",
-    "aktivitet": "SF TC 3",
+    "aktivitet": "9 SF ZV 2",
     "ark": "Uke 31-36"
   },
   {
@@ -14832,6 +14838,12 @@
     "ark": "Uke 31-36"
   },
   {
+    "dato": "2026-09-02",
+    "person": "Gudmund",
+    "aktivitet": "SF TC 3",
+    "ark": "Uke 31-36"
+  },
+  {
     "dato": "2026-09-03",
     "person": "Trine",
     "aktivitet": "A",
@@ -14840,7 +14852,7 @@
   {
     "dato": "2026-09-03",
     "person": "Stein",
-    "aktivitet": "SF ZV 2",
+    "aktivitet": "A",
     "ark": "Uke 31-36"
   },
   {
@@ -14888,7 +14900,7 @@
   {
     "dato": "2026-09-03",
     "person": "Rune",
-    "aktivitet": "SF TC 3",
+    "aktivitet": "SF ZV 2",
     "ark": "Uke 31-36"
   },
   {
@@ -15006,6 +15018,12 @@
     "ark": "Uke 31-36"
   },
   {
+    "dato": "2026-09-04",
+    "person": "Gudmund",
+    "aktivitet": "SF TC 3",
+    "ark": "Uke 31-36"
+  },
+  {
     "dato": "2026-09-07",
     "person": "Trine",
     "aktivitet": "Lofoten",
@@ -15038,12 +15056,6 @@
   {
     "dato": "2026-09-07",
     "person": "Jon Håvard",
-    "aktivitet": "SF TC 3",
-    "ark": "Uke 37-42"
-  },
-  {
-    "dato": "2026-09-07",
-    "person": "Patrick",
     "aktivitet": "SF TC 3",
     "ark": "Uke 37-42"
   },
@@ -15097,6 +15109,12 @@
   },
   {
     "dato": "2026-09-08",
+    "person": "Odd Rune",
+    "aktivitet": "SF TC 3",
+    "ark": "Uke 37-42"
+  },
+  {
+    "dato": "2026-09-08",
     "person": "Magnus",
     "aktivitet": "Prosjekt",
     "ark": "Uke 37-42"
@@ -15133,26 +15151,8 @@
   },
   {
     "dato": "2026-09-09",
-    "person": "Odd Rune",
-    "aktivitet": "SF TC 3",
-    "ark": "Uke 37-42"
-  },
-  {
-    "dato": "2026-09-09",
     "person": "Magnus",
     "aktivitet": "Prosjekt",
-    "ark": "Uke 37-42"
-  },
-  {
-    "dato": "2026-09-09",
-    "person": "Jon Håvard",
-    "aktivitet": "SF TC 3",
-    "ark": "Uke 37-42"
-  },
-  {
-    "dato": "2026-09-09",
-    "person": "Patrick",
-    "aktivitet": "SF TC 3",
     "ark": "Uke 37-42"
   },
   {

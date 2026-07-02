@@ -10113,6 +10113,10 @@
       "aktivitet": "A"
     },
     {
+      "person": "Stein",
+      "aktivitet": "A"
+    },
+    {
       "person": "Håkon",
       "aktivitet": "Elpac"
     },
@@ -10130,7 +10134,7 @@
     },
     {
       "person": "Patrick",
-      "aktivitet": "9 SF ZV 2"
+      "aktivitet": "A"
     },
     {
       "person": "Marjolein",
@@ -10142,7 +10146,7 @@
     },
     {
       "person": "Rune",
-      "aktivitet": "SF TC 3"
+      "aktivitet": "9 SF ZV 2"
     },
     {
       "person": "Connor",
@@ -10221,6 +10225,10 @@
     {
       "person": "Kosti",
       "aktivitet": "9 SF TC 3"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "SF TC 3"
     }
   ],
   "2026-09-03": [
@@ -10230,7 +10238,7 @@
     },
     {
       "person": "Stein",
-      "aktivitet": "SF ZV 2"
+      "aktivitet": "A"
     },
     {
       "person": "Håkon",
@@ -10262,7 +10270,7 @@
     },
     {
       "person": "Rune",
-      "aktivitet": "SF TC 3"
+      "aktivitet": "SF ZV 2"
     },
     {
       "person": "Connor",
@@ -10341,6 +10349,10 @@
     {
       "person": "Kosti",
       "aktivitet": "9 SF TC 3"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "SF TC 3"
     }
   ],
   "2026-09-07": [
@@ -10366,10 +10378,6 @@
     },
     {
       "person": "Jon Håvard",
-      "aktivitet": "SF TC 3"
-    },
-    {
-      "person": "Patrick",
       "aktivitet": "SF TC 3"
     },
     {
@@ -10407,6 +10415,10 @@
       "aktivitet": "SF TC 3"
     },
     {
+      "person": "Odd Rune",
+      "aktivitet": "SF TC 3"
+    },
+    {
       "person": "Magnus",
       "aktivitet": "Prosjekt"
     },
@@ -10433,20 +10445,8 @@
       "aktivitet": "SF ZV 2"
     },
     {
-      "person": "Odd Rune",
-      "aktivitet": "SF TC 3"
-    },
-    {
       "person": "Magnus",
       "aktivitet": "Prosjekt"
-    },
-    {
-      "person": "Jon Håvard",
-      "aktivitet": "SF TC 3"
-    },
-    {
-      "person": "Patrick",
-      "aktivitet": "SF TC 3"
     },
     {
       "person": "Marjolein",
