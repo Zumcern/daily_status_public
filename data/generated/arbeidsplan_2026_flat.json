@@ -12836,7 +12836,7 @@
   {
     "dato": "2026-08-03",
     "person": "Marjolein",
-    "aktivitet": "A",
+    "aktivitet": "SF TC 5",
     "ark": "Uke 31-36"
   },
   {
@@ -13838,7 +13838,7 @@
   {
     "dato": "2026-08-18",
     "person": "Connor",
-    "aktivitet": "A",
+    "aktivitet": "Fagdag",
     "ark": "Uke 31-36"
   },
   {
@@ -16320,6 +16320,12 @@
     "ark": "Uke 37-42"
   },
   {
+    "dato": "2026-10-12",
+    "person": "Bjørnar",
+    "aktivitet": "Ferie",
+    "ark": "Uke 37-42"
+  },
+  {
     "dato": "2026-10-13",
     "person": "Trine",
     "aktivitet": "A",
@@ -16329,6 +16335,12 @@
     "dato": "2026-10-13",
     "person": "Magnus",
     "aktivitet": "Prosjekt",
+    "ark": "Uke 37-42"
+  },
+  {
+    "dato": "2026-10-13",
+    "person": "Bjørnar",
+    "aktivitet": "Ferie",
     "ark": "Uke 37-42"
   },
   {
@@ -16344,6 +16356,12 @@
     "ark": "Uke 37-42"
   },
   {
+    "dato": "2026-10-14",
+    "person": "Bjørnar",
+    "aktivitet": "Ferie",
+    "ark": "Uke 37-42"
+  },
+  {
     "dato": "2026-10-15",
     "person": "Trine",
     "aktivitet": "A",
@@ -16356,6 +16374,12 @@
     "ark": "Uke 37-42"
   },
   {
+    "dato": "2026-10-15",
+    "person": "Bjørnar",
+    "aktivitet": "Ferie",
+    "ark": "Uke 37-42"
+  },
+  {
     "dato": "2026-10-16",
     "person": "Trine",
     "aktivitet": "A",
@@ -16365,6 +16389,12 @@
     "dato": "2026-10-16",
     "person": "Magnus",
     "aktivitet": "Prosjekt",
+    "ark": "Uke 37-42"
+  },
+  {
+    "dato": "2026-10-16",
+    "person": "Bjørnar",
+    "aktivitet": "Ferie",
     "ark": "Uke 37-42"
   },
   {
