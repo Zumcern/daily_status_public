@@ -17654,13 +17654,13 @@
   {
     "dato": "2026-10-27",
     "person": "Jon Håvard",
-    "aktivitet": "TVS",
+    "aktivitet": "SF EV 1",
     "ark": "Uke 43-48"
   },
   {
     "dato": "2026-10-27",
     "person": "Patrick",
-    "aktivitet": "SF EV 1",
+    "aktivitet": "TVS",
     "ark": "Uke 43-48"
   },
   {
@@ -17738,17 +17738,17 @@
   {
     "dato": "2026-10-28",
     "person": "Jon Håvard",
+    "aktivitet": "SE NA 1",
+    "ark": "Uke 43-48"
+  },
+  {
+    "dato": "2026-10-28",
+    "person": "Patrick",
     "aktivitet": "TVS",
     "ark": "Uke 43-48"
   },
   {
     "dato": "2026-10-28",
-    "person": "Patrick",
-    "aktivitet": "SE NA 1",
-    "ark": "Uke 43-48"
-  },
-  {
-    "dato": "2026-10-28",
     "person": "Marjolein",
     "aktivitet": "SE NA 1",
     "ark": "Uke 43-48"
@@ -17942,7 +17942,7 @@
   {
     "dato": "2026-11-02",
     "person": "Stein",
-    "aktivitet": "SF ZV 1",
+    "aktivitet": "Booking Q1",
     "ark": "Uke 43-48"
   },
   {
@@ -17961,6 +17961,12 @@
     "dato": "2026-11-02",
     "person": "Magnus",
     "aktivitet": "Prosjekt",
+    "ark": "Uke 43-48"
+  },
+  {
+    "dato": "2026-11-02",
+    "person": "Jon Håvard",
+    "aktivitet": "SF ZV 1",
     "ark": "Uke 43-48"
   },
   {
@@ -18014,7 +18020,7 @@
   {
     "dato": "2026-11-03",
     "person": "Stein",
-    "aktivitet": "SF TO 2",
+    "aktivitet": "Booking Q1",
     "ark": "Uke 43-48"
   },
   {
@@ -18027,6 +18033,12 @@
     "dato": "2026-11-03",
     "person": "Magnus",
     "aktivitet": "Prosjekt",
+    "ark": "Uke 43-48"
+  },
+  {
+    "dato": "2026-11-03",
+    "person": "Jon Håvard",
+    "aktivitet": "SF TO 2",
     "ark": "Uke 43-48"
   },
   {
@@ -18086,7 +18098,7 @@
   {
     "dato": "2026-11-04",
     "person": "Stein",
-    "aktivitet": "SF ZV 1",
+    "aktivitet": "Booking Q1",
     "ark": "Uke 43-48"
   },
   {
@@ -18129,6 +18141,12 @@
     "dato": "2026-11-04",
     "person": "Bjørnar",
     "aktivitet": "SF VD SUR",
+    "ark": "Uke 43-48"
+  },
+  {
+    "dato": "2026-11-04",
+    "person": "Rune",
+    "aktivitet": "SF ZV 1",
     "ark": "Uke 43-48"
   },
   {
@@ -18164,7 +18182,7 @@
   {
     "dato": "2026-11-05",
     "person": "Stein",
-    "aktivitet": "SF ZV 1",
+    "aktivitet": "Booking Q1",
     "ark": "Uke 43-48"
   },
   {
@@ -18207,6 +18225,12 @@
     "dato": "2026-11-05",
     "person": "Bjørnar",
     "aktivitet": "SF VD SUR",
+    "ark": "Uke 43-48"
+  },
+  {
+    "dato": "2026-11-05",
+    "person": "Rune",
+    "aktivitet": "SF ZV 1",
     "ark": "Uke 43-48"
   },
   {
@@ -18236,13 +18260,13 @@
   {
     "dato": "2026-11-06",
     "person": "Trine",
-    "aktivitet": "A",
+    "aktivitet": "AU-møte",
     "ark": "Uke 43-48"
   },
   {
     "dato": "2026-11-06",
     "person": "Stein",
-    "aktivitet": "SF ZV 1",
+    "aktivitet": "AU-møte",
     "ark": "Uke 43-48"
   },
   {
@@ -18266,13 +18290,13 @@
   {
     "dato": "2026-11-06",
     "person": "Jon Håvard",
-    "aktivitet": "SF TO 2",
+    "aktivitet": "AU-møte",
     "ark": "Uke 43-48"
   },
   {
     "dato": "2026-11-06",
     "person": "Patrick",
-    "aktivitet": "SF TO 2",
+    "aktivitet": "AU-møte",
     "ark": "Uke 43-48"
   },
   {
@@ -18289,8 +18313,20 @@
   },
   {
     "dato": "2026-11-06",
+    "person": "Rune",
+    "aktivitet": "SF ZV 1",
+    "ark": "Uke 43-48"
+  },
+  {
+    "dato": "2026-11-06",
     "person": "Connor",
     "aktivitet": "SF AFIS gr. Utd",
+    "ark": "Uke 43-48"
+  },
+  {
+    "dato": "2026-11-06",
+    "person": "Ole",
+    "aktivitet": "SF TO 2",
     "ark": "Uke 43-48"
   },
   {
@@ -18303,6 +18339,12 @@
     "dato": "2026-11-06",
     "person": "Kosti",
     "aktivitet": "SF AFIS gr. Utd",
+    "ark": "Uke 43-48"
+  },
+  {
+    "dato": "2026-11-06",
+    "person": "Gudmund",
+    "aktivitet": "SF TO 2",
     "ark": "Uke 43-48"
   },
   {

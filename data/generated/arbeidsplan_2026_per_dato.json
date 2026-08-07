@@ -12182,11 +12182,11 @@
     },
     {
       "person": "Jon Håvard",
-      "aktivitet": "TVS"
+      "aktivitet": "SF EV 1"
     },
     {
       "person": "Patrick",
-      "aktivitet": "SF EV 1"
+      "aktivitet": "TVS"
     },
     {
       "person": "Marjolein",
@@ -12240,11 +12240,11 @@
     },
     {
       "person": "Jon Håvard",
-      "aktivitet": "TVS"
+      "aktivitet": "SE NA 1"
     },
     {
       "person": "Patrick",
-      "aktivitet": "SE NA 1"
+      "aktivitet": "TVS"
     },
     {
       "person": "Marjolein",
@@ -12382,7 +12382,7 @@
     },
     {
       "person": "Stein",
-      "aktivitet": "SF ZV 1"
+      "aktivitet": "Booking Q1"
     },
     {
       "person": "Håkon",
@@ -12395,6 +12395,10 @@
     {
       "person": "Magnus",
       "aktivitet": "Prosjekt"
+    },
+    {
+      "person": "Jon Håvard",
+      "aktivitet": "SF ZV 1"
     },
     {
       "person": "Marjolein",
@@ -12432,7 +12436,7 @@
     },
     {
       "person": "Stein",
-      "aktivitet": "SF TO 2"
+      "aktivitet": "Booking Q1"
     },
     {
       "person": "Håkon",
@@ -12441,6 +12445,10 @@
     {
       "person": "Magnus",
       "aktivitet": "Prosjekt"
+    },
+    {
+      "person": "Jon Håvard",
+      "aktivitet": "SF TO 2"
     },
     {
       "person": "Marjolein",
@@ -12482,7 +12490,7 @@
     },
     {
       "person": "Stein",
-      "aktivitet": "SF ZV 1"
+      "aktivitet": "Booking Q1"
     },
     {
       "person": "Håkon",
@@ -12511,6 +12519,10 @@
     {
       "person": "Bjørnar",
       "aktivitet": "SF VD SUR"
+    },
+    {
+      "person": "Rune",
+      "aktivitet": "SF ZV 1"
     },
     {
       "person": "Ole",
@@ -12536,7 +12548,7 @@
     },
     {
       "person": "Stein",
-      "aktivitet": "SF ZV 1"
+      "aktivitet": "Booking Q1"
     },
     {
       "person": "Håkon",
@@ -12565,6 +12577,10 @@
     {
       "person": "Bjørnar",
       "aktivitet": "SF VD SUR"
+    },
+    {
+      "person": "Rune",
+      "aktivitet": "SF ZV 1"
     },
     {
       "person": "Connor",
@@ -12586,11 +12602,11 @@
   "2026-11-06": [
     {
       "person": "Trine",
-      "aktivitet": "A"
+      "aktivitet": "AU-møte"
     },
     {
       "person": "Stein",
-      "aktivitet": "SF ZV 1"
+      "aktivitet": "AU-møte"
     },
     {
       "person": "Håkon",
@@ -12606,11 +12622,11 @@
     },
     {
       "person": "Jon Håvard",
-      "aktivitet": "SF TO 2"
+      "aktivitet": "AU-møte"
     },
     {
       "person": "Patrick",
-      "aktivitet": "SF TO 2"
+      "aktivitet": "AU-møte"
     },
     {
       "person": "Marjolein",
@@ -12621,8 +12637,16 @@
       "aktivitet": "SF VD SUR"
     },
     {
+      "person": "Rune",
+      "aktivitet": "SF ZV 1"
+    },
+    {
       "person": "Connor",
       "aktivitet": "SF AFIS gr. Utd"
+    },
+    {
+      "person": "Ole",
+      "aktivitet": "SF TO 2"
     },
     {
       "person": "Beate",
@@ -12631,6 +12655,10 @@
     {
       "person": "Kosti",
       "aktivitet": "SF AFIS gr. Utd"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "SF TO 2"
     }
   ],
   "2026-11-09": [
