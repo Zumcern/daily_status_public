@@ -11290,7 +11290,7 @@
     },
     {
       "person": "Håkon",
-      "aktivitet": "SF VA 2"
+      "aktivitet": "Elpac"
     },
     {
       "person": "Odd Rune",
@@ -11299,6 +11299,10 @@
     {
       "person": "Magnus",
       "aktivitet": "Prosjekt"
+    },
+    {
+      "person": "Jon Håvard",
+      "aktivitet": "SF VA 2"
     },
     {
       "person": "Ole",
@@ -11573,10 +11577,6 @@
       "aktivitet": "Ferie"
     },
     {
-      "person": "Patrick",
-      "aktivitet": "SF GM 2"
-    },
-    {
       "person": "Marjolein",
       "aktivitet": "SF DU 1"
     },
@@ -11589,10 +11589,6 @@
       "aktivitet": "SF RTC SUR/1"
     },
     {
-      "person": "Connor",
-      "aktivitet": "SF GM 2"
-    },
-    {
       "person": "Ole",
       "aktivitet": "SF AFIS gr. Utd"
     },
@@ -11603,6 +11599,10 @@
     {
       "person": "Kosti",
       "aktivitet": "SF RTC SUR/1"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "SF RTC 1"
     }
   ],
   "2026-10-12": [
@@ -12136,7 +12136,7 @@
     },
     {
       "person": "Bjørnar",
-      "aktivitet": "SF MS SUR"
+      "aktivitet": "SE MS SUR"
     },
     {
       "person": "Rune",
@@ -12402,7 +12402,7 @@
     },
     {
       "person": "Marjolein",
-      "aktivitet": "SF MS SUR"
+      "aktivitet": "SE MS SUR"
     },
     {
       "person": "Bjørnar",
@@ -12942,7 +12942,7 @@
     },
     {
       "person": "Connor",
-      "aktivitet": "SF MS SUR"
+      "aktivitet": "SE MS SUR"
     },
     {
       "person": "Kosti",
@@ -13208,7 +13208,7 @@
     },
     {
       "person": "Bjørnar",
-      "aktivitet": "SF MS SUR"
+      "aktivitet": "SE MS SUR"
     },
     {
       "person": "Rune",

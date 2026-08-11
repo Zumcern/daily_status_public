@@ -16370,7 +16370,7 @@
   {
     "dato": "2026-10-01",
     "person": "Håkon",
-    "aktivitet": "SF VA 2",
+    "aktivitet": "Elpac",
     "ark": "Uke 37-42"
   },
   {
@@ -16383,6 +16383,12 @@
     "dato": "2026-10-01",
     "person": "Magnus",
     "aktivitet": "Prosjekt",
+    "ark": "Uke 37-42"
+  },
+  {
+    "dato": "2026-10-01",
+    "person": "Jon Håvard",
+    "aktivitet": "SF VA 2",
     "ark": "Uke 37-42"
   },
   {
@@ -16777,12 +16783,6 @@
   },
   {
     "dato": "2026-10-09",
-    "person": "Patrick",
-    "aktivitet": "SF GM 2",
-    "ark": "Uke 37-42"
-  },
-  {
-    "dato": "2026-10-09",
     "person": "Marjolein",
     "aktivitet": "SF DU 1",
     "ark": "Uke 37-42"
@@ -16801,12 +16801,6 @@
   },
   {
     "dato": "2026-10-09",
-    "person": "Connor",
-    "aktivitet": "SF GM 2",
-    "ark": "Uke 37-42"
-  },
-  {
-    "dato": "2026-10-09",
     "person": "Ole",
     "aktivitet": "SF AFIS gr. Utd",
     "ark": "Uke 37-42"
@@ -16821,6 +16815,12 @@
     "dato": "2026-10-09",
     "person": "Kosti",
     "aktivitet": "SF RTC SUR/1",
+    "ark": "Uke 37-42"
+  },
+  {
+    "dato": "2026-10-09",
+    "person": "Gudmund",
+    "aktivitet": "SF RTC 1",
     "ark": "Uke 37-42"
   },
   {
@@ -17588,7 +17588,7 @@
   {
     "dato": "2026-10-26",
     "person": "Bjørnar",
-    "aktivitet": "SF MS SUR",
+    "aktivitet": "SE MS SUR",
     "ark": "Uke 43-48"
   },
   {
@@ -17972,7 +17972,7 @@
   {
     "dato": "2026-11-02",
     "person": "Marjolein",
-    "aktivitet": "SF MS SUR",
+    "aktivitet": "SE MS SUR",
     "ark": "Uke 43-48"
   },
   {
@@ -18752,7 +18752,7 @@
   {
     "dato": "2026-11-16",
     "person": "Connor",
-    "aktivitet": "SF MS SUR",
+    "aktivitet": "SE MS SUR",
     "ark": "Uke 43-48"
   },
   {
@@ -19136,7 +19136,7 @@
   {
     "dato": "2026-11-23",
     "person": "Bjørnar",
-    "aktivitet": "SF MS SUR",
+    "aktivitet": "SE MS SUR",
     "ark": "Uke 43-48"
   },
   {
