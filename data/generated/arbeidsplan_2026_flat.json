@@ -15068,7 +15068,7 @@
   {
     "dato": "2026-09-07",
     "person": "Marjolein",
-    "aktivitet": "9 SF BR 2",
+    "aktivitet": "SF BR 4",
     "ark": "Uke 37-42"
   },
   {
@@ -15092,19 +15092,19 @@
   {
     "dato": "2026-09-07",
     "person": "Ole",
-    "aktivitet": "9 SF ZV 2",
+    "aktivitet": "9 SF ZV 4",
     "ark": "Uke 37-42"
   },
   {
     "dato": "2026-09-07",
     "person": "Beate",
-    "aktivitet": "SF BR 2",
+    "aktivitet": "9 SF BR 4",
     "ark": "Uke 37-42"
   },
   {
     "dato": "2026-09-07",
     "person": "Kosti",
-    "aktivitet": "SF ZV 2",
+    "aktivitet": "SF ZV 4",
     "ark": "Uke 37-42"
   },
   {
@@ -15170,7 +15170,7 @@
   {
     "dato": "2026-09-08",
     "person": "Rune",
-    "aktivitet": "eCoach",
+    "aktivitet": "eCoach-kurs",
     "ark": "Uke 37-42"
   },
   {
@@ -15188,13 +15188,13 @@
   {
     "dato": "2026-09-08",
     "person": "Beate",
-    "aktivitet": "eCoach",
+    "aktivitet": "eCoach-kurs",
     "ark": "Uke 37-42"
   },
   {
     "dato": "2026-09-08",
     "person": "Kosti",
-    "aktivitet": "eCoach",
+    "aktivitet": "eCoach-kurs",
     "ark": "Uke 37-42"
   },
   {
@@ -15224,7 +15224,7 @@
   {
     "dato": "2026-09-09",
     "person": "Odd Rune",
-    "aktivitet": "SF BR 2",
+    "aktivitet": "SF BR 4",
     "ark": "Uke 37-42"
   },
   {
@@ -15248,7 +15248,7 @@
   {
     "dato": "2026-09-09",
     "person": "Marjolein",
-    "aktivitet": "9 SF BR 2",
+    "aktivitet": "SF BR 4",
     "ark": "Uke 37-42"
   },
   {
@@ -15272,19 +15272,19 @@
   {
     "dato": "2026-09-09",
     "person": "Ole",
-    "aktivitet": "9 SF ZV 2",
+    "aktivitet": "9 SF ZV 4",
     "ark": "Uke 37-42"
   },
   {
     "dato": "2026-09-09",
     "person": "Beate",
-    "aktivitet": "SF BR 2",
+    "aktivitet": "9 SF BR 4",
     "ark": "Uke 37-42"
   },
   {
     "dato": "2026-09-09",
     "person": "Kosti",
-    "aktivitet": "SF ZV 2",
+    "aktivitet": "SF ZV 4",
     "ark": "Uke 37-42"
   },
   {
@@ -15350,7 +15350,7 @@
   {
     "dato": "2026-09-10",
     "person": "Rune",
-    "aktivitet": "eCoach",
+    "aktivitet": "eCoach-kurs",
     "ark": "Uke 37-42"
   },
   {
@@ -15368,13 +15368,13 @@
   {
     "dato": "2026-09-10",
     "person": "Beate",
-    "aktivitet": "eCoach",
+    "aktivitet": "eCoach-kurs",
     "ark": "Uke 37-42"
   },
   {
     "dato": "2026-09-10",
     "person": "Kosti",
-    "aktivitet": "eCoach",
+    "aktivitet": "eCoach-kurs",
     "ark": "Uke 37-42"
   },
   {
@@ -15452,7 +15452,7 @@
   {
     "dato": "2026-09-11",
     "person": "Ole",
-    "aktivitet": "9 SF ZV 2",
+    "aktivitet": "9 SF ZV 4",
     "ark": "Uke 37-42"
   },
   {
@@ -15464,7 +15464,13 @@
   {
     "dato": "2026-09-11",
     "person": "Kosti",
-    "aktivitet": "SF ZV 2",
+    "aktivitet": "SF ZV 4",
+    "ark": "Uke 37-42"
+  },
+  {
+    "dato": "2026-09-11",
+    "person": "Gudmund",
+    "aktivitet": "Fri",
     "ark": "Uke 37-42"
   },
   {
@@ -15488,7 +15494,7 @@
   {
     "dato": "2026-09-14",
     "person": "Odd Rune",
-    "aktivitet": "9 SF EV 2",
+    "aktivitet": "9 SF EV 4",
     "ark": "Uke 37-42"
   },
   {
@@ -15500,7 +15506,7 @@
   {
     "dato": "2026-09-14",
     "person": "Jon Håvard",
-    "aktivitet": "9 SF ZV 2",
+    "aktivitet": "9 SF ZV 4",
     "ark": "Uke 37-42"
   },
   {
@@ -15548,7 +15554,7 @@
   {
     "dato": "2026-09-14",
     "person": "Kosti",
-    "aktivitet": "SF ZV 2",
+    "aktivitet": "SF ZV 4",
     "ark": "Uke 37-42"
   },
   {
@@ -15578,7 +15584,7 @@
   {
     "dato": "2026-09-15",
     "person": "Odd Rune",
-    "aktivitet": "9 SF EV 2",
+    "aktivitet": "9 SF EV 4",
     "ark": "Uke 37-42"
   },
   {
@@ -15668,7 +15674,7 @@
   {
     "dato": "2026-09-16",
     "person": "Odd Rune",
-    "aktivitet": "9 SF EV 2",
+    "aktivitet": "9 SF EV 4",
     "ark": "Uke 37-42"
   },
   {
@@ -15758,7 +15764,7 @@
   {
     "dato": "2026-09-17",
     "person": "Odd Rune",
-    "aktivitet": "9 SF EV 2",
+    "aktivitet": "9 SF EV 4",
     "ark": "Uke 37-42"
   },
   {
@@ -15848,7 +15854,7 @@
   {
     "dato": "2026-09-18",
     "person": "Odd Rune",
-    "aktivitet": "9 SF EV 2",
+    "aktivitet": "9 SF EV 4",
     "ark": "Uke 37-42"
   },
   {
@@ -15896,7 +15902,7 @@
   {
     "dato": "2026-09-18",
     "person": "Ole",
-    "aktivitet": "9 SF VA 2",
+    "aktivitet": "9 SF VA 4",
     "ark": "Uke 37-42"
   },
   {
@@ -15908,7 +15914,13 @@
   {
     "dato": "2026-09-18",
     "person": "Kosti",
-    "aktivitet": "SF VA 2",
+    "aktivitet": "SF VA 4",
+    "ark": "Uke 37-42"
+  },
+  {
+    "dato": "2026-09-18",
+    "person": "Gudmund",
+    "aktivitet": "Fri",
     "ark": "Uke 37-42"
   },
   {
@@ -15920,7 +15932,7 @@
   {
     "dato": "2026-09-21",
     "person": "Stein",
-    "aktivitet": "SF VA 2",
+    "aktivitet": "9 SF VA 4",
     "ark": "Uke 37-42"
   },
   {
@@ -15938,13 +15950,13 @@
   {
     "dato": "2026-09-21",
     "person": "Magnus",
-    "aktivitet": "SF ZV 2",
+    "aktivitet": "SF ZV 4",
     "ark": "Uke 37-42"
   },
   {
     "dato": "2026-09-21",
     "person": "Jon Håvard",
-    "aktivitet": "9 SF ZV 2",
+    "aktivitet": "9 SF ZV 4",
     "ark": "Uke 37-42"
   },
   {
@@ -15956,13 +15968,13 @@
   {
     "dato": "2026-09-21",
     "person": "Marjolein",
-    "aktivitet": "9 SF BR 2",
+    "aktivitet": "9 SF BR 4",
     "ark": "Uke 37-42"
   },
   {
     "dato": "2026-09-21",
     "person": "Bjørnar",
-    "aktivitet": "9 SF VA 2",
+    "aktivitet": "SF VA 4",
     "ark": "Uke 37-42"
   },
   {
@@ -15974,13 +15986,13 @@
   {
     "dato": "2026-09-21",
     "person": "Connor",
-    "aktivitet": "SF BR 2",
+    "aktivitet": "SF BR 4",
     "ark": "Uke 37-42"
   },
   {
     "dato": "2026-09-21",
     "person": "Ole",
-    "aktivitet": "9 SF EV 2",
+    "aktivitet": "9 SF EV 4",
     "ark": "Uke 37-42"
   },
   {
@@ -15992,7 +16004,7 @@
   {
     "dato": "2026-09-21",
     "person": "Kosti",
-    "aktivitet": "SF ZV 2",
+    "aktivitet": "SF ZV 4",
     "ark": "Uke 37-42"
   },
   {
@@ -16010,7 +16022,7 @@
   {
     "dato": "2026-09-22",
     "person": "Stein",
-    "aktivitet": "SF VA 2",
+    "aktivitet": "9 SF VA 4",
     "ark": "Uke 37-42"
   },
   {
@@ -16034,7 +16046,7 @@
   {
     "dato": "2026-09-22",
     "person": "Jon Håvard",
-    "aktivitet": "9 SF ZV 2",
+    "aktivitet": "9 SF ZV 4",
     "ark": "Uke 37-42"
   },
   {
@@ -16052,7 +16064,7 @@
   {
     "dato": "2026-09-22",
     "person": "Bjørnar",
-    "aktivitet": "9 SF VA 2",
+    "aktivitet": "SF VA 4",
     "ark": "Uke 37-42"
   },
   {
@@ -16064,13 +16076,13 @@
   {
     "dato": "2026-09-22",
     "person": "Connor",
-    "aktivitet": "SF ZV 2",
+    "aktivitet": "SF ZV 4",
     "ark": "Uke 37-42"
   },
   {
     "dato": "2026-09-22",
     "person": "Ole",
-    "aktivitet": "9 SF EV 2",
+    "aktivitet": "9 SF EV 4",
     "ark": "Uke 37-42"
   },
   {
@@ -16082,7 +16094,7 @@
   {
     "dato": "2026-09-22",
     "person": "Kosti",
-    "aktivitet": "SF ZV 2",
+    "aktivitet": "SF ZV 4",
     "ark": "Uke 37-42"
   },
   {
@@ -16130,13 +16142,13 @@
   {
     "dato": "2026-09-23",
     "person": "Patrick",
-    "aktivitet": "SF BR 2",
+    "aktivitet": "SF BR 4",
     "ark": "Uke 37-42"
   },
   {
     "dato": "2026-09-23",
     "person": "Marjolein",
-    "aktivitet": "9 SF BR 2",
+    "aktivitet": "9 SF BR 4",
     "ark": "Uke 37-42"
   },
   {
@@ -16160,7 +16172,7 @@
   {
     "dato": "2026-09-23",
     "person": "Ole",
-    "aktivitet": "SF VA 2",
+    "aktivitet": "SF VA 4",
     "ark": "Uke 37-42"
   },
   {
@@ -16172,7 +16184,7 @@
   {
     "dato": "2026-09-23",
     "person": "Kosti",
-    "aktivitet": "9 SF VA 2",
+    "aktivitet": "9 SF VA 4",
     "ark": "Uke 37-42"
   },
   {
@@ -16214,7 +16226,7 @@
   {
     "dato": "2026-09-24",
     "person": "Jon Håvard",
-    "aktivitet": "9 SF ZV 2",
+    "aktivitet": "SF ZV 4",
     "ark": "Uke 37-42"
   },
   {
@@ -16226,13 +16238,13 @@
   {
     "dato": "2026-09-24",
     "person": "Marjolein",
-    "aktivitet": "SF ZV 2",
+    "aktivitet": "SF ZV 4",
     "ark": "Uke 37-42"
   },
   {
     "dato": "2026-09-24",
     "person": "Bjørnar",
-    "aktivitet": "SF ZV 2",
+    "aktivitet": "9 SF ZV 4",
     "ark": "Uke 37-42"
   },
   {
@@ -16244,13 +16256,13 @@
   {
     "dato": "2026-09-24",
     "person": "Connor",
-    "aktivitet": "SF ZV 2",
+    "aktivitet": "SF ZV 4",
     "ark": "Uke 37-42"
   },
   {
     "dato": "2026-09-24",
     "person": "Ole",
-    "aktivitet": "SF VA 2",
+    "aktivitet": "SF VA 4",
     "ark": "Uke 37-42"
   },
   {
@@ -16262,7 +16274,7 @@
   {
     "dato": "2026-09-24",
     "person": "Kosti",
-    "aktivitet": "9 SF VA 2",
+    "aktivitet": "9 SF VA 4",
     "ark": "Uke 37-42"
   },
   {
@@ -16286,7 +16298,7 @@
   {
     "dato": "2026-09-25",
     "person": "Håkon",
-    "aktivitet": "SF VA 2",
+    "aktivitet": "SF VA 4",
     "ark": "Uke 37-42"
   },
   {
@@ -16310,13 +16322,13 @@
   {
     "dato": "2026-09-25",
     "person": "Patrick",
-    "aktivitet": "9 SF VA 2",
+    "aktivitet": "9 SF VA 4",
     "ark": "Uke 37-42"
   },
   {
     "dato": "2026-09-25",
     "person": "Marjolein",
-    "aktivitet": "9 SF ZV 2",
+    "aktivitet": "9 SF ZV 4",
     "ark": "Uke 37-42"
   },
   {
@@ -16328,7 +16340,7 @@
   {
     "dato": "2026-09-25",
     "person": "Rune",
-    "aktivitet": "SF ZV 2",
+    "aktivitet": "SF ZV 4",
     "ark": "Uke 37-42"
   },
   {
@@ -16340,7 +16352,7 @@
   {
     "dato": "2026-09-25",
     "person": "Ole",
-    "aktivitet": "9 SF RTC AW",
+    "aktivitet": "9 SF RTC 2 AW",
     "ark": "Uke 37-42"
   },
   {
@@ -16352,7 +16364,13 @@
   {
     "dato": "2026-09-25",
     "person": "Kosti",
-    "aktivitet": "SF ZV 2",
+    "aktivitet": "SF ZV 4",
+    "ark": "Uke 37-42"
+  },
+  {
+    "dato": "2026-09-25",
+    "person": "Gudmund",
+    "aktivitet": "Fri",
     "ark": "Uke 37-42"
   },
   {
@@ -16460,7 +16478,7 @@
   {
     "dato": "2026-09-29",
     "person": "Håkon",
-    "aktivitet": "9 SF TO 2",
+    "aktivitet": "SF TO 2",
     "ark": "Uke 37-42"
   },
   {
@@ -16496,7 +16514,7 @@
   {
     "dato": "2026-09-29",
     "person": "Bjørnar",
-    "aktivitet": "SF RTC SUR/1",
+    "aktivitet": "9 SF RTC SUR/1",
     "ark": "Uke 37-42"
   },
   {
@@ -16508,13 +16526,13 @@
   {
     "dato": "2026-09-29",
     "person": "Connor",
-    "aktivitet": "SF TO 2",
+    "aktivitet": "9 SF TO 2",
     "ark": "Uke 37-42"
   },
   {
     "dato": "2026-09-29",
     "person": "Ole",
-    "aktivitet": "9 SF RTC SUR/1",
+    "aktivitet": "SF RTC SUR/1",
     "ark": "Uke 37-42"
   },
   {
@@ -16550,7 +16568,7 @@
   {
     "dato": "2026-09-30",
     "person": "Håkon",
-    "aktivitet": "9 SF TO 2",
+    "aktivitet": "SF TO 2",
     "ark": "Uke 37-42"
   },
   {
@@ -16586,7 +16604,7 @@
   {
     "dato": "2026-09-30",
     "person": "Bjørnar",
-    "aktivitet": "SF RTC SUR/1",
+    "aktivitet": "9 SF RTC SUR/1",
     "ark": "Uke 37-42"
   },
   {
@@ -16598,13 +16616,13 @@
   {
     "dato": "2026-09-30",
     "person": "Connor",
-    "aktivitet": "SF TO 2",
+    "aktivitet": "9 SF TO 2",
     "ark": "Uke 37-42"
   },
   {
     "dato": "2026-09-30",
     "person": "Ole",
-    "aktivitet": "9 SF RTC SUR/1",
+    "aktivitet": "SF RTC SUR/1",
     "ark": "Uke 37-42"
   },
   {
@@ -16800,6 +16818,12 @@
     "ark": "Uke 37-42"
   },
   {
+    "dato": "2026-10-02",
+    "person": "Gudmund",
+    "aktivitet": "Fri",
+    "ark": "Uke 37-42"
+  },
+  {
     "dato": "2026-10-05",
     "person": "Trine",
     "aktivitet": "A",
@@ -16820,7 +16844,7 @@
   {
     "dato": "2026-10-05",
     "person": "Odd Rune",
-    "aktivitet": "SF GM 2/4",
+    "aktivitet": "SF GM 2/4 oppl",
     "ark": "Uke 37-42"
   },
   {
@@ -16838,7 +16862,7 @@
   {
     "dato": "2026-10-05",
     "person": "Patrick",
-    "aktivitet": "A",
+    "aktivitet": "SF GM 2/4",
     "ark": "Uke 37-42"
   },
   {
@@ -16881,6 +16905,12 @@
     "dato": "2026-10-05",
     "person": "Kosti",
     "aktivitet": "SF BR 4",
+    "ark": "Uke 37-42"
+  },
+  {
+    "dato": "2026-10-05",
+    "person": "Gudmund",
+    "aktivitet": "Fri",
     "ark": "Uke 37-42"
   },
   {
@@ -17685,6 +17715,12 @@
     "dato": "2026-10-16",
     "person": "Kosti",
     "aktivitet": "9 SF BR 4",
+    "ark": "Uke 37-42"
+  },
+  {
+    "dato": "2026-10-16",
+    "person": "Gudmund",
+    "aktivitet": "Fri",
     "ark": "Uke 37-42"
   },
   {
