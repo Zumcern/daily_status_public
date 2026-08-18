@@ -10464,7 +10464,7 @@
     },
     {
       "person": "Ole",
-      "aktivitet": "A"
+      "aktivitet": "9 SF SB 1"
     },
     {
       "person": "Beate",
@@ -10614,7 +10614,7 @@
     },
     {
       "person": "Håkon",
-      "aktivitet": "A"
+      "aktivitet": "9 SF SB 1"
     },
     {
       "person": "Odd Rune",
@@ -11544,7 +11544,7 @@
     },
     {
       "person": "Håkon",
-      "aktivitet": "A"
+      "aktivitet": "9 SF SB 1"
     },
     {
       "person": "Odd Rune",
@@ -12225,6 +12225,14 @@
       "aktivitet": "Prosjekt"
     },
     {
+      "person": "Jon Håvard",
+      "aktivitet": "SF AN 3"
+    },
+    {
+      "person": "Patrick",
+      "aktivitet": "SF AN 3"
+    },
+    {
       "person": "Bjørnar",
       "aktivitet": "SF MS SUR"
     },
@@ -12269,6 +12277,14 @@
     {
       "person": "Magnus",
       "aktivitet": "Prosjekt"
+    },
+    {
+      "person": "Jon Håvard",
+      "aktivitet": "SF AN 3"
+    },
+    {
+      "person": "Patrick",
+      "aktivitet": "SF AN 3"
     },
     {
       "person": "Marjolein",
@@ -12371,6 +12387,14 @@
       "aktivitet": "Prosjekt"
     },
     {
+      "person": "Patrick",
+      "aktivitet": "SE AN 3"
+    },
+    {
+      "person": "Marjolein",
+      "aktivitet": "SE AN 3"
+    },
+    {
       "person": "Bjørnar",
       "aktivitet": "SF MS SUR"
     },
@@ -12425,6 +12449,10 @@
       "aktivitet": "Vernerunde"
     },
     {
+      "person": "Marjolein",
+      "aktivitet": "SF AN 3"
+    },
+    {
       "person": "Bjørnar",
       "aktivitet": "SF MS SUR"
     },
@@ -12439,6 +12467,10 @@
     {
       "person": "Ole",
       "aktivitet": "SF RTC 1"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "SF AN 3"
     }
   ],
   "2026-10-26": [
@@ -13166,6 +13198,10 @@
     },
     {
       "person": "Håkon",
+      "aktivitet": "Elpac"
+    },
+    {
+      "person": "Odd Rune",
       "aktivitet": "SF VA 4"
     },
     {

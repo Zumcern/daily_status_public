@@ -15182,7 +15182,7 @@
   {
     "dato": "2026-09-08",
     "person": "Ole",
-    "aktivitet": "A",
+    "aktivitet": "9 SF SB 1",
     "ark": "Uke 37-42"
   },
   {
@@ -15398,7 +15398,7 @@
   {
     "dato": "2026-09-11",
     "person": "Håkon",
-    "aktivitet": "A",
+    "aktivitet": "9 SF SB 1",
     "ark": "Uke 37-42"
   },
   {
@@ -16748,7 +16748,7 @@
   {
     "dato": "2026-10-02",
     "person": "Håkon",
-    "aktivitet": "A",
+    "aktivitet": "9 SF SB 1",
     "ark": "Uke 37-42"
   },
   {
@@ -17737,6 +17737,18 @@
   },
   {
     "dato": "2026-10-19",
+    "person": "Jon Håvard",
+    "aktivitet": "SF AN 3",
+    "ark": "Uke 43-48"
+  },
+  {
+    "dato": "2026-10-19",
+    "person": "Patrick",
+    "aktivitet": "SF AN 3",
+    "ark": "Uke 43-48"
+  },
+  {
+    "dato": "2026-10-19",
     "person": "Bjørnar",
     "aktivitet": "SF MS SUR",
     "ark": "Uke 43-48"
@@ -17799,6 +17811,18 @@
     "dato": "2026-10-20",
     "person": "Magnus",
     "aktivitet": "Prosjekt",
+    "ark": "Uke 43-48"
+  },
+  {
+    "dato": "2026-10-20",
+    "person": "Jon Håvard",
+    "aktivitet": "SF AN 3",
+    "ark": "Uke 43-48"
+  },
+  {
+    "dato": "2026-10-20",
+    "person": "Patrick",
+    "aktivitet": "SF AN 3",
     "ark": "Uke 43-48"
   },
   {
@@ -17947,6 +17971,18 @@
   },
   {
     "dato": "2026-10-22",
+    "person": "Patrick",
+    "aktivitet": "SE AN 3",
+    "ark": "Uke 43-48"
+  },
+  {
+    "dato": "2026-10-22",
+    "person": "Marjolein",
+    "aktivitet": "SE AN 3",
+    "ark": "Uke 43-48"
+  },
+  {
+    "dato": "2026-10-22",
     "person": "Bjørnar",
     "aktivitet": "SF MS SUR",
     "ark": "Uke 43-48"
@@ -18025,6 +18061,12 @@
   },
   {
     "dato": "2026-10-23",
+    "person": "Marjolein",
+    "aktivitet": "SF AN 3",
+    "ark": "Uke 43-48"
+  },
+  {
+    "dato": "2026-10-23",
     "person": "Bjørnar",
     "aktivitet": "SF MS SUR",
     "ark": "Uke 43-48"
@@ -18045,6 +18087,12 @@
     "dato": "2026-10-23",
     "person": "Ole",
     "aktivitet": "SF RTC 1",
+    "ark": "Uke 43-48"
+  },
+  {
+    "dato": "2026-10-23",
+    "person": "Beate",
+    "aktivitet": "SF AN 3",
     "ark": "Uke 43-48"
   },
   {
@@ -19094,6 +19142,12 @@
   {
     "dato": "2026-11-12",
     "person": "Håkon",
+    "aktivitet": "Elpac",
+    "ark": "Uke 43-48"
+  },
+  {
+    "dato": "2026-11-12",
+    "person": "Odd Rune",
     "aktivitet": "SF VA 4",
     "ark": "Uke 43-48"
   },
