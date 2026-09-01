@@ -15236,7 +15236,7 @@
   {
     "dato": "2026-09-09",
     "person": "Jon Håvard",
-    "aktivitet": "A",
+    "aktivitet": "SF BN 5",
     "ark": "Uke 37-42"
   },
   {
@@ -15866,7 +15866,7 @@
   {
     "dato": "2026-09-18",
     "person": "Jon Håvard",
-    "aktivitet": "A",
+    "aktivitet": "SF BN 5",
     "ark": "Uke 37-42"
   },
   {
@@ -18566,7 +18566,7 @@
   {
     "dato": "2026-11-03",
     "person": "Håkon",
-    "aktivitet": "SF TO 2",
+    "aktivitet": "Elpac",
     "ark": "Uke 43-48"
   },
   {
@@ -18578,6 +18578,12 @@
   {
     "dato": "2026-11-03",
     "person": "Jon Håvard",
+    "aktivitet": "SF TO 2",
+    "ark": "Uke 43-48"
+  },
+  {
+    "dato": "2026-11-03",
+    "person": "Patrick",
     "aktivitet": "SF TO 2",
     "ark": "Uke 43-48"
   },
