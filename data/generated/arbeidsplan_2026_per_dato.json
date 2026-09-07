@@ -12611,10 +12611,6 @@
       "aktivitet": "SE NA 1"
     },
     {
-      "person": "Bjørnar",
-      "aktivitet": "SF MS SUR"
-    },
-    {
       "person": "Rune",
       "aktivitet": "SF VD SUR"
     },
@@ -12661,10 +12657,6 @@
       "aktivitet": "SF NA 1"
     },
     {
-      "person": "Bjørnar",
-      "aktivitet": "SF MS SUR"
-    },
-    {
       "person": "Rune",
       "aktivitet": "SF VD SUR"
     },
@@ -12709,10 +12701,6 @@
     {
       "person": "Marjolein",
       "aktivitet": "SF NA 1"
-    },
-    {
-      "person": "Bjørnar",
-      "aktivitet": "SF MS SUR"
     },
     {
       "person": "Rune",
@@ -12867,14 +12855,6 @@
     {
       "person": "Magnus",
       "aktivitet": "Prosjekt"
-    },
-    {
-      "person": "Jon Håvard",
-      "aktivitet": "SF KR 1"
-    },
-    {
-      "person": "Patrick",
-      "aktivitet": "SF KR 1"
     },
     {
       "person": "Marjolein",
@@ -13152,7 +13132,7 @@
     },
     {
       "person": "Håkon",
-      "aktivitet": "SF VA 4"
+      "aktivitet": "Elpac"
     },
     {
       "person": "Odd Rune",
@@ -13171,6 +13151,10 @@
       "aktivitet": "SF ZV 1"
     },
     {
+      "person": "Marjolein",
+      "aktivitet": "SF KR 1"
+    },
+    {
       "person": "Bjørnar",
       "aktivitet": "SF VD SUR"
     },
@@ -13180,11 +13164,23 @@
     },
     {
       "person": "Connor",
-      "aktivitet": "SF AFIS gr. Utd"
+      "aktivitet": "Elpac"
     },
     {
       "person": "Ole",
       "aktivitet": "SF AFIS gr. Utd"
+    },
+    {
+      "person": "Beate",
+      "aktivitet": "SF KR 1"
+    },
+    {
+      "person": "Kosti",
+      "aktivitet": "SF AFIS gr. Utd"
+    },
+    {
+      "person": "Gudmund",
+      "aktivitet": "SF VA 4"
     }
   ],
   "2026-11-12": [
@@ -13226,10 +13222,14 @@
     },
     {
       "person": "Connor",
-      "aktivitet": "SF AFIS gr. Utd"
+      "aktivitet": "Elpac"
     },
     {
       "person": "Ole",
+      "aktivitet": "SF AFIS gr. Utd"
+    },
+    {
+      "person": "Kosti",
       "aktivitet": "SF AFIS gr. Utd"
     }
   ],
@@ -13575,10 +13575,6 @@
       "aktivitet": "SF ZV 1"
     },
     {
-      "person": "Bjørnar",
-      "aktivitet": "SE MS SUR"
-    },
-    {
       "person": "Rune",
       "aktivitet": "SF AN 2"
     },
@@ -13629,10 +13625,6 @@
       "aktivitet": "SF ZV 1"
     },
     {
-      "person": "Bjørnar",
-      "aktivitet": "SF MS SUR"
-    },
-    {
       "person": "Rune",
       "aktivitet": "SF AN 2"
     },
@@ -13677,10 +13669,6 @@
     {
       "person": "Patrick",
       "aktivitet": "SE KB 1"
-    },
-    {
-      "person": "Bjørnar",
-      "aktivitet": "SF MS SUR"
     },
     {
       "person": "Rune",
@@ -13731,10 +13719,6 @@
     {
       "person": "Marjolein",
       "aktivitet": "SF KB 1"
-    },
-    {
-      "person": "Bjørnar",
-      "aktivitet": "SF MS SUR"
     },
     {
       "person": "Rune",
@@ -13789,10 +13773,6 @@
     {
       "person": "Marjolein",
       "aktivitet": "SF ZV 1"
-    },
-    {
-      "person": "Bjørnar",
-      "aktivitet": "SF MS SUR"
     },
     {
       "person": "Rune",
